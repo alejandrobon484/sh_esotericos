@@ -18,4 +18,4 @@ Este proyecto es un catálogo estático con apariencia de marketplace. No incluy
 
 ## Entrada actual de desarrollo
 
-El rediseño comienza en `estructura.html`. `index.html` sigue siendo la portada histórica hasta que se apruebe su sustitución.
+`index.html` es la portada activa del nuevo catálogo. La web anterior y el prototipo se conservan únicamente en `archivo/` y no forman parte del despliegue.

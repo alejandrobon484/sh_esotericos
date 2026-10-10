@@ -10,21 +10,21 @@ Escaparate y catálogo estático para SH Esotéricos. La web permite explorar pr
 - Sin carrito, pagos ni base de datos: los pedidos se confirman directamente con el vendedor.
 - Sitio construido con HTML, CSS y JavaScript sin dependencias de ejecución.
 
-La versión de trabajo del nuevo catálogo comienza en `estructura.html`. Los archivos `index.html` y `brujeria.html` pertenecen a la web anterior y se conservan durante el rediseño.
+La portada activa del nuevo catálogo es `index.html`. La web anterior y el prototipo estructural se conservan dentro de `archivo/`, que queda fuera del despliegue.
 
 ## Uso local
 
-Puede abrirse `estructura.html` directamente en el navegador. Para probarlo mediante HTTP local:
+Puede abrirse `index.html` directamente en el navegador. Para probarlo mediante HTTP local:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Después, abrir `http://localhost:8000/estructura.html`.
+Después, abrir `http://localhost:8000/`.
 
 ## Estructura principal
 
-- `estructura.html`, `estructura.css`, `estructura.js`: portada y navegación del nuevo catálogo.
+- `index.html`, `estructura.css`, `estructura.js`: portada y navegación del nuevo catálogo.
 - `catalogo-productos.js`: fuente única de los datos de producto.
 - `catalogo-render.js`: representación de las tarjetas del catálogo.
 - `producto-catalogo.html` y `producto-catalogo.js`: ficha genérica de producto.
@@ -32,7 +32,7 @@ Después, abrir `http://localhost:8000/estructura.html`.
 - `contacto.js`: datos de contacto centralizados.
 - `productos/`: imágenes WebP utilizadas por la web.
 - `productos-originales/`: archivos maestros locales; están excluidos de Git.
-- `archivo/`: catálogos JavaScript anteriores conservados como referencia.
+- `archivo/`: web anterior, prototipo y catálogos JavaScript anteriores conservados como referencia.
 - `scripts/optimizar-imagenes.py`: regeneración de imágenes WebP.
 
 ## Imágenes

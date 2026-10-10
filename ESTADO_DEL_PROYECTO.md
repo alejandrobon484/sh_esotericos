@@ -15,6 +15,8 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 - Los originales de alta resolución permanecen en `productos-originales/` y no se incluyen en Git ni en el despliegue.
 - Los contactos están centralizados en `contacto.js`.
 - La estética es provisional; la prioridad realizada hasta ahora ha sido la estructura y la funcionalidad.
+- `index.html` ya contiene el nuevo catálogo y es la portada preparada para producción.
+- La web anterior se conserva en `archivo/web-anterior/` y está excluida del despliegue mediante `.vercelignore`.
 
 ## Catálogo cargado
 
@@ -48,12 +50,11 @@ La revisión técnica confirma 447 referencias de imagen en la versión nueva y 
 ## Pendiente inmediato
 
 1. Definir el estilo visual definitivo: identidad, colores, tipografías y tratamiento fotográfico.
-2. Decidir si `estructura.html` sustituirá a `index.html` como portada de producción.
-3. Completar datos comerciales de los productos: precios, medidas, materiales, disponibilidad y variantes.
-4. Revisar textos legales, privacidad, cookies y condiciones de compra antes de publicar.
-5. Configurar el correo `info@sh-esotericos.com` y decidir el flujo del formulario de contacto.
-6. Elegir el despliegue definitivo entre Hostinger y GitHub/Vercel.
-7. Realizar pruebas finales en móvil, escritorio y navegadores principales.
+2. Completar datos comerciales de los productos: precios, medidas, materiales, disponibilidad y variantes.
+3. Revisar textos legales, privacidad, cookies y condiciones de compra antes de publicar.
+4. Configurar el correo `info@sh-esotericos.com` y decidir el flujo del formulario de contacto.
+5. Configurar el despliegue de GitHub hacia Hostinger.
+6. Realizar pruebas finales en móvil, escritorio y navegadores principales.
 
 ## Datos de contacto
 
