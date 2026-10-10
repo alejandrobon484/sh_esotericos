@@ -15,6 +15,8 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 - Los originales de alta resolución permanecen en `productos-originales/` y no se incluyen en Git ni en el despliegue.
 - Los contactos están centralizados en `contacto.js`.
 - La estética es provisional; la prioridad realizada hasta ahora ha sido la estructura y la funcionalidad.
+- La identidad local incorpora un logotipo cuadrado negro y dorado, con sus variantes para cabecera, favicon, Apple Touch Icon y PWA en `assets/branding/`.
+- `assets/characters/` contiene una primera propuesta reutilizable de Manu con fondo transparente, pendiente de aprobación antes de integrarla en escenas de la tienda.
 - `index.html` ya contiene el nuevo catálogo y es la portada preparada para producción.
 - La web anterior se conserva en `archivo/web-anterior/` y está excluida del despliegue mediante `.vercelignore`.
 
@@ -46,10 +48,15 @@ La revisión técnica confirma 447 referencias de imagen en la versión nueva y 
 - Fichas de producto con galería.
 - Enlaces de contacto por WhatsApp, Instagram y correo.
 - Conversión y organización de las imágenes WebP.
+- Paquete de iconos del sitio y manifest web enlazados en todas las páginas activas.
+- Imágenes de portada, colección San Valentín y taller artesanal de Manu integradas en WebP con variantes adaptables de 768 y 1536 píxeles; la escena activa de Manu es la revisión `v2` de constitución ligeramente más delgada.
+- Selector claro/oscuro disponible en todas las páginas mediante una vela artesanal: apagada en modo claro y encendida en modo oscuro. Respeta el sistema y guarda la elección localmente.
+- La sección “Detrás de SH Esotéricos” presenta a Manu, su trabajo artesanal y las principales familias de productos sin utilizar ya texto provisional.
+- La tarjeta final de contacto ofrece únicamente accesos mediante iconos a Instagram y WhatsApp; el correo permanece visible como dato, pero ya no aparece como botón hasta completar su configuración.
 
 ## Pendiente inmediato
 
-1. Definir el estilo visual definitivo: identidad, colores, tipografías y tratamiento fotográfico.
+1. Continuar el estilo visual definitivo: colores, tipografías y tratamiento fotográfico.
 2. Completar datos comerciales de los productos: precios, medidas, materiales, disponibilidad y variantes.
 3. Revisar textos legales, privacidad, cookies y condiciones de compra antes de publicar.
 4. Configurar el correo `info@sh-esotericos.com` y decidir el flujo del formulario de contacto.

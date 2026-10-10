@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Ficha de pirograbado artesanal de SH Esotéricos.">
+  <meta name="theme-color" content="#000000">
   <title>Pirograbado — SH Esotéricos</title>
+  <link rel="icon" href="assets/branding/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/branding/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/branding/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/branding/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <script src="tema.js"></script>
   <link rel="stylesheet" href="estructura.css">
 </head>
 <body>
@@ -14,10 +21,13 @@
   <header class="site-header">
     <div class="product-page-header container">
       <a class="brand" href="index.html" aria-label="SH Esotéricos, volver al inicio">
-        <span class="brand-mark" aria-hidden="true">SH</span>
+        <img class="brand-mark" src="assets/branding/logo-header.webp" alt="" width="48" height="48">
         <span><strong>SH Esotéricos</strong><small>Productos, rituales y servicios</small></span>
       </a>
-      <a class="back-link" href="index.html#catalogo">← Volver al catálogo</a>
+      <div class="product-header-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Encender la vela y activar el modo oscuro" title="Encender la vela y activar el modo oscuro"><span class="candle-icon" aria-hidden="true"><span class="candle-flame"></span><span class="candle-wick"></span><span class="candle-wax"></span></span></button>
+        <a class="back-link" href="index.html#catalogo">← Volver al catálogo</a>
+      </div>
     </div>
   </header>
 
@@ -74,7 +84,10 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><strong>SH Esotéricos</strong><p>Productos artesanales, rituales y servicios.</p></div>
+      <div class="footer-brand">
+        <img src="assets/branding/logo-header.webp" alt="" width="56" height="56" loading="lazy">
+        <div><strong>SH Esotéricos</strong><p>Productos artesanales, rituales y servicios.</p></div>
+      </div>
       <nav aria-label="Enlaces del pie">
         <a href="index.html#categorias">Productos</a>
         <a href="index.html#servicios">Servicios</a>
