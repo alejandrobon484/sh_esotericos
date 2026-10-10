@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estructura provisional del catálogo de SH Esotéricos.">
+  <title>SH Esotéricos — Estructura del catálogo</title>
+  <link rel="stylesheet" href="estructura.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="announcement">
+    Catálogo artesanal · Consultas y pedidos directamente con SH Esotéricos
+  </div>
+
+  <header class="site-header">
+    <div class="header-main container">
+      <a class="brand" href="#inicio" aria-label="SH Esotéricos, inicio">
+        <span class="brand-mark" aria-hidden="true">SH</span>
+        <span>
+          <strong>SH Esotéricos</strong>
+          <small>Productos, rituales y servicios</small>
+        </span>
+      </a>
+
+      <form class="search" role="search" id="search-form">
+        <label class="sr-only" for="site-search">Buscar en el catálogo</label>
+        <input id="site-search" type="search" placeholder="Buscar jabones, velas, kits..." autocomplete="off">
+        <button type="submit">Buscar</button>
+      </form>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        Menú
+      </button>
+
+      <nav class="utility-nav" aria-label="Navegación secundaria">
+        <a href="#como-comprar">Cómo comprar</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <div class="container nav-scroll">
+        <a href="#inicio">Inicio</a>
+        <a href="#categorias">Catálogo</a>
+        <a href="#colecciones">Colecciones</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#destacados">Destacados</a>
+        <a href="#nosotros">Sobre SH</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Escaparate online</p>
+          <h1>Productos y servicios organizados para encontrar lo que necesitas</h1>
+          <p class="lead">
+            Explora el catálogo por tipo de producto, colección o servicio. Cada ficha permite consultar disponibilidad y realizar el pedido directamente con la tienda.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#categorias">Explorar productos</a>
+            <a class="button secondary" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+        <div class="media-placeholder hero-placeholder" aria-label="Espacio reservado para imagen o campaña principal">
+          <span>Imagen o campaña destacada</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="categorias">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Catálogo</p>
+          <h2>Comprar por categoría</h2>
+        </div>
+        <a href="#catalogo">Ver todos los productos</a>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="#catalogo" data-category-link="jabones">
+          <span class="category-icon" aria-hidden="true">01</span>
+          <h3>Jabones</h3>
+          <p>Jabones artesanales y preparados para distintas intenciones.</p>
+        </a>
+        <a class="category-card" href="#catalogo" data-category-link="velas">
+          <span class="category-icon" aria-hidden="true">02</span>
+          <h3>Velas</h3>
+          <p>Velas decorativas, ritualizadas y preparadas.</p>
+        </a>
+        <a class="category-card" href="#catalogo" data-category-link="kits">
+          <span class="category-icon" aria-hidden="true">03</span>
+          <h3>Kits rituales</h3>
+          <p>Conjuntos completos con productos e instrucciones.</p>
+        </a>
+        <a class="category-card" href="#catalogo" data-category-link="tinturas">
+          <span class="category-icon" aria-hidden="true">04</span>
+          <h3>Tinturas</h3>
+          <p>Preparados y productos líquidos artesanales.</p>
+        </a>
+        <a class="category-card" href="#catalogo" data-category-link="objetos">
+          <span class="category-icon" aria-hidden="true">05</span>
+          <h3>Objetos</h3>
+          <p>Objetos especiales, piezas simbólicas y complementos.</p>
+        </a>
+        <a class="category-card" href="#catalogo" data-category-link="pictografia">
+          <span class="category-icon" aria-hidden="true">06</span>
+          <h3>Pirograbados</h3>
+          <p>Arte realizado sobre madera y piezas decorativas.</p>
+        </a>
+        <a class="category-card" href="#catalogo" data-category-link="replicas">
+          <span class="category-icon" aria-hidden="true">07</span>
+          <h3>Réplicas</h3>
+          <p>Reproducciones y piezas inspiradas en objetos especiales.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="catalogo">
+      <div class="container">
+        <div class="section-heading catalog-heading">
+          <div>
+            <p class="eyebrow">Productos</p>
+            <h2>Explorar el catálogo</h2>
+            <p id="catalog-status" aria-live="polite">Preparando el catálogo</p>
+          </div>
+          <label class="sort-control">
+            <span>Ordenar</span>
+            <select id="catalog-sort">
+              <option value="featured">Destacados</option>
+              <option value="name">Nombre</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="filter-row" aria-label="Filtrar productos por categoría">
+          <button class="filter active" type="button" data-filter="all" data-label="Todo" aria-pressed="true">Todo</button>
+          <button class="filter" type="button" data-filter="jabones" data-label="Jabones" aria-pressed="false">Jabones</button>
+          <button class="filter" type="button" data-filter="velas" data-label="Velas" aria-pressed="false">Velas</button>
+          <button class="filter" type="button" data-filter="kits" data-label="Kits" aria-pressed="false">Kits</button>
+          <button class="filter" type="button" data-filter="tinturas" data-label="Tinturas" aria-pressed="false">Tinturas</button>
+          <button class="filter" type="button" data-filter="objetos" data-label="Objetos" aria-pressed="false">Objetos</button>
+          <button class="filter" type="button" data-filter="pictografia" data-label="Pirograbados" aria-pressed="false">Pirograbados</button>
+          <button class="filter" type="button" data-filter="replicas" data-label="Réplicas" aria-pressed="false">Réplicas</button>
+        </div>
+
+        <div class="subfilter-block" id="subfilter-block" hidden>
+          <p>Filtrar dentro de <strong id="subfilter-category"></strong></p>
+          <div class="filter-row subfilter-row" id="subfilter-row" aria-label="Filtrar por subcategoría"></div>
+        </div>
+
+        <div class="product-grid" id="product-grid"></div>
+        <p class="empty-state" id="empty-state" hidden>No hay productos que coincidan con la búsqueda.</p>
+        <div class="load-more-row"><button class="button secondary" id="load-more" type="button">Cargar más</button></div>
+      </div>
+    </section>
+
+    <section class="section container" id="colecciones">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Ediciones y campañas</p>
+          <h2>Colecciones temporales</h2>
+        </div>
+      </div>
+      <article class="collection-banner">
+        <div>
+          <p class="eyebrow">Colección de temporada</p>
+          <h3>San Valentín</h3>
+          <p>Selección especial que puede reunir productos de distintas categorías sin duplicarlos en el catálogo.</p>
+          <a class="button secondary" href="#catalogo" data-collection-link="San Valentín">Ver colección</a>
+        </div>
+        <div class="media-placeholder collection-image"><span>Imagen de colección</span></div>
+      </article>
+    </section>
+
+    <section class="section services-section" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Atención personalizada</p>
+            <h2>Servicios</h2>
+          </div>
+          <p>Los servicios tienen una ficha diferente a los productos físicos.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-number" aria-hidden="true">01</span>
+            <div>
+              <h3>Tiradas</h3>
+              <p>Tarot, oráculo, runas u otras modalidades. La ficha podrá explicar duración, formato y forma de consulta.</p>
+            </div>
+            <a class="button secondary" href="#service-catalog" data-service-link="tiradas">Ver tiradas</a>
+          </article>
+          <article class="service-card">
+            <span class="service-number" aria-hidden="true">02</span>
+            <div>
+              <h3>Trabajos de brujería</h3>
+              <p>Presentación de los trabajos disponibles, proceso de consulta y condiciones del servicio.</p>
+            </div>
+            <a class="button secondary" href="#service-catalog" data-service-link="trabajos">Ver trabajos</a>
+          </article>
+        </div>
+        <div class="service-catalog" id="service-catalog">
+          <div class="section-heading service-catalog-heading">
+            <div><p class="eyebrow">Consultas disponibles</p><h3>Explorar servicios</h3><p id="service-status" aria-live="polite"></p></div>
+          </div>
+          <div class="filter-row" aria-label="Filtrar servicios">
+            <button class="filter active" type="button" data-service-filter="all" data-label="Todo" aria-pressed="true">Todo</button>
+            <button class="filter" type="button" data-service-filter="tiradas" data-label="Tiradas" aria-pressed="false">Tiradas</button>
+            <button class="filter" type="button" data-service-filter="trabajos" data-label="Trabajos" aria-pressed="false">Trabajos</button>
+          </div>
+          <div class="product-grid" id="service-product-grid"></div>
+          <p class="empty-state" id="service-empty-state" hidden>No hay servicios que coincidan con la búsqueda.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="destacados">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Selección de SH</p>
+          <h2>Destacados y novedades</h2>
+        </div>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><span>Producto destacado</span><h3>Espacio para un lanzamiento</h3><a href="#catalogo">Descubrir</a></article>
+        <article class="feature-card"><span>Contenido útil</span><h3>Guías para elegir y utilizar los productos</h3><a href="#contacto">Saber más</a></article>
+        <article class="feature-card"><span>Servicio</span><h3>Orientación antes de realizar un pedido</h3><a href="#contacto">Consultar</a></article>
+      </div>
+    </section>
+
+    <section class="section how-section" id="como-comprar">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Proceso sencillo</p>
+            <h2>Cómo comprar</h2>
+          </div>
+        </div>
+        <ol class="steps">
+          <li><span>1</span><div><h3>Explora</h3><p>Busca o filtra productos y servicios.</p></div></li>
+          <li><span>2</span><div><h3>Consulta</h3><p>Abre el canal de contacto indicado en la ficha.</p></div></li>
+          <li><span>3</span><div><h3>Confirma</h3><p>Consulta disponibilidad, envío y forma de pago.</p></div></li>
+          <li><span>4</span><div><h3>Recibe</h3><p>La tienda prepara y gestiona directamente el pedido.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section container about-section" id="nosotros">
+      <div>
+        <p class="eyebrow">Sobre la tienda</p>
+        <h2>SH Esotéricos</h2>
+        <p>Espacio reservado para presentar la historia, forma de trabajo, preparación artesanal y valores de la marca.</p>
+      </div>
+      <div class="media-placeholder about-image"><span>Imagen de la marca</span></div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contacto directo</p>
+          <h2>¿Quieres consultar un producto o servicio?</h2>
+          <p>Manu atiende directamente las consultas sobre productos, disponibilidad, encargos y servicios.</p>
+          <p class="contact-details"><strong>Manu</strong><br><a href="tel:+34640319726">+34 640 31 97 26</a><br><a href="mailto:info@sh-esotericos.com" data-contact="email">info@sh-esotericos.com</a></p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://www.instagram.com/sh_esotericos/" data-contact="instagram" target="_blank" rel="noopener">Instagram</a>
+          <a class="button secondary" href="https://wa.me/34640319726" data-contact="whatsapp" data-message="Hola Manu, quiero hacer una consulta sobre SH Esotéricos." target="_blank" rel="noopener">WhatsApp</a>
+          <a class="button secondary" href="mailto:info@sh-esotericos.com" data-contact="email">Correo</a>
+          <a class="button secondary" href="https://sh-esotericos.com/" data-contact="web">Web oficial</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>SH Esotéricos</strong><p>Estructura provisional del nuevo escaparate.</p></div>
+      <nav aria-label="Enlaces del pie">
+        <a href="#categorias">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#como-comprar">Cómo comprar</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="legal-placeholder">Aviso legal · Privacidad · Cookies · Condiciones</div>
+    </div>
+  </footer>
+
+  <script src="contacto.js"></script>
+  <script src="catalogo-productos.js"></script>
+  <script src="catalogo-render.js"></script>
+  <script src="estructura.js"></script>
+</body>
+</html>
