@@ -1,7 +1,7 @@
 'use strict';
 
 const catalogGrid = document.querySelector('#product-grid');
-const serviceGrid = document.querySelector('#service-product-grid');
+const catalogServiceGrid = document.querySelector('#service-product-grid');
 const serviceCategories = new Set(['tiradas', 'trabajos']);
 
 function createCatalogCard(product) {
@@ -63,8 +63,8 @@ if (catalogGrid) {
     .forEach((product) => catalogGrid.appendChild(createCatalogCard(product)));
 }
 
-if (serviceGrid) {
+if (catalogServiceGrid) {
   window.CATALOGO_PRODUCTOS
     .filter((product) => serviceCategories.has(product.category))
-    .forEach((product) => serviceGrid.appendChild(createCatalogCard(product)));
+    .forEach((product) => catalogServiceGrid.appendChild(createCatalogCard(product)));
 }
