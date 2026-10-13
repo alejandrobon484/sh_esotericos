@@ -36,7 +36,7 @@ html[data-theme="dark"] {
 
 * { box-sizing: border-box; }
 html { color-scheme: light; scroll-behavior: smooth; }
-body { margin: 0; background: var(--background); color: var(--text); font-family: Arial, Helvetica, sans-serif; line-height: 1.5; transition: background-color .25s ease, color .25s ease; }
+body { margin: 0; background-color: var(--background); background-image: url("assets/patterns/trama-esoterica.svg"); background-position: center top; background-repeat: repeat; background-size: 240px 240px; color: var(--text); font-family: Arial, Helvetica, sans-serif; line-height: 1.5; transition: background-color .25s ease, color .25s ease; }
 a { color: inherit; }
 button, input, select { font: inherit; }
 .container { width: min(calc(100% - 40px), var(--max-width)); margin-inline: auto; }
@@ -75,6 +75,19 @@ html[data-theme="dark"] .candle-flame { opacity: 1; transform: translateX(-50%) 
 .main-nav { border-top: 1px solid var(--border); }
 .nav-scroll { display: flex; gap: 30px; padding-block: 11px; overflow-x: auto; font-size: .87rem; scrollbar-width: none; }
 
+.campaign-strip { padding-top: 18px; }
+.campaign-banner { position: relative; display: flex; min-height: 132px; overflow: hidden; align-items: center; border: 1px solid var(--border); border-radius: 14px; color: #fff; text-decoration: none; }
+.campaign-banner-media, .campaign-banner-media img, .campaign-banner-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.campaign-banner-media img { display: block; object-fit: cover; object-position: center 57%; transition: transform .45s ease; }
+.campaign-banner-shade { background: linear-gradient(90deg, rgba(26, 10, 20, .91) 0%, rgba(50, 15, 37, .72) 44%, rgba(58, 19, 43, .2) 76%, rgba(29, 9, 21, .08) 100%); }
+.campaign-banner-copy { position: relative; z-index: 1; display: grid; max-width: 590px; gap: 3px; padding: 21px 30px; }
+.campaign-banner-kicker { color: #f0bdce; font-size: .7rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.campaign-banner-copy strong { font-size: clamp(1.05rem, 2.2vw, 1.55rem); line-height: 1.15; }
+.campaign-banner-action { margin-top: 5px; font-size: .78rem; font-weight: 700; }
+.campaign-banner:hover .campaign-banner-media img { transform: scale(1.025); }
+.campaign-banner:focus-visible { outline: 3px solid #d3a64a; outline-offset: 3px; }
+.campaign-strip + .hero { padding-top: 18px; }
+
 .hero { padding: 34px 0 10px; }
 .hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; min-height: 410px; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; }
 .hero-copy { align-self: center; padding: clamp(30px, 6vw, 70px); }
@@ -98,12 +111,13 @@ p { color: var(--muted); }
 .section-heading > p { max-width: 440px; margin: 0; }
 .section-heading > a { color: var(--muted); font-size: .9rem; }
 .category-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.category-card[hidden], .filter[hidden] { display: none; }
 .category-card { min-height: 190px; padding: 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; text-decoration: none; transition: transform .2s ease; }
 .category-card:hover { transform: translateY(-3px); }
 .category-icon { display: block; margin-bottom: 42px; color: var(--muted); font-size: .75rem; }
 .category-card p { margin-bottom: 0; font-size: .9rem; }
 
-.catalog-section, .services-section, .how-section { background: var(--surface-alt); }
+.catalog-section, .services-section, .how-section { background-color: var(--surface-alt); background-image: url("assets/patterns/trama-esoterica.svg"); background-position: 120px 70px; background-repeat: repeat; background-size: 240px 240px; }
 .catalog-heading p { margin-bottom: 0; }
 .sort-control { display: grid; gap: 5px; color: var(--muted); font-size: .8rem; }
 .sort-control select { min-width: 180px; padding: 9px 11px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); color: var(--text); }
@@ -117,8 +131,10 @@ p { color: var(--muted); }
 .product-card { overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
 .product-card[hidden] { display: none; }
 .product-image { min-height: 210px; border-bottom: 1px solid var(--border); }
-.product-image-link { display: block; background: var(--surface); }
+.product-image-link { position: relative; display: block; background: var(--surface); }
 .product-photo { display: block; width: 100%; height: 210px; min-height: 0; object-fit: cover; }
+.product-size-badge { position: absolute; top: 12px; right: 12px; z-index: 1; display: flex; box-sizing: border-box; width: 74px; height: 74px; align-items: center; justify-content: center; padding: 0; border: 2px solid rgba(255, 255, 255, .82); border-radius: 50%; background: #b84444; color: #fff; font-size: .72rem; font-weight: 800; line-height: 1; text-align: center; text-transform: uppercase; }
+.product-size-badge[hidden] { display: none; }
 .product-title-link { text-decoration: none; }
 .product-body { padding: 17px; }
 .product-category { margin-bottom: 5px; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
@@ -129,10 +145,20 @@ p { color: var(--muted); }
 .load-more-row { display: flex; justify-content: center; margin-top: 26px; }
 .load-more-row[hidden] { display: none; }
 
-.collection-banner { display: grid; grid-template-columns: 1fr 1fr; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 15px; }
-.collection-banner > div:first-child { align-self: center; padding: clamp(26px, 5vw, 58px); }
-.collection-image { display: block; min-height: 330px; overflow: hidden; border-left: 1px solid var(--border); background: #161622; }
-.collection-image img { display: block; width: 100%; height: 100%; min-height: 330px; object-fit: cover; object-position: center; }
+.collection-list { display: grid; gap: 24px; }
+.collection-group { overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; }
+.collection-group-heading { padding: 24px 26px 20px; border-bottom: 1px solid var(--border); }
+.collection-group-heading > p:last-child { max-width: 680px; margin-bottom: 0; color: var(--muted); }
+.collection-card-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; padding: 22px; }
+.collection-card { display: flex; min-width: 0; overflow: hidden; flex-direction: column; background: var(--background); border: 1px solid var(--border); border-radius: 13px; }
+.collection-card-media { display: block; aspect-ratio: 4 / 3; overflow: hidden; background: var(--surface-alt); border-bottom: 1px solid var(--border); }
+.collection-card-media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.collection-card-placeholder { background: radial-gradient(circle at 30% 28%, var(--subtle-overlay) 0 7%, transparent 8%), linear-gradient(145deg, var(--surface-alt), var(--background)); }
+.collection-card-body { display: flex; min-height: 132px; flex: 1; flex-direction: column; align-items: flex-start; padding: 15px; }
+.collection-card-body h4 { margin: 0 0 14px; font-size: 1rem; line-height: 1.25; }
+.collection-card-status { margin-bottom: 5px; color: var(--muted); font-size: .67rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+.collection-card .button { margin-top: auto; padding: 8px 11px; font-size: .78rem; }
+.collection-card--upcoming { color: var(--muted); }
 .service-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .service-card { display: grid; grid-template-columns: auto 1fr; gap: 20px; min-height: 250px; padding: 26px; background: var(--surface); border: 1px solid var(--border); border-radius: 13px; }
 .service-card .button { grid-column: 2; align-self: end; justify-self: start; }
@@ -144,13 +170,17 @@ p { color: var(--muted); }
 .feature-card span { margin-bottom: auto; color: var(--muted); font-size: .75rem; }
 .feature-card a { font-size: .88rem; }
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0; padding: 0; list-style: none; }
-.steps li { min-height: 170px; padding: 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 11px; }
-.steps li > span { display: block; margin-bottom: 35px; color: var(--muted); font-size: .75rem; }
+.steps li { min-width: 0; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 11px; }
+.step-visual { position: relative; display: block; overflow: hidden; aspect-ratio: 3 / 2; background: var(--surface-alt); border-bottom: 1px solid var(--border); }
+.step-visual img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.step-number { position: absolute; top: 12px; left: 12px; display: grid; width: 31px; height: 31px; place-items: center; border: 1px solid rgba(255, 255, 255, .55); border-radius: 50%; background: rgba(24, 20, 19, .78); color: #fff; font-size: .76rem; font-weight: 700; backdrop-filter: blur(4px); }
+.step-copy { padding: 18px 20px 21px; }
+.step-copy h3 { margin: 0 0 8px; }
 .steps p { margin: 0; font-size: .9rem; }
 .about-section { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
 .about-image { display: block; min-height: 300px; overflow: hidden; border: 1px solid var(--border); border-radius: 13px; background: #21170f; }
 .about-image img { display: block; width: 100%; height: 100%; min-height: 300px; object-fit: cover; object-position: center; }
-.contact-section { padding-block: 70px; background: var(--inverse-surface); color: var(--inverse-text); }
+.contact-section { padding-block: 70px; background-color: var(--inverse-surface); background-image: url("assets/patterns/trama-esoterica.svg"); background-position: 60px 30px; background-repeat: repeat; background-size: 240px 240px; color: var(--inverse-text); }
 .contact-section p { color: var(--inverse-muted); }
 .contact-details { margin: 22px 0 0; }
 .contact-details a { color: var(--inverse-text); }
@@ -181,6 +211,7 @@ p { color: var(--muted); }
 .detail-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(330px, .9fr); gap: clamp(30px, 6vw, 76px); align-items: start; }
 .gallery-main { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; }
 .gallery-main img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: contain; }
+.detail-size-badge { top: 18px; right: 18px; width: 86px; height: 86px; font-size: .82rem; }
 .image-label { position: absolute; left: 12px; bottom: 12px; margin: 0; padding: 6px 9px; border-radius: 6px; background: rgba(32, 32, 30, .82); color: #fff; font-size: .72rem; }
 .gallery-thumbs { display: grid; grid-template-columns: repeat(auto-fit, minmax(76px, 1fr)); gap: 9px; margin-top: 10px; }
 .gallery-thumbs.is-long { max-height: 430px; padding: 3px; overflow-y: auto; }
@@ -213,9 +244,10 @@ p { color: var(--muted); }
   .main-nav { display: none; }
   .main-nav.open { display: block; }
   .nav-scroll { flex-wrap: wrap; gap: 16px 25px; }
-  .hero-grid, .collection-banner, .about-section { grid-template-columns: 1fr; }
-  .hero-visual, .collection-image { border-left: 0; border-top: 1px solid var(--border); }
+  .hero-grid, .about-section { grid-template-columns: 1fr; }
+  .hero-visual { border-left: 0; border-top: 1px solid var(--border); }
   .hero-visual img { min-height: 300px; max-height: 440px; }
+  .collection-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .category-grid, .product-grid { grid-template-columns: repeat(2, 1fr); }
   .steps { grid-template-columns: repeat(2, 1fr); }
   .detail-grid { grid-template-columns: 1fr; }
@@ -225,17 +257,27 @@ p { color: var(--muted); }
 @media (prefers-reduced-motion: reduce) {
   body { transition: none; }
   html[data-theme="dark"] .candle-flame { animation: none; }
+  .campaign-banner-media img { transition: none; }
 }
 
 @media (max-width: 640px) {
   .container { width: min(calc(100% - 26px), var(--max-width)); }
   .announcement { font-size: .72rem; }
+  .campaign-strip { padding-top: 12px; }
+  .campaign-banner { min-height: 150px; }
+  .campaign-banner-media img { object-position: 61% center; }
+  .campaign-banner-shade { background: linear-gradient(90deg, rgba(25, 8, 18, .92), rgba(44, 13, 32, .66) 72%, rgba(44, 13, 32, .2)); }
+  .campaign-banner-copy { max-width: 86%; padding: 18px 20px; }
+  .campaign-strip + .hero { padding-top: 12px; }
   .brand small { display: none; }
   .section { padding-block: 50px; }
   .section-heading, .contact-grid { display: block; }
   .section-heading > a { display: inline-block; margin-top: 8px; }
   .sort-control { margin-top: 18px; }
   .category-grid, .product-grid, .service-grid, .feature-grid, .steps { grid-template-columns: 1fr; }
+  .collection-group-heading { padding: 21px 19px 17px; }
+  .collection-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; padding: 14px; }
+  .collection-card-body { min-height: 118px; padding: 13px; }
   .category-card { min-height: 155px; }
   .category-icon { margin-bottom: 25px; }
   .product-description { min-height: 0; }

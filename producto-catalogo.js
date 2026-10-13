@@ -7,9 +7,23 @@ if (!catalogItem) {
   catalogDetail.hidden = true;
   catalogNotFound.hidden = false;
 } else {
+  function categoryReturnUrl(product) {
+    if (product.category === 'tiradas' || product.category === 'trabajos') {
+      return `index.html?servicio=${encodeURIComponent(product.category)}#service-catalog`;
+    }
+    if (product.category === 'san-valentin') {
+      return 'index.html?coleccion=san-valentin#catalogo';
+    }
+    return `index.html?categoria=${encodeURIComponent(product.category)}#catalogo`;
+  }
+
+  const returnUrl = categoryReturnUrl(catalogItem);
   document.title = `${catalogItem.name} — SH Esotéricos`;
   document.querySelector('meta[name="description"]').content = catalogItem.description;
-  document.querySelector('#breadcrumb-category').textContent = catalogItem.categoryLabel;
+  const breadcrumbCategory = document.querySelector('#breadcrumb-category');
+  breadcrumbCategory.textContent = catalogItem.categoryLabel;
+  breadcrumbCategory.href = returnUrl;
+  document.querySelector('#back-to-category').href = returnUrl;
   document.querySelector('#breadcrumb-name').textContent = catalogItem.name;
   document.querySelector('#product-collection').textContent = catalogItem.collection;
   document.querySelector('#product-name').textContent = catalogItem.name;
@@ -18,6 +32,11 @@ if (!catalogItem) {
   document.querySelector('#product-category').textContent = catalogItem.categoryLabel;
   document.querySelector('#product-collection-data').textContent = catalogItem.collection;
   document.querySelector('#product-format').textContent = catalogItem.format;
+  const sizeBadge = document.querySelector('#product-size-badge');
+  if (catalogItem.badge) {
+    sizeBadge.textContent = catalogItem.badge;
+    sizeBadge.hidden = false;
+  }
   const displayedPrice = catalogItem.price || (catalogItem.category === 'tiradas' ? 'Consultar tarifa' : 'Consultar precio');
   document.querySelector('#product-price').textContent = displayedPrice;
   document.querySelector('#product-price-data').textContent = displayedPrice;

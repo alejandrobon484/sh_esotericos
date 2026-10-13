@@ -24,6 +24,13 @@ function createCatalogCard(product) {
     image.alt = product.images[0][1];
     image.loading = 'lazy';
     imageLink.appendChild(image);
+    if (product.badge) {
+      const badge = document.createElement('span');
+      badge.className = 'product-size-badge';
+      badge.textContent = product.badge;
+      badge.setAttribute('aria-hidden', 'true');
+      imageLink.appendChild(badge);
+    }
 
     const body = document.createElement('div');
     body.className = 'product-body';
@@ -59,12 +66,12 @@ function createCatalogCard(product) {
 
 if (catalogGrid) {
   window.CATALOGO_PRODUCTOS
-    .filter((product) => !serviceCategories.has(product.category))
+    .filter((product) => !product.hidden && !serviceCategories.has(product.category))
     .forEach((product) => catalogGrid.appendChild(createCatalogCard(product)));
 }
 
 if (catalogServiceGrid) {
   window.CATALOGO_PRODUCTOS
-    .filter((product) => serviceCategories.has(product.category))
+    .filter((product) => !product.hidden && serviceCategories.has(product.category))
     .forEach((product) => catalogServiceGrid.appendChild(createCatalogCard(product)));
 }

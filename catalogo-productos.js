@@ -147,6 +147,7 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "runas-nordicas",
     "name": "Conjunto de runas nórdicas",
+    "hidden": true,
     "state": "Conjunto de piezas",
     "description": "Conjunto de símbolos pirograbados individualmente sobre pequeñas piezas naturales de madera.",
     "format": "Conjunto de piezas irregulares",
@@ -1084,6 +1085,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Rituales",
     "state": "Tres colores",
     "format": "Velas moldeadas",
+    "price": "18 €",
     "description": "Velas con forma de búho disponibles en gris, lila y marrón.",
     "images": [
       [
@@ -1233,6 +1235,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Rituales",
     "state": "Variantes amarilla y verde",
     "format": "Velas moldeadas",
+    "price": "15 €",
     "description": "Velas rituales con forma de llave en diferentes colores y modelos.",
     "images": [
       [
@@ -1345,6 +1348,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Rituales",
     "state": "Modelo único",
     "format": "Vela moldeada",
+    "price": "12 €",
     "description": "Vela decorativa y ritual con forma de luna.",
     "images": [
       [
@@ -1424,6 +1428,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Rituales",
     "state": "Modelo único",
     "format": "Vela moldeada",
+    "price": "12 €",
     "description": "Vela decorativa y ritual con forma de sol.",
     "images": [
       [
@@ -1451,27 +1456,27 @@ window.CATALOGO_PRODUCTOS = [
   },
   {
     "id": "corazon-entre-manos",
-    "name": "Corazón entre manos",
-    "category": "velas",
-    "categoryLabel": "Velas",
-    "collection": "San Valentín",
+    "name": "Vela negra del corazón protegido | EDICIÓN LIMITADA",
+    "category": "kits",
+    "categoryLabel": "Kits",
+    "collection": "Rituales",
     "state": "Modelo único",
     "format": "Vela moldeada",
-    "description": "Vela decorativa con un corazón sostenido entre dos manos.",
+    "description": "Vela negra de edición limitada con un corazón protegido entre dos manos.",
     "images": [
       [
-        "productos/velas/san-valentin/corzon entre la mano 01.webp",
-        "Corazón entre manos, imagen 1",
+        "productos/kits/kit-corazon-entre-manos/corazon-entre-manos-01.webp",
+        "Vela negra del corazón protegido, imagen 1",
         "Fotografía del producto"
       ],
       [
-        "productos/velas/san-valentin/corazon-entre-manos-01-amb-02.webp",
-        "Corazón entre manos, imagen 2",
+        "productos/kits/kit-corazon-entre-manos/corazon-entre-manos-01-amb-02.webp",
+        "Vela negra del corazón protegido, imagen 2",
         "Imagen ambientada"
       ],
       [
-        "productos/velas/san-valentin/corazon-entre-manos-01-amb-03.webp",
-        "Corazón entre manos, imagen 3",
+        "productos/kits/kit-corazon-entre-manos/corazon-entre-manos-01-amb-03.webp",
+        "Vela negra del corazón protegido, imagen 3",
         "Imagen ambientada"
       ]
     ],
@@ -1559,25 +1564,25 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "vela-ver-infidelidad",
     "name": "Vela Ver infidelidad",
-    "category": "velas",
-    "categoryLabel": "Velas",
-    "collection": "San Valentín",
+    "category": "kits",
+    "categoryLabel": "Kits",
+    "collection": "Rituales",
     "state": "Consultar disponibilidad",
     "format": "Vela ritual",
     "description": "Vela ritual identificada por el cliente como Ver infidelidad.",
     "images": [
       [
-        "productos/velas/san-valentin/vela-ver-infidelidad-01.webp",
+        "productos/kits/kit-vela-infidelidad/vela-ver-infidelidad-01.webp",
         "Vela Ver infidelidad, imagen 1",
         "Fotografía del producto"
       ],
       [
-        "productos/velas/san-valentin/vela-ver-infidelidad-01-amb-01.webp",
+        "productos/kits/kit-vela-infidelidad/vela-ver-infidelidad-01-amb-01.webp",
         "Vela Ver infidelidad, imagen 2",
         "Imagen ambientada"
       ],
       [
-        "productos/velas/san-valentin/vela-ver-infidelidad-01-amb-02.webp",
+        "productos/kits/kit-vela-infidelidad/vela-ver-infidelidad-01-amb-02.webp",
         "Vela Ver infidelidad, imagen 3",
         "Imagen ambientada"
       ]
@@ -1592,6 +1597,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Santa Muerte",
     "state": "Modelo único",
     "format": "Vela ritual moldeada",
+    "price": "18 €",
     "description": "Vela con forma de calavera identificada como Amor.",
     "images": [
       [
@@ -1620,6 +1626,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Santa Muerte",
     "state": "Dos vistas",
     "format": "Vela ritual moldeada",
+    "price": "18 €",
     "description": "Vela ritual blanca con forma de calavera.",
     "images": [
       [
@@ -1648,6 +1655,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Santa Muerte",
     "state": "Modelo único",
     "format": "Vela ritual moldeada",
+    "price": "18 €",
     "description": "Vela con forma de calavera identificada como Dinero.",
     "images": [
       [
@@ -1671,6 +1679,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Santa Muerte",
     "state": "Modelo único",
     "format": "Vela ritual moldeada",
+    "price": "18 €",
     "description": "Vela ritual negra con forma de calavera.",
     "images": [
       [
@@ -1694,6 +1703,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Santa Muerte",
     "state": "Modelo único",
     "format": "Vela ritual moldeada",
+    "price": "18 €",
     "description": "Vela con forma de calavera identificada como Abrir intuición.",
     "images": [
       [
@@ -1732,6 +1742,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Santa Muerte",
     "state": "Modelo único",
     "format": "Vela ritual moldeada",
+    "price": "18 €",
     "description": "Vela con forma de calavera identificada como Salud.",
     "images": [
       [
@@ -1750,6 +1761,7 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "dados-insidious",
     "name": "Dados de Insidious",
+    "hidden": true,
     "category": "replicas",
     "categoryLabel": "Réplicas",
     "collection": "Colección Insidious",
@@ -1783,6 +1795,7 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "carteles-dados-insidious",
     "name": "Carteles Dados de Insidious",
+    "hidden": true,
     "category": "replicas",
     "categoryLabel": "Réplicas",
     "collection": "Colección Insidious",
@@ -1806,6 +1819,7 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "vaso-dados-insidious",
     "name": "Vaso Dados de Insidious",
+    "hidden": true,
     "category": "replicas",
     "categoryLabel": "Réplicas",
     "collection": "Colección Insidious",
@@ -2291,7 +2305,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Adivinación",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de adivinación en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2314,9 +2328,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Amor",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "15 €",
     "description": "Esencia de amor en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2337,9 +2352,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Dinero",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "15 €",
     "description": "Esencia de dinero en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2360,7 +2376,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Espiritualidad",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de espiritualidad en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2383,9 +2399,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Eucalipto",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "7 €",
     "description": "Esencia de eucalipto en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2411,7 +2428,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Felicidad",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de felicidad en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2434,7 +2451,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Hierbabuena",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de hierbabuena en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2457,9 +2474,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Lavanda",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "7 €",
     "description": "Esencia de lavanda en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2480,7 +2498,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Lujuria",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de lujuria en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2503,9 +2521,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Menta piperita",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "7 €",
     "description": "Esencia de menta piperita en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2526,7 +2545,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Paz",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de paz en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2549,9 +2568,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Protección",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "15 €",
     "description": "Esencia de protección en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2572,7 +2592,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Purificación",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de purificación en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2595,9 +2615,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Romero",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "7 €",
     "description": "Esencia de romero en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2623,9 +2644,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Salud",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
+    "price": "15 €",
     "description": "Esencia de salud en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
     "images": [
       [
@@ -2646,7 +2668,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Vainilla",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de vainilla en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -2669,7 +2691,7 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Esencia de Valor",
     "category": "tinturas",
     "categoryLabel": "Tinturas",
-    "collection": "Esencias en spray",
+    "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "description": "Esencia de valor en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
@@ -3060,9 +3082,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón con plantas de eucalipto",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
+    "price": "6 €",
     "description": "Jabón artesanal elaborado con eucalipto. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
@@ -3093,9 +3116,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón con plantas de lavanda",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
+    "price": "6 €",
     "description": "Jabón artesanal elaborado con lavanda. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
@@ -3112,38 +3136,54 @@ window.CATALOGO_PRODUCTOS = [
         "productos/jabones/jabones-con-plantas/jab-plts-lavanda-01c.webp",
         "Jabón con plantas de lavanda, imagen 3",
         "Presentación del producto · Imagen 3"
-      ],
-      [
-        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02.webp",
-        "Jabón con plantas de lavanda, imagen 4",
-        "Presentación del producto · Imagen 4"
-      ],
-      [
-        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02b.webp",
-        "Jabón con plantas de lavanda, imagen 5",
-        "Presentación del producto · Imagen 5"
-      ],
-      [
-        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02c.webp",
-        "Jabón con plantas de lavanda, imagen 6",
-        "Presentación del producto · Imagen 6"
-      ],
-      [
-        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02d.webp",
-        "Jabón con plantas de lavanda, imagen 7",
-        "Presentación del producto · Imagen 7"
       ]
     ],
     "detailUrl": "producto-catalogo.html?id=jabon-plantas-lavanda"
+  },
+  {
+    "id": "jabon-plantas-lavanda-grande",
+    "name": "Jabón con plantas de lavanda grande",
+    "category": "jabones",
+    "categoryLabel": "Jabones",
+    "collection": "Jabones naturales",
+    "state": "Consultar disponibilidad",
+    "format": "Pastilla grande",
+    "price": "8 €",
+    "badge": "Grande",
+    "description": "Jabón artesanal elaborado con lavanda en formato grande. Consulta composición, peso y recomendaciones de uso.",
+    "images": [
+      [
+        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02.webp",
+        "Jabón con plantas de lavanda grande, imagen 1",
+        "Fotografía del producto"
+      ],
+      [
+        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02b.webp",
+        "Jabón con plantas de lavanda grande, imagen 2",
+        "Presentación del producto · Imagen 2"
+      ],
+      [
+        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02c.webp",
+        "Jabón con plantas de lavanda grande, imagen 3",
+        "Presentación del producto · Imagen 3"
+      ],
+      [
+        "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02d.webp",
+        "Jabón con plantas de lavanda grande, imagen 4",
+        "Presentación del producto · Imagen 4"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=jabon-plantas-lavanda-grande"
   },
   {
     "id": "jabon-plantas-menta",
     "name": "Jabón con plantas de menta",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
+    "price": "6 €",
     "description": "Jabón artesanal elaborado con menta. La galería reúne las dos presentaciones disponibles; consulta composición, peso y acabado.",
     "images": [
       [
@@ -3199,9 +3239,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón con plantas de romero",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
+    "price": "6 €",
     "description": "Jabón artesanal elaborado con romero en formato estándar. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
@@ -3232,9 +3273,11 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón con plantas de romero grande",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla grande",
+    "price": "8 €",
+    "badge": "Grande",
     "description": "Jabón artesanal elaborado con romero en formato grande. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
@@ -3257,37 +3300,39 @@ window.CATALOGO_PRODUCTOS = [
   },
   {
     "id": "jabon-plantas-ruda",
-    "name": "Jabón con plantas de ruda",
+    "name": "Jabón con plantas de ruda grande",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
-    "format": "Pastilla artesanal",
-    "description": "Jabón artesanal elaborado con ruda en formato estándar. Consulta composición, peso y recomendaciones de uso.",
+    "format": "Pastilla grande",
+    "price": "8 €",
+    "badge": "Grande",
+    "description": "Jabón artesanal elaborado con ruda en formato grande. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-01.webp",
-        "Jabón con plantas de ruda, imagen 1",
+        "Jabón con plantas de ruda grande, imagen 1",
         "Fotografía del producto"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-01b.webp",
-        "Jabón con plantas de ruda, imagen 2",
+        "Jabón con plantas de ruda grande, imagen 2",
         "Presentación del producto · Imagen 2"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-01c.webp",
-        "Jabón con plantas de ruda, imagen 3",
+        "Jabón con plantas de ruda grande, imagen 3",
         "Presentación del producto · Imagen 3"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-01d.webp",
-        "Jabón con plantas de ruda, imagen 4",
+        "Jabón con plantas de ruda grande, imagen 4",
         "Presentación del producto · Imagen 4"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-01e.webp",
-        "Jabón con plantas de ruda, imagen 5",
+        "Jabón con plantas de ruda grande, imagen 5",
         "Presentación del producto · Imagen 5"
       ]
     ],
@@ -3295,22 +3340,23 @@ window.CATALOGO_PRODUCTOS = [
   },
   {
     "id": "jabon-plantas-ruda-chico",
-    "name": "Jabón con plantas de ruda chico",
+    "name": "Jabón con plantas de ruda",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla pequeña",
-    "description": "Jabón artesanal elaborado con ruda en formato chico. Consulta composición, peso y recomendaciones de uso.",
+    "price": "6 €",
+    "description": "Jabón artesanal elaborado con ruda en formato pequeño. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-chico-01.webp",
-        "Jabón con plantas de ruda chico, imagen 1",
+        "Jabón con plantas de ruda, imagen 1",
         "Fotografía del producto"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-chico-01b.webp",
-        "Jabón con plantas de ruda chico, imagen 2",
+        "Jabón con plantas de ruda, imagen 2",
         "Presentación del producto · Imagen 2"
       ]
     ],
@@ -3318,27 +3364,29 @@ window.CATALOGO_PRODUCTOS = [
   },
   {
     "id": "jabon-plantas-tomillo",
-    "name": "Jabón con plantas de tomillo",
+    "name": "Jabón con plantas de tomillo grande",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
-    "format": "Pastilla artesanal",
-    "description": "Jabón artesanal elaborado con tomillo en formato estándar. Consulta composición, peso y recomendaciones de uso.",
+    "format": "Pastilla grande",
+    "price": "8 €",
+    "badge": "Grande",
+    "description": "Jabón artesanal elaborado con tomillo en formato grande. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-tomillo-01.webp",
-        "Jabón con plantas de tomillo, imagen 1",
+        "Jabón con plantas de tomillo grande, imagen 1",
         "Fotografía del producto"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-tomillo-01b.webp",
-        "Jabón con plantas de tomillo, imagen 2",
+        "Jabón con plantas de tomillo grande, imagen 2",
         "Presentación del producto · Imagen 2"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-tomillo-01c.webp",
-        "Jabón con plantas de tomillo, imagen 3",
+        "Jabón con plantas de tomillo grande, imagen 3",
         "Presentación del producto · Imagen 3"
       ]
     ],
@@ -3346,22 +3394,23 @@ window.CATALOGO_PRODUCTOS = [
   },
   {
     "id": "jabon-plantas-tomillo-chico",
-    "name": "Jabón con plantas de tomillo chico",
+    "name": "Jabón con plantas de tomillo",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones con plantas",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla pequeña",
-    "description": "Jabón artesanal elaborado con tomillo en formato chico. Consulta composición, peso y recomendaciones de uso.",
+    "price": "6 €",
+    "description": "Jabón artesanal elaborado con tomillo en formato pequeño. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-tomillo-chico-01.webp",
-        "Jabón con plantas de tomillo chico, imagen 1",
+        "Jabón con plantas de tomillo, imagen 1",
         "Fotografía del producto"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-tomillo-chico-01b.webp",
-        "Jabón con plantas de tomillo chico, imagen 2",
+        "Jabón con plantas de tomillo, imagen 2",
         "Presentación del producto · Imagen 2"
       ]
     ],
@@ -3372,9 +3421,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón de Alepo",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones para piel atópica",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
+    "price": "6 €",
     "description": "Jabón artesanal de Alepo de la línea para piel atópica. Consulta ingredientes, peso y recomendaciones antes de usarlo.",
     "images": [
       [
@@ -3415,9 +3465,11 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón de Alepo grande",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones para piel atópica",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla grande",
+    "price": "8 €",
+    "badge": "Grande",
     "description": "Jabón artesanal de Alepo en formato grande, perteneciente a la línea para piel atópica. Consulta ingredientes, peso y recomendaciones antes de usarlo.",
     "images": [
       [
@@ -3453,9 +3505,10 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón de caléndula",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones para piel atópica",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
+    "price": "6 €",
     "description": "Jabón artesanal de caléndula de la línea para piel atópica. Consulta ingredientes, peso y recomendaciones antes de usarlo.",
     "images": [
       [
@@ -3486,9 +3539,11 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Jabón de caléndula grande",
     "category": "jabones",
     "categoryLabel": "Jabones",
-    "collection": "Jabones para piel atópica",
+    "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
     "format": "Pastilla grande",
+    "price": "8 €",
+    "badge": "Grande",
     "description": "Jabón artesanal de caléndula en formato grande, perteneciente a la línea para piel atópica. Consulta ingredientes, peso y recomendaciones antes de usarlo.",
     "images": [
       [
@@ -3532,6 +3587,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Jabones ritualizados",
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
+    "price": "12 €",
     "description": "Jabón artesanal ritualizado para la intención de Amor. Consulta composición, preparación y modo de uso.",
     "images": [
       [
@@ -3565,6 +3621,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Jabones ritualizados",
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
+    "price": "12 €",
     "description": "Jabón artesanal ritualizado de Bruja. Consulta composición, preparación, intención y modo de uso.",
     "images": [
       [
@@ -3608,6 +3665,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Jabones ritualizados",
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
+    "price": "12 €",
     "description": "Jabón artesanal ritualizado para la intención de Suerte. Consulta composición, preparación y modo de uso.",
     "images": [
       [
@@ -3636,6 +3694,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Jabones ritualizados",
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
+    "price": "12 €",
     "description": "Jabón artesanal ritualizado para la intención de Dinero. Consulta composición, preparación y modo de uso.",
     "images": [
       [
@@ -3669,6 +3728,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Jabones ritualizados",
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
+    "price": "12 €",
     "description": "Jabón artesanal ritualizado para una intención de protección. Consulta composición, preparación y modo de uso.",
     "images": [
       [
@@ -3707,6 +3767,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Jabones ritualizados",
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
+    "price": "12 €",
     "description": "Jabón artesanal ritualizado Psíquico. Consulta composición, preparación, intención y modo de uso.",
     "images": [
       [
@@ -3741,39 +3802,6 @@ window.CATALOGO_PRODUCTOS = [
       ]
     ],
     "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-psiquico"
-  },
-  {
-    "id": "jabon-ritualizado-purifica",
-    "name": "Jabón ritualizado Purifica",
-    "category": "jabones",
-    "categoryLabel": "Jabones",
-    "collection": "Jabones ritualizados",
-    "state": "Consultar disponibilidad",
-    "format": "Pastilla ritualizada",
-    "description": "Jabón artesanal ritualizado para una intención de purificación. Consulta composición, preparación y modo de uso.",
-    "images": [
-      [
-        "productos/jabones/jabones-ritualizados/jabones-ritualizados-purifica-01.webp",
-        "Jabón ritualizado Purifica, imagen 1",
-        "Fotografía del producto"
-      ],
-      [
-        "productos/jabones/jabones-ritualizados/jabones-ritualizados-purifica-02.webp",
-        "Jabón ritualizado Purifica, imagen 2",
-        "Presentación del producto · Imagen 2"
-      ],
-      [
-        "productos/jabones/jabones-ritualizados/jabones-ritualizados-purifica-03.webp",
-        "Jabón ritualizado Purifica, imagen 3",
-        "Presentación del producto · Imagen 3"
-      ],
-      [
-        "productos/jabones/jabones-ritualizados/jabones-ritualizados-purifica-04.webp",
-        "Jabón ritualizado Purifica, imagen 4",
-        "Presentación del producto · Imagen 4"
-      ]
-    ],
-    "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-purifica"
   }
 ];
 

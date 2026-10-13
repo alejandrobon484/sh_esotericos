@@ -66,6 +66,21 @@
   </header>
 
   <main id="contenido">
+    <section class="campaign-strip" aria-label="Campaña de San Valentín">
+      <a class="campaign-banner container" href="#catalogo" data-collection-link="San Valentín" aria-label="Ver los productos de la colección San Valentín">
+        <picture class="campaign-banner-media">
+          <source srcset="assets/images/home/san-valentin-768.webp 768w, assets/images/home/san-valentin-1536.webp 1536w" sizes="(max-width: 640px) calc(100vw - 26px), 1180px" type="image/webp">
+          <img src="assets/images/home/san-valentin-1536.webp" alt="" width="1536" height="1024" fetchpriority="high">
+        </picture>
+        <span class="campaign-banner-shade" aria-hidden="true"></span>
+        <span class="campaign-banner-copy">
+          <span class="campaign-banner-kicker">Campaña de San Valentín</span>
+          <strong>Detalles, velas y rituales para celebrar el amor</strong>
+          <span class="campaign-banner-action">Descubrir la colección <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+    </section>
+
     <section class="hero" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy">
@@ -99,7 +114,7 @@
         <a class="category-card" href="#catalogo" data-category-link="jabones">
           <span class="category-icon" aria-hidden="true">01</span>
           <h3>Jabones</h3>
-          <p>Jabones artesanales y preparados para distintas intenciones.</p>
+          <p>Jabones naturales y ritualizados, organizados según su preparación y uso.</p>
         </a>
         <a class="category-card" href="#catalogo" data-category-link="velas">
           <span class="category-icon" aria-hidden="true">02</span>
@@ -126,7 +141,7 @@
           <h3>Pirograbados</h3>
           <p>Arte realizado sobre madera y piezas decorativas.</p>
         </a>
-        <a class="category-card" href="#catalogo" data-category-link="replicas">
+        <a class="category-card" href="#catalogo" data-category-link="replicas" hidden>
           <span class="category-icon" aria-hidden="true">07</span>
           <h3>Réplicas</h3>
           <p>Reproducciones y piezas inspiradas en objetos especiales.</p>
@@ -159,7 +174,7 @@
           <button class="filter" type="button" data-filter="tinturas" data-label="Tinturas" aria-pressed="false">Tinturas</button>
           <button class="filter" type="button" data-filter="objetos" data-label="Objetos" aria-pressed="false">Objetos</button>
           <button class="filter" type="button" data-filter="pictografia" data-label="Pirograbados" aria-pressed="false">Pirograbados</button>
-          <button class="filter" type="button" data-filter="replicas" data-label="Réplicas" aria-pressed="false">Réplicas</button>
+          <button class="filter" type="button" data-filter="replicas" data-label="Réplicas" aria-pressed="false" hidden>Réplicas</button>
         </div>
 
         <div class="subfilter-block" id="subfilter-block" hidden>
@@ -180,18 +195,103 @@
           <h2>Colecciones temporales</h2>
         </div>
       </div>
-      <article class="collection-banner">
-        <div>
-          <p class="eyebrow">Colección de temporada</p>
-          <h3>San Valentín</h3>
-          <p>Selección especial que puede reunir productos de distintas categorías sin duplicarlos en el catálogo.</p>
-          <a class="button secondary" href="#catalogo" data-collection-link="San Valentín">Ver colección</a>
-        </div>
-        <picture class="collection-image">
-          <source srcset="assets/images/home/san-valentin-768.webp 768w, assets/images/home/san-valentin-1536.webp 1536w" sizes="(max-width: 900px) calc(100vw - 40px), 50vw" type="image/webp">
-          <img src="assets/images/home/san-valentin-1536.webp" alt="Pareja bajo la luna rodeada de velas y rosas en una escena nocturna" width="1536" height="1024" loading="lazy">
-        </picture>
-      </article>
+      <div class="collection-list">
+        <section class="collection-group" aria-labelledby="seasonal-collections-title">
+          <div class="collection-group-heading">
+            <p class="eyebrow">Calendario anual</p>
+            <h3 id="seasonal-collections-title">Colección de temporada</h3>
+            <p>Ediciones especiales vinculadas a celebraciones y momentos destacados del año.</p>
+          </div>
+          <div class="collection-card-grid">
+            <article class="collection-card">
+              <picture class="collection-card-media">
+                <source srcset="assets/images/home/san-valentin-768.webp 768w, assets/images/home/san-valentin-1536.webp 1536w" sizes="(max-width: 640px) 50vw, 220px" type="image/webp">
+                <img src="assets/images/home/san-valentin-768.webp" alt="Pareja bajo la luna rodeada de velas y rosas en una escena nocturna" width="768" height="512" loading="lazy">
+              </picture>
+              <div class="collection-card-body">
+                <p class="collection-card-status">Disponible</p>
+                <h4>San Valentín</h4>
+                <a class="button secondary" href="#catalogo" data-collection-link="San Valentín">Ver colección</a>
+              </div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Sant Jordi</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Pascua</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Halloween</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Navidad</h4></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="collection-group" aria-labelledby="pagan-collections-title">
+          <div class="collection-group-heading">
+            <p class="eyebrow">Rueda del año</p>
+            <h3 id="pagan-collections-title">Colección de festividades paganas</h3>
+            <p>Artículos y propuestas rituales vinculados a sus celebraciones y tradiciones.</p>
+          </div>
+          <div class="collection-card-grid">
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Imbolc</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Ostara</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Beltane</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Litha</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Lughnasadh</h4></div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Mabon</h4></div>
+            </article>
+
+            <article class="collection-card">
+              <picture class="collection-card-media">
+                <img src="productos/kits/kit-shamain/kit-shamain-completo-01.webp" alt="Conjunto ritual de Samhain con velón, bolsa y pieza pirograbada" width="1312" height="1199" loading="lazy">
+              </picture>
+              <div class="collection-card-body">
+                <p class="collection-card-status">Disponible</p>
+                <h4>Samhain</h4>
+                <a class="button secondary" href="#catalogo" data-collection-link="Samhain">Ver colección</a>
+              </div>
+            </article>
+
+            <article class="collection-card collection-card--upcoming">
+              <div class="collection-card-media collection-card-placeholder" aria-hidden="true"></div>
+              <div class="collection-card-body"><p class="collection-card-status">Próximamente</p><h4>Yule</h4></div>
+            </article>
+          </div>
+        </section>
+      </div>
     </section>
 
     <section class="section services-section" id="servicios">
@@ -259,10 +359,38 @@
           </div>
         </div>
         <ol class="steps">
-          <li><span>1</span><div><h3>Explora</h3><p>Busca o filtra productos y servicios.</p></div></li>
-          <li><span>2</span><div><h3>Consulta</h3><p>Abre el canal de contacto indicado en la ficha.</p></div></li>
-          <li><span>3</span><div><h3>Confirma</h3><p>Consulta disponibilidad, envío y forma de pago.</p></div></li>
-          <li><span>4</span><div><h3>Recibe</h3><p>La tienda prepara y gestiona directamente el pedido.</p></div></li>
+          <li>
+            <picture class="step-visual">
+              <source srcset="assets/images/como-comprar/explora-768.webp 768w, assets/images/como-comprar/explora-1536.webp 1536w" sizes="(max-width: 640px) calc(100vw - 26px), (max-width: 900px) 50vw, 25vw" type="image/webp">
+              <img src="assets/images/como-comprar/explora-768.webp" alt="Brujita volando en su escoba mientras busca productos en un mercado esotérico" width="768" height="512" loading="lazy">
+              <span class="step-number" aria-hidden="true">1</span>
+            </picture>
+            <div class="step-copy"><h3>Explora</h3><p>Busca o filtra productos y servicios.</p></div>
+          </li>
+          <li>
+            <picture class="step-visual">
+              <source srcset="assets/images/como-comprar/consulta-768.webp 768w, assets/images/como-comprar/consulta-1536.webp 1536w" sizes="(max-width: 640px) calc(100vw - 26px), (max-width: 900px) 50vw, 25vw" type="image/webp">
+              <img src="assets/images/como-comprar/consulta-768.webp" alt="Brujita consultando un gran libro de brujería sobre una mesa" width="768" height="512" loading="lazy">
+              <span class="step-number" aria-hidden="true">2</span>
+            </picture>
+            <div class="step-copy"><h3>Consulta</h3><p>Abre el canal de contacto indicado en la ficha.</p></div>
+          </li>
+          <li>
+            <picture class="step-visual">
+              <source srcset="assets/images/como-comprar/confirma-768.webp 768w, assets/images/como-comprar/confirma-1536.webp 1536w" sizes="(max-width: 640px) calc(100vw - 26px), (max-width: 900px) 50vw, 25vw" type="image/webp">
+              <img src="assets/images/como-comprar/confirma-768.webp" alt="Brujita confirmando el pedido mediante un sello mágico entre sus manos" width="768" height="512" loading="lazy">
+              <span class="step-number" aria-hidden="true">3</span>
+            </picture>
+            <div class="step-copy"><h3>Confirma</h3><p>Consulta disponibilidad, envío y forma de pago.</p></div>
+          </li>
+          <li>
+            <picture class="step-visual">
+              <source srcset="assets/images/como-comprar/recibe-768.webp 768w, assets/images/como-comprar/recibe-1536.webp 1536w" sizes="(max-width: 640px) calc(100vw - 26px), (max-width: 900px) 50vw, 25vw" type="image/webp">
+              <img src="assets/images/como-comprar/recibe-768.webp" alt="Brujita recibiendo en la puerta de su casa un paquete con el sello SH" width="768" height="512" loading="lazy">
+              <span class="step-number" aria-hidden="true">4</span>
+            </picture>
+            <div class="step-copy"><h3>Recibe</h3><p>La tienda prepara y gestiona directamente el pedido.</p></div>
+          </li>
         </ol>
       </div>
     </section>
@@ -271,7 +399,7 @@
       <div>
         <p class="eyebrow">Detrás de SH Esotéricos</p>
         <h2>Manu, artesanía y tradición esotérica</h2>
-        <p>Detrás de SH Esotéricos está Manu, emprendedor y artesano que une su interés por el mundo esotérico con el trabajo manual. En su taller elabora jabones artesanales, velas ritualizadas —también en kits y dúos—, tinturas e inciensos naturales, cuidando cada propuesta para que pueda acompañar un ritual, un momento personal o convertirse en un regalo especial.</p>
+        <p>Detrás de SH Esotéricos está Manu, emprendedor y artesano, brujo y devoto de la Santa Muerte, que une su interés por el mundo esotérico con el trabajo manual. En su taller elabora jabones artesanales, velas ritualizadas —también en kits y dúos—, tinturas e inciensos naturales, cuidando cada propuesta para que pueda acompañar un ritual, un momento personal o convertirse en un regalo especial.</p>
         <p>Su catálogo se completa con pirograbados inspirados en la naturaleza, la simbología nórdica y el imaginario esotérico. La atención es directa y cercana: si quieres consultar disponibilidad, conocer los detalles de una pieza o encontrar la opción que mejor encaje contigo, puedes hablar con Manu sin intermediarios.</p>
       </div>
       <picture class="about-image">

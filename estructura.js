@@ -4,8 +4,8 @@ const menuButton = document.querySelector('.menu-toggle');
 const mainNav = document.querySelector('.main-nav');
 const searchForm = document.querySelector('#search-form');
 const searchInput = document.querySelector('#site-search');
-const filterButtons = [...document.querySelectorAll('[data-filter]')];
-const categoryLinks = [...document.querySelectorAll('[data-category-link]')];
+const filterButtons = [...document.querySelectorAll('[data-filter]:not([hidden])')];
+const categoryLinks = [...document.querySelectorAll('[data-category-link]:not([hidden])')];
 const collectionLinks = [...document.querySelectorAll('[data-collection-link]')];
 const serviceFilterButtons = [...document.querySelectorAll('[data-service-filter]')];
 const serviceLinks = [...document.querySelectorAll('[data-service-link]')];
@@ -23,6 +23,11 @@ const subfilterCategory = document.querySelector('#subfilter-category');
 const subfilterRow = document.querySelector('#subfilter-row');
 const loadMoreButton = document.querySelector('#load-more');
 const loadMoreRow = loadMoreButton.parentElement;
+
+const categorySubcategories = {
+  jabones: ['Jabones naturales', 'Jabones ritualizados'],
+  tinturas: ['Tinturas naturales', 'Tinturas ritualizadas']
+};
 
 const PAGE_SIZE = 12;
 let visibleLimit = PAGE_SIZE;
@@ -62,7 +67,10 @@ function matchesSearch(card) {
 }
 
 function collectionNames() {
-  return [...new Set(products.map((product) => product.dataset.collection).filter(Boolean))];
+  return [...new Set([
+    ...Object.values(categorySubcategories).flat(),
+    ...products.map((product) => product.dataset.collection).filter(Boolean)
+  ])];
 }
 
 function resolveCollection(slug) {
@@ -104,6 +112,7 @@ function renderSubfilters() {
 
   const categoryProducts = products.filter((product) => product.dataset.category === activeCategory);
   const counts = new Map();
+  (categorySubcategories[activeCategory] || []).forEach((subcategory) => counts.set(subcategory, 0));
   categoryProducts.forEach((product) => counts.set(product.dataset.collection, (counts.get(product.dataset.collection) || 0) + 1));
   if (activeCollection && !counts.has(activeCollection)) activeCollection = '';
   if (counts.size <= 1) {
