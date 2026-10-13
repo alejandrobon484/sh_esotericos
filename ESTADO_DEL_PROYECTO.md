@@ -71,6 +71,7 @@ Las variantes grandes de jabón mantienen la palabra “grande” en el título 
 - La sección “Cómo comprar” cuenta con una secuencia ilustrada propia protagonizada por una misma brujita: vuela y explora el catálogo, consulta un libro, confirma mediante magia y recibe un paquete con el sello SH. Las cuatro escenas adaptables y la referencia reutilizable del personaje se conservan en `assets/images/como-comprar/`.
 - El fondo general y los bloques alternos incorporan una trama vectorial repetible de inspiración botánica y esotérica —ramas, luna creciente y destellos— almacenada en `assets/patterns/trama-esoterica.svg`. El mosaico es muy ligero, no requiere una imagen rasterizada y se mantiene discreto tanto en el modo claro como en el oscuro.
 - Bajo la navegación principal aparece un banner horizontal y completamente clicable para la campaña de San Valentín. Reutiliza la imagen adaptable de la colección y conduce al catálogo filtrado por “San Valentín”.
+- Las seis tarjetas principales de categoría incorporan ilustraciones WebP con transparencia, creadas como una misma familia visual: jabón botánico, vela encendida, kit ritual, tintura, objetos esotéricos y pirograbado. Los recursos se encuentran en `assets/images/categorias/` y se muestran como elementos decorativos que no duplican la información accesible del enlace.
 
 ## Pendiente inmediato
 
