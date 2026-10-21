@@ -32,13 +32,13 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 | San Valentín | 4 |
 | Tinturas | 17 |
 | Tiradas | 5 |
-| Trabajo de brujería | 2 |
+| Trabajo de brujería | 7 |
 | Velas | 30 |
-| **Total visible** | **108** |
+| **Total visible** | **113** |
 
-La revisión técnica confirma 443 referencias de imagen en la versión nueva y ninguna referencia ausente.
+La revisión técnica confirma 448 referencias de imagen en la versión nueva y ninguna referencia ausente.
 
-El catálogo conserva 112 productos registrados. “Conjunto de runas nórdicas” y los tres productos de Réplicas están marcados como ocultos y no se muestran ni se contabilizan entre los 108 productos visibles; sus fichas e imágenes se mantienen para una futura reubicación. La tarjeta y el filtro de Réplicas también permanecen ocultos en la portada.
+El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas” y los tres productos de Réplicas están marcados como ocultos y no se muestran ni se contabilizan entre los 113 productos visibles; sus fichas e imágenes se mantienen para una futura reubicación. La tarjeta y el filtro de Réplicas también permanecen ocultos en la portada.
 
 El producto “Jabón ritualizado Purifica” se retiró del catálogo el 13 de octubre de 2026. Sus archivos de imagen se conservan para una posible recuperación futura.
 
@@ -55,6 +55,8 @@ Las variantes grandes de jabón mantienen la palabra “grande” en el título 
 La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni precio incrustado, basada en el frasco, los cristales y el símbolo de corazón de la campaña de trabajos de brujería. La lámina informativa se conserva en archivos, pero se retiró de la galería pública; su contenido se trasladó a la descripción textual, la tarjeta utiliza un resumen breve independiente y el precio se presenta como “Desde 40 €” en HTML.
 
 La ficha “Trabajo de Amor Propio” aplica el mismo tratamiento: portada cuadrada sin texto ni precio incrustado basada en el corazón de cristal violeta de la campaña, precio “Desde 40 €” en HTML y descripción textual específica sobre autoestima, sanación emocional, energía e intención. La antigua lámina informativa permanece en archivos, pero ya no forma parte de la galería pública.
+
+La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 10 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. Las tiradas antiguas continúan disponibles como fichas independientes en su sección original.
 
 ## Funcionalidad terminada
 

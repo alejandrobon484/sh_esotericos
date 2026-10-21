@@ -642,6 +642,106 @@ window.CATALOGO_PRODUCTOS = [
     "detailUrl": "producto-catalogo.html?id=amor-propio"
   },
   {
+    "id": "trabajo-volteo",
+    "name": "Volteo",
+    "category": "trabajos",
+    "categoryLabel": "Trabajo de brujería",
+    "collection": "Trabajos personalizados",
+    "state": "Consulta previa necesaria",
+    "format": "Trabajo preparado bajo consulta",
+    "price": "Desde 50 €",
+    "summary": "Trabajo personalizado que requiere una consulta previa.",
+    "description": "Trabajo personalizado sujeto a consulta previa. Contacta con Manu para valorar tu situación, disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/trabajo-de-brujera/volteo/volteo-portada.webp",
+        "Vela ritual oscura rodeada de cristales violetas y elementos esotéricos",
+        "Imagen de presentación"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=trabajo-volteo"
+  },
+  {
+    "id": "trabajo-lectura-tarot",
+    "name": "Lectura de Tarot",
+    "category": "trabajos",
+    "categoryLabel": "Trabajo de brujería",
+    "collection": "Trabajos personalizados",
+    "state": "Consulta previa necesaria",
+    "format": "Lectura realizada bajo consulta",
+    "price": "Desde 10 €",
+    "summary": "Lectura personalizada disponible bajo consulta previa.",
+    "description": "Lectura personalizada sujeta a consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/trabajo-de-brujera/lectura-tarot/lectura-tarot-portada.webp",
+        "Cartas de tarot desplegadas entre cristales violetas y velas encendidas",
+        "Imagen de presentación"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=trabajo-lectura-tarot"
+  },
+  {
+    "id": "trabajo-lectura-oraculo",
+    "name": "Lectura de Oráculo",
+    "category": "trabajos",
+    "categoryLabel": "Trabajo de brujería",
+    "collection": "Trabajos personalizados",
+    "state": "Consulta previa necesaria",
+    "format": "Lectura realizada bajo consulta",
+    "price": "Desde 10 €",
+    "summary": "Lectura personalizada disponible bajo consulta previa.",
+    "description": "Lectura personalizada sujeta a consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/trabajo-de-brujera/lectura-oraculo/lectura-oraculo-portada.webp",
+        "Mazo de oráculo con una luna creciente rodeado de cristales y una vela encendida",
+        "Imagen de presentación"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=trabajo-lectura-oraculo"
+  },
+  {
+    "id": "trabajo-lectura-runas",
+    "name": "Lectura de Runas",
+    "category": "trabajos",
+    "categoryLabel": "Trabajo de brujería",
+    "collection": "Trabajos personalizados",
+    "state": "Consulta previa necesaria",
+    "format": "Lectura realizada bajo consulta",
+    "price": "Desde 10 €",
+    "summary": "Lectura personalizada disponible bajo consulta previa.",
+    "description": "Lectura personalizada sujeta a consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/trabajo-de-brujera/lectura-runas/lectura-runas-portada.webp",
+        "Piedras rúnicas con símbolos dorados entre cristales violetas y una vela encendida",
+        "Imagen de presentación"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=trabajo-lectura-runas"
+  },
+  {
+    "id": "trabajo-abre-caminos",
+    "name": "Abre Caminos",
+    "category": "trabajos",
+    "categoryLabel": "Trabajo de brujería",
+    "collection": "Trabajos personalizados",
+    "state": "Consulta previa necesaria",
+    "format": "Trabajo preparado bajo consulta",
+    "price": "Desde 50 €",
+    "summary": "Trabajo personalizado que requiere una consulta previa.",
+    "description": "Trabajo personalizado sujeto a consulta previa. Contacta con Manu para valorar tu situación, disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/trabajo-de-brujera/abre-caminos/abre-caminos-portada.webp",
+        "Puertas de madera abiertas hacia un camino iluminado al amanecer entre velas y cristales",
+        "Imagen de presentación"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=trabajo-abre-caminos"
+  },
+  {
     "id": "velas-aromaterapia-vaso",
     "name": "Velas de aromaterapia en vaso",
     "category": "velas",
