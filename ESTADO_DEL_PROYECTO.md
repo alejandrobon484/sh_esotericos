@@ -1,6 +1,6 @@
 # Estado del proyecto SH Esotéricos
 
-Última actualización: 13 de octubre de 2026.
+Última actualización: 21 de octubre de 2026.
 
 ## Objetivo
 
@@ -19,6 +19,7 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 - `assets/characters/` contiene una primera propuesta reutilizable de Manu con fondo transparente, pendiente de aprobación antes de integrarla en escenas de la tienda.
 - `index.html` ya contiene el nuevo catálogo y es la portada preparada para producción.
 - La web anterior se conserva en `archivo/web-anterior/` y está excluida del despliegue mediante `.vercelignore`.
+- El repositorio `alejandrobon484/sh_esotericos`, rama `main`, está conectado a Hostinger con implementación automática sobre la raíz `public_html`. Los nuevos pushes a `main` deben publicarse sin una carga manual de archivos.
 
 ## Catálogo cargado
 
@@ -81,8 +82,7 @@ La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni pre
 2. Completar los precios pendientes y el resto de datos comerciales: medidas, materiales, disponibilidad y variantes. Falta identificar la correspondencia exacta de los velones pequeño y grande, las velas ritualizadas de dos unidades, la vela Corazón, las tinturas Intuición y Tercer ojo, y los pirograbados por medida; los inciensos de la tarifa todavía no están cargados en el catálogo.
 3. Revisar textos legales, privacidad, cookies y condiciones de compra antes de publicar.
 4. Configurar el correo `info@sh-esotericos.com` y decidir el flujo del formulario de contacto.
-5. Configurar el despliegue de GitHub hacia Hostinger.
-6. Realizar pruebas finales en móvil, escritorio y navegadores principales.
+5. Realizar pruebas finales en móvil, escritorio y navegadores principales.
 
 ## Datos de contacto
 
