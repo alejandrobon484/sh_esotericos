@@ -19,7 +19,7 @@ if (!catalogItem) {
 
   const returnUrl = categoryReturnUrl(catalogItem);
   document.title = `${catalogItem.name} — SH Esotéricos`;
-  document.querySelector('meta[name="description"]').content = catalogItem.description;
+  document.querySelector('meta[name="description"]').content = catalogItem.summary || catalogItem.description;
   const breadcrumbCategory = document.querySelector('#breadcrumb-category');
   breadcrumbCategory.textContent = catalogItem.categoryLabel;
   breadcrumbCategory.href = returnUrl;

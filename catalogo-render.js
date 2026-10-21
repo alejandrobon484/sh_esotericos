@@ -48,7 +48,7 @@ function createCatalogCard(product) {
 
     const description = document.createElement('p');
     description.className = 'product-description';
-    description.textContent = product.description;
+    description.textContent = product.summary || product.description;
 
     const footer = document.createElement('div');
     footer.className = 'product-footer';

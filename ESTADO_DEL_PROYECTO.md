@@ -51,6 +51,8 @@ Las variantes grandes de jabón mantienen la palabra “grande” en el título 
 
 “Vela negra del corazón protegido | EDICIÓN LIMITADA” —anteriormente “Corazón entre manos”— y “Vela Ver infidelidad” se trasladaron de la colección San Valentín a la categoría Kits, dentro de la subcategoría “Rituales”. Sus imágenes publicables se reorganizaron respectivamente en `productos/kits/kit-corazon-entre-manos/` y `productos/kits/kit-vela-infidelidad/`.
 
+La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni precio incrustado, basada en el frasco, los cristales y el símbolo de corazón de la campaña de trabajos de brujería. La lámina informativa con el precio de 40 € se conserva en archivos, pero se retiró de la galería pública; su contenido se trasladó a la descripción textual y la tarjeta utiliza un resumen breve independiente.
+
 ## Funcionalidad terminada
 
 - Navegación principal y navegación adaptable a móvil.

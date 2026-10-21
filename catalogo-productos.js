@@ -579,26 +579,27 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Trabajos personalizados",
     "state": "Consulta previa necesaria",
     "format": "Trabajo preparado bajo consulta",
-    "description": "Presentación visual de un trabajo de endulzamiento preparado de forma personalizada.",
+    "summary": "Ritual personalizado orientado a armonizar relaciones, suavizar tensiones y fortalecer vínculos.",
+    "description": "Con la bendición de la Santa Muerte, el ritual de endulzamiento busca dulcificar corazones, armonizar relaciones y atraer amor verdadero. Atrae amor y armonía: su energía dulce abre caminos para el amor, la comprensión y la unión sincera. Endulza y suaviza: disuelve tensiones, rencores y malentendidos, promoviendo la paz y la ternura. Fortalece vínculos: ideal para parejas, amistades o familiares; refuerza la confianza y la conexión emocional. Ritual sencillo y poderoso: enciende la vela con intención, visualiza tu deseo y deja que su luz endulce el camino del amor. Haz de ti tu mayor prioridad. La Santa Muerte te acompaña. Tu luz merece ser cuidada. Tu alma, amada. Ámate hoy, vive para ti.",
     "images": [
       [
+        "productos/trabajo-de-brujera/endulzamento/endulzamiento-portada.webp",
+        "Frasco ritual de endulzamiento rodeado de cristales, rosas, una vela y un símbolo de corazón",
+        "Imagen de presentación"
+      ],
+      [
         "productos/trabajo-de-brujera/endulzamento/endulzamento-01.webp",
-        "Endulzamiento, imagen 1",
+        "Vela ritual de endulzamiento",
         "Fotografía del producto"
       ],
       [
-        "productos/trabajo-de-brujera/endulzamento/endulzamento-01-ambiente-01.webp",
-        "Endulzamiento, imagen 2",
-        "Imagen ambientada"
-      ],
-      [
         "productos/trabajo-de-brujera/endulzamento/endulzamento-01-ambiente-02.webp",
-        "Endulzamiento, imagen 3",
+        "Ritual de endulzamiento rodeado de rosas, velas y una figura de la Santa Muerte",
         "Imagen ambientada"
       ],
       [
         "productos/trabajo-de-brujera/endulzamento/endulzamento-01-ambiente-03.webp",
-        "Endulzamiento, imagen 4",
+        "Ritual de endulzamiento visto desde arriba, rodeado de rosas y velas",
         "Imagen ambientada"
       ]
     ],
