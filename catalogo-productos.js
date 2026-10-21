@@ -608,32 +608,34 @@ window.CATALOGO_PRODUCTOS = [
   },
   {
     "id": "amor-propio",
-    "name": "Amor propio",
+    "name": "Trabajo de Amor Propio",
     "category": "trabajos",
     "categoryLabel": "Trabajo de brujería",
     "collection": "Trabajos personalizados",
     "state": "Consulta previa necesaria",
     "format": "Trabajo preparado bajo consulta",
-    "description": "Presentación visual de un trabajo de amor propio preparado de forma personalizada.",
+    "price": "Desde 40 €",
+    "summary": "Ritual personalizado orientado a fomentar la autoestima, sanar emocionalmente y reforzar la conexión personal.",
+    "description": "Con la bendición de la Santa Muerte, el ritual de amor propio invita a amarte, elegirte y honrar tu esencia. Fomenta el amor propio y la autoestima: te ayuda a valorarte, aceptarte y priorizarte. Sanación emocional: libera heridas del pasado y patrones que ya no te sirven. Eleva tu energía: atrae armonía, bienestar y relaciones más conscientes. Intención y conexión: cada elemento del ritual está elegido para nutrir tu corazón y tu alma. Haz de ti tu mayor prioridad. La Santa Muerte te acompaña. Tu luz merece ser cuidada. Tu alma, amada. Ámate hoy, vive para ti.",
     "images": [
       [
+        "productos/trabajo-de-brujera/amor-propio/trabajo-amor-propio-portada.webp",
+        "Corazón de cristal violeta en una cesta, rodeado de minerales, flores y una vela encendida",
+        "Imagen de presentación"
+      ],
+      [
         "productos/trabajo-de-brujera/amor-propio/amor-propio-01.webp",
-        "Amor propio, imagen 1",
+        "Vela rosa del trabajo de amor propio",
         "Fotografía del trabajo"
       ],
       [
-        "productos/trabajo-de-brujera/amor-propio/amor-propio-01-ambiente-01.webp",
-        "Amor propio, imagen 2",
-        "Imagen ambientada"
-      ],
-      [
         "productos/trabajo-de-brujera/amor-propio/amor-propio-01-ambiente-02.webp",
-        "Amor propio, imagen 3",
+        "Trabajo de amor propio rodeado de rosas, velas y una figura de la Santa Muerte",
         "Imagen ambientada"
       ],
       [
         "productos/trabajo-de-brujera/amor-propio/amor-propio-01-ambiente-03.webp",
-        "Amor propio, imagen 4",
+        "Trabajo de amor propio visto desde arriba, rodeado de rosas y velas",
         "Imagen ambientada"
       ]
     ],

@@ -54,6 +54,8 @@ Las variantes grandes de jabón mantienen la palabra “grande” en el título 
 
 La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni precio incrustado, basada en el frasco, los cristales y el símbolo de corazón de la campaña de trabajos de brujería. La lámina informativa se conserva en archivos, pero se retiró de la galería pública; su contenido se trasladó a la descripción textual, la tarjeta utiliza un resumen breve independiente y el precio se presenta como “Desde 40 €” en HTML.
 
+La ficha “Trabajo de Amor Propio” aplica el mismo tratamiento: portada cuadrada sin texto ni precio incrustado basada en el corazón de cristal violeta de la campaña, precio “Desde 40 €” en HTML y descripción textual específica sobre autoestima, sanación emocional, energía e intención. La antigua lámina informativa permanece en archivos, pero ya no forma parte de la galería pública.
+
 ## Funcionalidad terminada
 
 - Navegación principal y navegación adaptable a móvil.
