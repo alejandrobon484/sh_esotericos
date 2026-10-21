@@ -11,6 +11,9 @@ if (!catalogItem) {
     if (product.category === 'tiradas' || product.category === 'trabajos') {
       return `index.html?servicio=${encodeURIComponent(product.category)}#service-catalog`;
     }
+    if (product.collection === 'Halloween') {
+      return 'index.html?coleccion=halloween#catalogo';
+    }
     if (product.category === 'san-valentin') {
       return 'index.html?coleccion=san-valentin#catalogo';
     }
@@ -50,11 +53,16 @@ if (!catalogItem) {
     mainImage.src = image[0]; mainImage.alt = image[1]; imageLabel.textContent = image[2];
     [...thumbnails.children].forEach((button) => button.setAttribute('aria-pressed', String(button === selectedButton)));
   }
-  catalogItem.images.forEach((image, index) => {
-    const button = document.createElement('button'); button.className = 'gallery-thumb'; button.type = 'button';
-    button.setAttribute('aria-pressed', String(index === 0)); button.setAttribute('aria-label', `Ver imagen ${index + 1} de ${catalogItem.name}`);
-    const thumbnail = document.createElement('img'); thumbnail.src = image[0]; thumbnail.alt = image[1]; if (index > 0) thumbnail.loading = 'lazy';
-    button.appendChild(thumbnail); button.addEventListener('click', () => selectCatalogImage(image, button)); thumbnails.appendChild(button);
-  });
-  selectCatalogImage(catalogItem.images[0], thumbnails.firstElementChild);
+  if (catalogItem.images.length === 1) {
+    thumbnails.hidden = true;
+    selectCatalogImage(catalogItem.images[0], null);
+  } else {
+    catalogItem.images.forEach((image, index) => {
+      const button = document.createElement('button'); button.className = 'gallery-thumb'; button.type = 'button';
+      button.setAttribute('aria-pressed', String(index === 0)); button.setAttribute('aria-label', `Ver imagen ${index + 1} de ${catalogItem.name}`);
+      const thumbnail = document.createElement('img'); thumbnail.src = image[0]; thumbnail.alt = image[1]; if (index > 0) thumbnail.loading = 'lazy';
+      button.appendChild(thumbnail); button.addEventListener('click', () => selectCatalogImage(image, button)); thumbnails.appendChild(button);
+    });
+    selectCatalogImage(catalogItem.images[0], thumbnails.firstElementChild);
+  }
 }

@@ -66,6 +66,7 @@ La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo
 - Filtros y ordenación del catálogo.
 - Carga progresiva de tarjetas.
 - Fichas de producto con galería.
+- Las fichas con una sola imagen muestran únicamente la fotografía principal y omiten la miniatura redundante.
 - Enlaces de contacto por WhatsApp, Instagram y correo.
 - Conversión y organización de las imágenes WebP.
 - Paquete de iconos del sitio y manifest web enlazados en todas las páginas activas.
@@ -73,7 +74,7 @@ La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo
 - Selector claro/oscuro disponible en todas las páginas mediante una vela artesanal: apagada en modo claro y encendida en modo oscuro. Respeta el sistema y guarda la elección localmente.
 - La sección “Detrás de SH Esotéricos” presenta a Manu como emprendedor, artesano, brujo y devoto de la Santa Muerte, junto con su trabajo artesanal y las principales familias de productos.
 - La tarjeta final de contacto ofrece únicamente accesos mediante iconos a Instagram y WhatsApp; el correo permanece visible como dato, pero ya no aparece como botón hasta completar su configuración.
-- La sección “Colecciones temporales” se organiza en dos bloques compactos de tarjetas. “Colección de temporada” contiene San Valentín —activa y enlazada— y reservas todavía vacías para Sant Jordi, Pascua, Halloween y Navidad. “Colección de festividades paganas” presenta Imbolc, Ostara, Beltane, Litha, Lughnasadh, Mabon, Samhain y Yule; actualmente solo Samhain está activa y enlazada.
+- La sección “Colecciones temporales” se organiza en dos bloques compactos de tarjetas. “Colección de temporada” contiene San Valentín y Halloween —ambas activas y enlazadas— y reservas todavía vacías para Sant Jordi, Pascua y Navidad. Halloween reúne cinco velas: Colección Calabazas, Adorno de cráneo realista, Fantasmas mascota, Fantasmas pequeños y Fantasma con gorro de bruja. “Colección de festividades paganas” presenta Imbolc, Ostara, Beltane, Litha, Lughnasadh, Mabon, Samhain y Yule; actualmente solo Samhain está activa y enlazada.
 - Las migas de pan y el enlace de retorno de las fichas conservan el contexto: regresan a la categoría filtrada, a la colección San Valentín o al apartado de servicios correspondiente según el producto.
 - La sección “Cómo comprar” cuenta con una secuencia ilustrada propia protagonizada por una misma brujita: vuela y explora el catálogo, consulta un libro, confirma mediante magia y recibe un paquete con el sello SH. Las cuatro escenas adaptables y la referencia reutilizable del personaje se conservan en `assets/images/como-comprar/`.
 - El fondo general y los bloques alternos incorporan una trama vectorial repetible de inspiración botánica y esotérica —ramas, luna creciente y destellos— almacenada en `assets/patterns/trama-esoterica.svg`. El mosaico es muy ligero, no requiere una imagen rasterizada y se mantiene discreto tanto en el modo claro como en el oscuro.
