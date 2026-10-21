@@ -579,6 +579,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Trabajos personalizados",
     "state": "Consulta previa necesaria",
     "format": "Trabajo preparado bajo consulta",
+    "price": "Desde 40 €",
     "summary": "Ritual personalizado orientado a armonizar relaciones, suavizar tensiones y fortalecer vínculos.",
     "description": "Con la bendición de la Santa Muerte, el ritual de endulzamiento busca dulcificar corazones, armonizar relaciones y atraer amor verdadero. Atrae amor y armonía: su energía dulce abre caminos para el amor, la comprensión y la unión sincera. Endulza y suaviza: disuelve tensiones, rencores y malentendidos, promoviendo la paz y la ternura. Fortalece vínculos: ideal para parejas, amistades o familiares; refuerza la confianza y la conexión emocional. Ritual sencillo y poderoso: enciende la vela con intención, visualiza tu deseo y deja que su luz endulce el camino del amor. Haz de ti tu mayor prioridad. La Santa Muerte te acompaña. Tu luz merece ser cuidada. Tu alma, amada. Ámate hoy, vive para ti.",
     "images": [
