@@ -1,6 +1,6 @@
 # Estado del proyecto SH Esotéricos
 
-Última actualización: 21 de octubre de 2026.
+Última actualización: 23 de octubre de 2026.
 
 ## Objetivo
 
@@ -27,13 +27,13 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 | --- | ---: |
 | Jabones | 20 |
 | Kits | 10 |
-| Objetos | 5 |
+| Objetos | 6 |
 | Pirograbados | 15 |
 | San Valentín | 4 |
 | Tinturas | 17 |
 | Tiradas | 5 |
 | Trabajo de brujería | 7 |
-| Velas | 30 |
+| Velas | 29 |
 | **Total visible** | **113** |
 
 La revisión técnica confirma 448 referencias de imagen en la versión nueva y ninguna referencia ausente.
@@ -56,7 +56,9 @@ La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni pre
 
 La ficha “Trabajo de Amor Propio” aplica el mismo tratamiento: portada cuadrada sin texto ni precio incrustado basada en el corazón de cristal violeta de la campaña, precio “Desde 40 €” en HTML y descripción textual específica sobre autoestima, sanación emocional, energía e intención. La antigua lámina informativa permanece en archivos, pero ya no forma parte de la galería pública.
 
-La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 10 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. Las tiradas antiguas continúan disponibles como fichas independientes en su sección original.
+La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 5 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. Las tiradas antiguas continúan disponibles como fichas independientes en su sección original.
+
+La ficha “Lectura de Tarot” anticipa dos subproductos todavía pendientes de contenido: “Tirada sencilla” y “Tirada de cruz delta”. Por ahora se muestran como botones desactivados y sin enlaces debajo del estado de disponibilidad.
 
 ## Funcionalidad terminada
 
@@ -74,7 +76,7 @@ La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo
 - Selector claro/oscuro disponible en todas las páginas mediante una vela artesanal: apagada en modo claro y encendida en modo oscuro. Respeta el sistema y guarda la elección localmente.
 - La sección “Detrás de SH Esotéricos” presenta a Manu como emprendedor, artesano, brujo y devoto de la Santa Muerte, junto con su trabajo artesanal y las principales familias de productos.
 - La tarjeta final de contacto ofrece únicamente accesos mediante iconos a Instagram y WhatsApp; el correo permanece visible como dato, pero ya no aparece como botón hasta completar su configuración.
-- La sección “Colecciones temporales” se organiza en dos bloques compactos de tarjetas. “Colección de temporada” contiene San Valentín y Halloween —ambas activas y enlazadas— y reservas todavía vacías para Sant Jordi, Pascua y Navidad. Halloween reúne cinco velas: Colección Calabazas, Adorno de cráneo realista, Fantasmas mascota, Fantasmas pequeños y Fantasma con gorro de bruja. “Colección de festividades paganas” presenta Imbolc, Ostara, Beltane, Litha, Lughnasadh, Mabon, Samhain y Yule; actualmente solo Samhain está activa y enlazada.
+- La sección “Colecciones temporales” se organiza en dos bloques compactos de tarjetas. “Colección de temporada” contiene San Valentín, Halloween y Navidad —las tres activas y enlazadas— y reservas todavía vacías para Sant Jordi y Pascua. Halloween reúne cinco productos: cuatro velas —Colección Calabazas, Fantasmas mascota, Fantasmas pequeños y Fantasma con gorro de bruja— y el Adorno de cráneo realista, clasificado en Objetos. Navidad contiene únicamente Árboles de Navidad, Gnomos de Navidad y Velón azul de Navidad. “Colección de festividades paganas” presenta Imbolc, Ostara, Beltane, Litha, Lughnasadh, Mabon, Samhain y Yule; actualmente solo Samhain está activa y enlazada.
 - Las migas de pan y el enlace de retorno de las fichas conservan el contexto: regresan a la categoría filtrada, a la colección San Valentín o al apartado de servicios correspondiente según el producto.
 - La sección “Cómo comprar” cuenta con una secuencia ilustrada propia protagonizada por una misma brujita: vuela y explora el catálogo, consulta un libro, confirma mediante magia y recibe un paquete con el sello SH. Las cuatro escenas adaptables y la referencia reutilizable del personaje se conservan en `assets/images/como-comprar/`.
 - El fondo general y los bloques alternos incorporan una trama vectorial repetible de inspiración botánica y esotérica —ramas, luna creciente y destellos— almacenada en `assets/patterns/trama-esoterica.svg`. El mosaico es muy ligero, no requiere una imagen rasterizada y se mantiene discreto tanto en el modo claro como en el oscuro.

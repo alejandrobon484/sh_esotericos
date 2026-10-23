@@ -669,7 +669,11 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Trabajos personalizados",
     "state": "Consulta previa necesaria",
     "format": "Lectura realizada bajo consulta",
-    "price": "Desde 10 €",
+    "price": "Desde 5 €",
+    "futureOptions": [
+      "Tirada sencilla",
+      "Tirada de cruz delta"
+    ],
     "summary": "Lectura personalizada disponible bajo consulta previa.",
     "description": "Lectura personalizada sujeta a consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
     "images": [
@@ -689,7 +693,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Trabajos personalizados",
     "state": "Consulta previa necesaria",
     "format": "Lectura realizada bajo consulta",
-    "price": "Desde 10 €",
+    "price": "Desde 5 €",
     "summary": "Lectura personalizada disponible bajo consulta previa.",
     "description": "Lectura personalizada sujeta a consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
     "images": [
@@ -709,7 +713,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Trabajos personalizados",
     "state": "Consulta previa necesaria",
     "format": "Lectura realizada bajo consulta",
-    "price": "Desde 10 €",
+    "price": "Desde 5 €",
     "summary": "Lectura personalizada disponible bajo consulta previa.",
     "description": "Lectura personalizada sujeta a consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
     "images": [
@@ -898,8 +902,8 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "adorno-craneo-realista",
     "name": "Adorno de cráneo realista",
-    "category": "velas",
-    "categoryLabel": "Velas",
+    "category": "objetos",
+    "categoryLabel": "Objetos",
     "collection": "Halloween",
     "state": "Modelo único",
     "format": "Pieza decorativa",

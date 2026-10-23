@@ -14,6 +14,9 @@ if (!catalogItem) {
     if (product.collection === 'Halloween') {
       return 'index.html?coleccion=halloween#catalogo';
     }
+    if (product.collection === 'Navidad') {
+      return 'index.html?coleccion=navidad#catalogo';
+    }
     if (product.category === 'san-valentin') {
       return 'index.html?coleccion=san-valentin#catalogo';
     }
@@ -31,6 +34,19 @@ if (!catalogItem) {
   document.querySelector('#product-collection').textContent = catalogItem.collection;
   document.querySelector('#product-name').textContent = catalogItem.name;
   document.querySelector('#product-state').textContent = catalogItem.state;
+  const productOptions = document.querySelector('#product-options');
+  if (catalogItem.futureOptions?.length) {
+    catalogItem.futureOptions.forEach((option) => {
+      const button = document.createElement('button');
+      button.className = 'button secondary product-option';
+      button.type = 'button';
+      button.textContent = option;
+      button.disabled = true;
+      button.title = 'Próximamente';
+      productOptions.appendChild(button);
+    });
+    productOptions.hidden = false;
+  }
   document.querySelector('#product-description').textContent = catalogItem.description;
   document.querySelector('#product-category').textContent = catalogItem.categoryLabel;
   document.querySelector('#product-collection-data').textContent = catalogItem.collection;
