@@ -753,7 +753,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Aromaterapia",
     "state": "Seis variedades",
     "format": "Vela en vaso",
-    "description": "Colección de velas en vaso con variedades de vainilla, menta, flores rojas, lavanda, romero y eucalipto.",
+    "description": "Colección de velas en vaso con variedades de vainilla, menta, frutos rojos, lavanda, romero y eucalipto.",
     "images": [
       [
         "productos/velas/aromaterapia/aromaterapia-vela-vaso-vainilla-01.webp",
