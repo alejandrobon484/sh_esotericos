@@ -26,14 +26,14 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 | Sección | Productos |
 | --- | ---: |
 | Jabones | 20 |
-| Kits | 10 |
+| Kits | 8 |
 | Objetos | 6 |
 | Pirograbados | 15 |
 | San Valentín | 4 |
 | Tinturas | 17 |
 | Tiradas | 5 |
 | Trabajo de brujería | 7 |
-| Velas | 24 |
+| Velas | 26 |
 | **Total visible** | **108** |
 
 La revisión técnica confirma 448 referencias de imagen en la versión nueva y ninguna referencia ausente.
@@ -50,7 +50,7 @@ El 13 de octubre de 2026 se incorporó la primera tarifa facilitada por el clien
 
 Las variantes grandes de jabón mantienen la palabra “grande” en el título y muestran un sello circular rojo “GRANDE” superpuesto sobre la fotografía, tanto en las tarjetas del catálogo como en la ficha de detalle. Las variantes pequeñas de ruda y tomillo se presentan sin la palabra “chico”; sus correspondientes piezas cuadradas se identifican como grandes.
 
-“Vela negra del corazón protegido | EDICIÓN LIMITADA” —anteriormente “Corazón entre manos”— y “Vela Ver infidelidad” se trasladaron de la colección San Valentín a la categoría Kits, dentro de la subcategoría “Rituales”. Sus imágenes publicables se reorganizaron respectivamente en `productos/kits/kit-corazon-entre-manos/` y `productos/kits/kit-vela-infidelidad/`.
+“Vela negra del corazón protegido | EDICIÓN LIMITADA” —anteriormente “Corazón entre manos”— y “Vela Ver infidelidad” pertenecen ahora a la categoría Velas, dentro de la subcategoría “Rituales”. Sus imágenes publicables se conservan respectivamente en `productos/kits/kit-corazon-entre-manos/` y `productos/kits/kit-vela-infidelidad/`; las rutas no se modifican para evitar duplicar archivos.
 
 La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni precio incrustado, basada en el frasco, los cristales y el símbolo de corazón de la campaña de trabajos de brujería. La lámina informativa se conserva en archivos, pero se retiró de la galería pública; su contenido se trasladó a la descripción textual, la tarjeta utiliza un resumen breve independiente y el precio se presenta como “Desde 40 €” en HTML.
 

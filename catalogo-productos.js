@@ -1570,8 +1570,8 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "corazon-entre-manos",
     "name": "Vela negra del corazón protegido | EDICIÓN LIMITADA",
-    "category": "kits",
-    "categoryLabel": "Kits",
+    "category": "velas",
+    "categoryLabel": "Velas",
     "collection": "Rituales",
     "state": "Modelo único",
     "format": "Vela moldeada",
@@ -1677,8 +1677,8 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "vela-ver-infidelidad",
     "name": "Vela Ver infidelidad",
-    "category": "kits",
-    "categoryLabel": "Kits",
+    "category": "velas",
+    "categoryLabel": "Velas",
     "collection": "Rituales",
     "state": "Consultar disponibilidad",
     "format": "Vela ritual",
