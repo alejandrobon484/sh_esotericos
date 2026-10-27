@@ -1,6 +1,6 @@
 # Estado del proyecto SH Esotéricos
 
-Última actualización: 23 de octubre de 2026.
+Última actualización: 28 de octubre de 2026.
 
 ## Objetivo
 
@@ -42,7 +42,7 @@ El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas�
 
 El producto “Jabón ritualizado Purifica” se retiró del catálogo el 13 de octubre de 2026. Sus archivos de imagen se conservan para una posible recuperación futura.
 
-La categoría “Jabones” se divide en “Jabones naturales” y “Jabones ritualizados”. Actualmente contiene 14 jabones naturales —eucalipto, lavanda, menta, romero, ruda, tomillo, Alepo y caléndula, incluidas sus variantes de tamaño— y 6 jabones ritualizados. El jabón de lavanda grande se separó de la galería de lavanda estándar para disponer de una ficha propia.
+La categoría “Jabones” se divide en “Jabones naturales” y “Jabones ritualizados”. Actualmente contiene 14 jabones naturales —eucalipto, lavanda, menta, romero, ruda, tomillo, Alepo y caléndula, incluidas sus variantes de tamaño— y 6 jabones ritualizados. La ficha existente de eucalipto corresponde al formato grande, cuesta 8 € y muestra el sello “Grande”; la variante pequeña todavía no está disponible en el catálogo. El jabón de lavanda grande se separó de la galería de lavanda estándar para disponer de una ficha propia.
 
 La categoría “Tinturas” se divide en 6 tinturas naturales —eucalipto, hierbabuena, lavanda, menta piperita, romero y vainilla— y 11 tinturas ritualizadas —adivinación, amor, dinero, espiritualidad, felicidad, lujuria, paz, protección, purificación, salud y valor—.
 

@@ -3187,33 +3187,34 @@ window.CATALOGO_PRODUCTOS = [
   },
   {
     "id": "jabon-plantas-eucalipto",
-    "name": "Jabón con plantas de eucalipto",
+    "name": "Jabón con plantas de eucalipto grande",
     "category": "jabones",
     "categoryLabel": "Jabones",
     "collection": "Jabones naturales",
     "state": "Consultar disponibilidad",
-    "format": "Pastilla artesanal",
-    "price": "6 €",
-    "description": "Jabón artesanal elaborado con eucalipto. Consulta composición, peso y recomendaciones de uso.",
+    "format": "Pastilla grande",
+    "price": "8 €",
+    "badge": "Grande",
+    "description": "Jabón artesanal elaborado con eucalipto en formato grande. Consulta composición, peso y recomendaciones de uso.",
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-eucalipto-01.webp",
-        "Jabón con plantas de eucalipto, imagen 1",
+        "Jabón con plantas de eucalipto grande, imagen 1",
         "Fotografía del producto"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-eucalipto-01b.webp",
-        "Jabón con plantas de eucalipto, imagen 2",
+        "Jabón con plantas de eucalipto grande, imagen 2",
         "Presentación del producto · Imagen 2"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-eucalipto-01c.webp",
-        "Jabón con plantas de eucalipto, imagen 3",
+        "Jabón con plantas de eucalipto grande, imagen 3",
         "Presentación del producto · Imagen 3"
       ],
       [
         "productos/jabones/jabones-con-plantas/jab-plts-eucalipto-01d.webp",
-        "Jabón con plantas de eucalipto, imagen 4",
+        "Jabón con plantas de eucalipto grande, imagen 4",
         "Presentación del producto · Imagen 4"
       ]
     ],
