@@ -33,12 +33,12 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 | Tinturas | 17 |
 | Tiradas | 5 |
 | Trabajo de brujería | 7 |
-| Velas | 29 |
-| **Total visible** | **113** |
+| Velas | 24 |
+| **Total visible** | **108** |
 
 La revisión técnica confirma 448 referencias de imagen en la versión nueva y ninguna referencia ausente.
 
-El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas” y los tres productos de Réplicas están marcados como ocultos y no se muestran ni se contabilizan entre los 113 productos visibles; sus fichas e imágenes se mantienen para una futura reubicación. La tarjeta y el filtro de Réplicas también permanecen ocultos en la portada.
+El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas”, los tres productos de Réplicas y las cinco velas rituales Limpieza, Blanca, Lavanda, Ruda y Salud están marcados como ocultos y no se muestran ni se contabilizan entre los 108 productos visibles; sus fichas e imágenes se mantienen para una futura recuperación. La tarjeta y el filtro de Réplicas también permanecen ocultos en la portada.
 
 El producto “Jabón ritualizado Purifica” se retiró del catálogo el 13 de octubre de 2026. Sus archivos de imagen se conservan para una posible recuperación futura.
 
