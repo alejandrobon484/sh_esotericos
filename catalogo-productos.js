@@ -703,7 +703,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen de presentación"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=trabajo-lectura-oraculo"
+    "detailUrl": "index.html?servicio=tiradas#service-catalog"
   },
   {
     "id": "trabajo-lectura-runas",
@@ -2027,6 +2027,7 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "tiradas-tarot",
     "name": "Tiradas de Tarot",
+    "hidden": true,
     "category": "tiradas",
     "categoryLabel": "Tiradas",
     "collection": "Tarot",

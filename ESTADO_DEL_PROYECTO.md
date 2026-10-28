@@ -31,14 +31,14 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 | Pirograbados | 15 |
 | San Valentín | 4 |
 | Tinturas | 17 |
-| Tiradas | 5 |
+| Tiradas | 4 |
 | Trabajo de brujería | 7 |
 | Velas | 26 |
-| **Total visible** | **109** |
+| **Total visible** | **108** |
 
 La revisión técnica confirma 448 referencias de imagen en la versión nueva y ninguna referencia ausente.
 
-El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas”, Carteles Dados de Insidious, Vaso Dados de Insidious y las cinco velas rituales Limpieza, Blanca, Lavanda, Ruda y Salud están marcados como ocultos y no se muestran ni se contabilizan entre los 109 productos visibles; sus fichas e imágenes se mantienen para una futura recuperación. La antigua tarjeta y el filtro principal de Réplicas permanecen ocultos en la portada.
+El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas”, “Tiradas de Tarot”, Carteles Dados de Insidious, Vaso Dados de Insidious y las cinco velas rituales Limpieza, Blanca, Lavanda, Ruda y Salud están marcados como ocultos y no se muestran ni se contabilizan entre los 108 productos visibles; sus fichas e imágenes se mantienen para una futura recuperación. La antigua tarjeta y el filtro principal de Réplicas permanecen ocultos en la portada.
 
 “Dados de Insidious” se recuperó como producto visible dentro de Objetos, en la nueva subcategoría “Réplicas”. Sus imágenes continúan en `productos/replicas/dados-de-insidious/` para evitar mover o duplicar archivos publicables.
 
@@ -58,7 +58,7 @@ La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni pre
 
 La ficha “Trabajo de Amor Propio” aplica el mismo tratamiento: portada cuadrada sin texto ni precio incrustado basada en el corazón de cristal violeta de la campaña, precio “Desde 40 €” en HTML y descripción textual específica sobre autoestima, sanación emocional, energía e intención. La antigua lámina informativa permanece en archivos, pero ya no forma parte de la galería pública.
 
-La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 5 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. Las tiradas antiguas continúan disponibles como fichas independientes en su sección original.
+La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 5 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. “Lectura de Oráculo” conduce directamente a las cuatro tiradas de Oráculo de María Aranguren, Santa Muerte, Caseta de Jardín y Año del Jardín. La antigua ficha “Tiradas de Tarot” permanece oculta y conserva sus archivos a la espera de las nuevas imágenes.
 
 La ficha “Lectura de Tarot” anticipa dos subproductos todavía pendientes de contenido: “Tirada sencilla” y “Tirada de cruz delta”. Por ahora se muestran como botones desactivados y sin enlaces debajo del estado de disponibilidad.
 
