@@ -27,18 +27,20 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 | --- | ---: |
 | Jabones | 20 |
 | Kits | 8 |
-| Objetos | 6 |
+| Objetos | 7 |
 | Pirograbados | 15 |
 | San Valentín | 4 |
 | Tinturas | 17 |
 | Tiradas | 5 |
 | Trabajo de brujería | 7 |
 | Velas | 26 |
-| **Total visible** | **108** |
+| **Total visible** | **109** |
 
 La revisión técnica confirma 448 referencias de imagen en la versión nueva y ninguna referencia ausente.
 
-El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas”, los tres productos de Réplicas y las cinco velas rituales Limpieza, Blanca, Lavanda, Ruda y Salud están marcados como ocultos y no se muestran ni se contabilizan entre los 108 productos visibles; sus fichas e imágenes se mantienen para una futura recuperación. La tarjeta y el filtro de Réplicas también permanecen ocultos en la portada.
+El catálogo conserva 117 productos registrados. “Conjunto de runas nórdicas”, Carteles Dados de Insidious, Vaso Dados de Insidious y las cinco velas rituales Limpieza, Blanca, Lavanda, Ruda y Salud están marcados como ocultos y no se muestran ni se contabilizan entre los 109 productos visibles; sus fichas e imágenes se mantienen para una futura recuperación. La antigua tarjeta y el filtro principal de Réplicas permanecen ocultos en la portada.
+
+“Dados de Insidious” se recuperó como producto visible dentro de Objetos, en la nueva subcategoría “Réplicas”. Sus imágenes continúan en `productos/replicas/dados-de-insidious/` para evitar mover o duplicar archivos publicables.
 
 El producto “Jabón ritualizado Purifica” se retiró del catálogo el 13 de octubre de 2026. Sus archivos de imagen se conservan para una posible recuperación futura.
 

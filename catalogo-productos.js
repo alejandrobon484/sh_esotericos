@@ -1874,10 +1874,9 @@ window.CATALOGO_PRODUCTOS = [
   {
     "id": "dados-insidious",
     "name": "Dados de Insidious",
-    "hidden": true,
-    "category": "replicas",
-    "categoryLabel": "Réplicas",
-    "collection": "Colección Insidious",
+    "category": "objetos",
+    "categoryLabel": "Objetos",
+    "collection": "Réplicas",
     "state": "Dos modelos",
     "format": "Réplicas decorativas",
     "description": "Pareja de dados inspirados en Insidious, mostrados en fotografías de producto y composiciones ambientadas.",
