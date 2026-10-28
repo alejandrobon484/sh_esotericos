@@ -670,10 +670,6 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consulta previa necesaria",
     "format": "Lectura realizada bajo consulta",
     "price": "Desde 5 €",
-    "futureOptions": [
-      "Tirada sencilla",
-      "Tirada de cruz delta"
-    ],
     "summary": "Lectura personalizada disponible bajo consulta previa.",
     "description": "Lectura personalizada sujeta a consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
     "images": [
@@ -683,7 +679,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen de presentación"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=trabajo-lectura-tarot"
+    "detailUrl": "index.html?servicio=tiradas&coleccion=tarot#service-catalog"
   },
   {
     "id": "trabajo-lectura-oraculo",
@@ -703,7 +699,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen de presentación"
       ]
     ],
-    "detailUrl": "index.html?servicio=tiradas#service-catalog"
+    "detailUrl": "index.html?servicio=tiradas&coleccion=oraculo#service-catalog"
   },
   {
     "id": "trabajo-lectura-runas",
@@ -2023,6 +2019,44 @@ window.CATALOGO_PRODUCTOS = [
       ]
     ],
     "detailUrl": "producto-catalogo.html?id=oraculo-bruja-verde-ano"
+  },
+  {
+    "id": "tarot-tirada-sencilla",
+    "name": "Tirada sencilla de Tarot",
+    "category": "tiradas",
+    "categoryLabel": "Tiradas",
+    "collection": "Tarot",
+    "state": "Consulta previa necesaria",
+    "format": "Tirada sencilla",
+    "price": "Desde 5 €",
+    "description": "Lectura sencilla de Tarot disponible bajo consulta previa. Contacta con Manu para conocer disponibilidad, condiciones y plantear tu consulta.",
+    "images": [
+      [
+        "productos/tirada/tarot/tarot-tirada-sencilla.webp",
+        "Presentación esotérica de una tirada sencilla de Tarot",
+        "Tirada sencilla"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=tarot-tirada-sencilla"
+  },
+  {
+    "id": "tarot-tirada-cruz-celta",
+    "name": "Tirada de Cruz Celta",
+    "category": "tiradas",
+    "categoryLabel": "Tiradas",
+    "collection": "Tarot",
+    "state": "Consulta previa necesaria",
+    "format": "Tirada de Cruz Celta",
+    "price": "Desde 5 €",
+    "description": "Lectura de Tarot mediante la disposición de Cruz Celta, disponible bajo consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/tirada/tarot/tarot-tirada-cruz-celta.webp",
+        "Presentación esotérica de una tirada de Tarot en Cruz Celta",
+        "Tirada de Cruz Celta"
+      ]
+    ],
+    "detailUrl": "producto-catalogo.html?id=tarot-tirada-cruz-celta"
   },
   {
     "id": "tiradas-tarot",

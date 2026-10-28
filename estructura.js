@@ -69,7 +69,8 @@ function matchesSearch(card) {
 function collectionNames() {
   return [...new Set([
     ...Object.values(categorySubcategories).flat(),
-    ...products.map((product) => product.dataset.collection).filter(Boolean)
+    ...products.map((product) => product.dataset.collection).filter(Boolean),
+    ...services.map((service) => service.dataset.collection).filter(Boolean)
   ])];
 }
 
@@ -170,15 +171,17 @@ function applyProductFilters() {
 function applyServiceFilters() {
   const matches = services.filter((service) => {
     const categoryMatch = activeService === 'all' || service.dataset.category === activeService;
-    return categoryMatch && matchesSearch(service);
+    const collectionMatch = activeService === 'all' || !activeCollection || service.dataset.collection === activeCollection;
+    return categoryMatch && collectionMatch && matchesSearch(service);
   });
   const visible = new Set(matches);
   services.forEach((service) => { service.hidden = !visible.has(service); });
   const label = activeService === 'all'
     ? 'todas las consultas'
     : serviceFilterButtons.find((button) => button.dataset.serviceFilter === activeService)?.dataset.label || activeService;
+  const collectionLabel = activeService !== 'all' && activeCollection ? ` · ${activeCollection}` : '';
   const searchLabel = searchTerm ? ` para “${searchTerm}”` : '';
-  serviceStatus.textContent = `${matches.length} ${matches.length === 1 ? 'resultado' : 'resultados'} en ${label}${searchLabel}`;
+  serviceStatus.textContent = `${matches.length} ${matches.length === 1 ? 'resultado' : 'resultados'} en ${label}${collectionLabel}${searchLabel}`;
   serviceEmptyState.hidden = matches.length !== 0;
   return matches.length;
 }
@@ -217,6 +220,7 @@ function selectGlobalCollection(collection) {
 
 function selectService(category) {
   activeService = serviceFilterButtons.some((button) => button.dataset.serviceFilter === category) ? category : 'all';
+  activeCollection = '';
   serviceFilterButtons.forEach((button) => {
     const isActive = button.dataset.serviceFilter === activeService;
     button.classList.toggle('active', isActive);
