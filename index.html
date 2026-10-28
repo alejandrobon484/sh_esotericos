@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/branding/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <script src="tema.js"></script>
-  <link rel="stylesheet" href="estructura.css?v=20261021-2">
+  <link rel="stylesheet" href="estructura.css?v=20261028-2">
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -58,7 +58,7 @@
         <a href="#inicio">Inicio</a>
         <a href="#categorias">Catálogo</a>
         <a href="#colecciones">Colecciones</a>
-        <a href="#servicios">Servicios</a>
+        <a href="#consultas">Consultas</a>
         <a href="#destacados">Destacados</a>
         <a href="#nosotros">Sobre SH</a>
       </div>
@@ -90,7 +90,7 @@
           </p>
           <div class="actions">
             <a class="button primary" href="#categorias">Explorar productos</a>
-            <a class="button secondary" href="#servicios">Ver servicios</a>
+            <a class="button secondary" href="#consultas">Ver consultas</a>
           </div>
         </div>
         <picture class="hero-visual">
@@ -328,44 +328,19 @@
       </div>
     </section>
 
-    <section class="section services-section" id="servicios">
+    <section class="section services-section" id="consultas">
       <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Atención personalizada</p>
-            <h2>Servicios</h2>
-          </div>
-          <p>Los servicios tienen una ficha diferente a los productos físicos.</p>
-        </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="service-number" aria-hidden="true">01</span>
-            <div>
-              <h3>Tiradas</h3>
-              <p>Tarot, oráculo, runas u otras modalidades. La ficha podrá explicar duración, formato y forma de consulta.</p>
-            </div>
-            <a class="button secondary" href="#service-catalog" data-service-link="tiradas">Ver tiradas</a>
-          </article>
-          <article class="service-card">
-            <span class="service-number" aria-hidden="true">02</span>
-            <div>
-              <h3>Trabajos de brujería</h3>
-              <p>Presentación de los trabajos disponibles, proceso de consulta y condiciones del servicio.</p>
-            </div>
-            <a class="button secondary" href="#service-catalog" data-service-link="trabajos">Ver trabajos</a>
-          </article>
-        </div>
-        <div class="service-catalog" id="service-catalog">
+        <div class="service-catalog service-catalog--standalone" id="service-catalog">
           <div class="section-heading service-catalog-heading">
-            <div><p class="eyebrow">Consultas disponibles</p><h3>Explorar servicios</h3><p id="service-status" aria-live="polite"></p></div>
+            <div><p class="eyebrow">Consultas disponibles</p><h3>Lecturas y trabajos</h3><p id="service-status" aria-live="polite"></p></div>
           </div>
-          <div class="filter-row" aria-label="Filtrar servicios">
+          <div class="filter-row" aria-label="Filtrar lecturas y trabajos">
             <button class="filter active" type="button" data-service-filter="all" data-label="Todo" aria-pressed="true">Todo</button>
             <button class="filter" type="button" data-service-filter="tiradas" data-label="Tiradas" aria-pressed="false">Tiradas</button>
             <button class="filter" type="button" data-service-filter="trabajos" data-label="Trabajos" aria-pressed="false">Trabajos</button>
           </div>
           <div class="product-grid" id="service-product-grid"></div>
-          <p class="empty-state" id="service-empty-state" hidden>No hay servicios que coincidan con la búsqueda.</p>
+          <p class="empty-state" id="service-empty-state" hidden>No hay consultas que coincidan con la búsqueda.</p>
         </div>
       </div>
     </section>
@@ -472,7 +447,7 @@
       </div>
       <nav aria-label="Enlaces del pie">
         <a href="#categorias">Productos</a>
-        <a href="#servicios">Servicios</a>
+        <a href="#consultas">Consultas</a>
         <a href="#como-comprar">Cómo comprar</a>
         <a href="#contacto">Contacto</a>
       </nav>
@@ -483,6 +458,6 @@
   <script src="contacto.js"></script>
   <script src="catalogo-productos.js?v=20261028-6"></script>
   <script src="catalogo-render.js?v=20261021-1"></script>
-  <script src="estructura.js?v=bd56f80"></script>
+  <script src="estructura.js?v=20261028-1"></script>
 </body>
 </html>

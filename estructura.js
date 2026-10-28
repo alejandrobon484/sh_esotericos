@@ -175,7 +175,7 @@ function applyServiceFilters() {
   const visible = new Set(matches);
   services.forEach((service) => { service.hidden = !visible.has(service); });
   const label = activeService === 'all'
-    ? 'todos los servicios'
+    ? 'todas las consultas'
     : serviceFilterButtons.find((button) => button.dataset.serviceFilter === activeService)?.dataset.label || activeService;
   const searchLabel = searchTerm ? ` para “${searchTerm}”` : '';
   serviceStatus.textContent = `${matches.length} ${matches.length === 1 ? 'resultado' : 'resultados'} en ${label}${searchLabel}`;
