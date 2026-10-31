@@ -11,7 +11,11 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Disponible en conjunto o por separado",
     "format": "Tres piezas circulares",
     "description": "Tres diseños artesanales en madera, disponibles juntos o por separado.",
-    "detailUrl": "producto-lobos.html",
+    "points": [
+      "Diseños artesanales y detallados: lobo de frente, lobo aullando y lobo de perfil.",
+      "Venta del conjunto completo o de piezas individuales.",
+      "Propuesta para decoración, colección o regalo."
+    ],
     "images": [
       [
         "productos/pirograbados/lobo-01.webp",
@@ -33,7 +37,8 @@ window.CATALOGO_PRODUCTOS = [
         "Representación ambientada de los tres pirograbados de lobos",
         "Imagen ambientada"
       ]
-    ]
+    ],
+    "detailUrl": "producto/coleccion-lobos/"
   },
   {
     "id": "coleccion-fenix",
@@ -44,7 +49,11 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Tres modelos disponibles",
     "format": "Tres piezas circulares",
     "description": "Tres modelos artesanales en distintas posturas sobre piezas circulares de madera.",
-    "detailUrl": "producto-fenix.html",
+    "points": [
+      "Alas abiertas: figura frontal con las alas elevadas.",
+      "Fénix simétrico: composición centrada con las alas extendidas.",
+      "Vuelo sobre montañas: figura de perfil integrada en un paisaje."
+    ],
     "images": [
       [
         "productos/pirograbados/fenix-01.webp",
@@ -76,7 +85,8 @@ window.CATALOGO_PRODUCTOS = [
         "Representación ambientada del fénix sobre montañas",
         "Vuelo sobre montañas · Imagen ambientada"
       ]
-    ]
+    ],
+    "detailUrl": "producto/coleccion-fenix/"
   },
   {
     "id": "brujula-nordica",
@@ -114,7 +124,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=brujula-nordica"
+    "detailUrl": "producto/brujula-nordica/"
   },
   {
     "id": "colibri",
@@ -142,7 +152,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=colibri"
+    "detailUrl": "producto/colibri/"
   },
   {
     "id": "runas-nordicas",
@@ -241,7 +251,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=runas-nordicas"
+    "detailUrl": "producto/runas-nordicas/"
   },
   {
     "id": "cruz-celta",
@@ -269,7 +279,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=cruz-celta"
+    "detailUrl": "producto/cruz-celta/"
   },
   {
     "id": "cruz-lazos",
@@ -297,7 +307,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=cruz-lazos"
+    "detailUrl": "producto/cruz-lazos/"
   },
   {
     "id": "cuervo",
@@ -325,7 +335,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=cuervo"
+    "detailUrl": "producto/cuervo/"
   },
   {
     "id": "dibujo-esoterico",
@@ -353,7 +363,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=dibujo-esoterico"
+    "detailUrl": "producto/dibujo-esoterico/"
   },
   {
     "id": "nudo-celta",
@@ -381,7 +391,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=nudo-celta"
+    "detailUrl": "producto/nudo-celta/"
   },
   {
     "id": "nudo-celta-corazon",
@@ -409,7 +419,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=nudo-celta-corazon"
+    "detailUrl": "producto/nudo-celta-corazon/"
   },
   {
     "id": "valknut",
@@ -437,7 +447,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=valknut"
+    "detailUrl": "producto/valknut/"
   },
   {
     "id": "coleccion-arboles",
@@ -485,7 +495,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=coleccion-arboles"
+    "detailUrl": "producto/coleccion-arboles/"
   },
   {
     "id": "arbol-vida",
@@ -513,7 +523,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=arbol-vida"
+    "detailUrl": "producto/arbol-vida/"
   },
   {
     "id": "mitsudomoe",
@@ -541,7 +551,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=mitsudomoe"
+    "detailUrl": "producto/mitsudomoe/"
   },
   {
     "id": "trisqueta",
@@ -569,7 +579,7 @@ window.CATALOGO_PRODUCTOS = [
     "category": "pictografia",
     "categoryLabel": "Pirograbados",
     "collection": "Pirograbados",
-    "detailUrl": "producto-pirograbado.html?id=trisqueta"
+    "detailUrl": "producto/trisqueta/"
   },
   {
     "id": "endulzamiento",
@@ -604,7 +614,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=endulzamiento"
+    "detailUrl": "producto/endulzamiento/"
   },
   {
     "id": "amor-propio",
@@ -639,7 +649,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=amor-propio"
+    "detailUrl": "producto/amor-propio/"
   },
   {
     "id": "trabajo-volteo",
@@ -659,7 +669,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen de presentación"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=trabajo-volteo"
+    "detailUrl": "producto/trabajo-volteo/"
   },
   {
     "id": "trabajo-lectura-tarot",
@@ -719,7 +729,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen de presentación"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=trabajo-lectura-runas"
+    "detailUrl": "producto/trabajo-lectura-runas/"
   },
   {
     "id": "trabajo-abre-caminos",
@@ -739,7 +749,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen de presentación"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=trabajo-abre-caminos"
+    "detailUrl": "producto/trabajo-abre-caminos/"
   },
   {
     "id": "velas-aromaterapia-vaso",
@@ -812,7 +822,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=velas-aromaterapia-vaso"
+    "detailUrl": "producto/velas-aromaterapia-vaso/"
   },
   {
     "id": "vela-forma-lavanda",
@@ -845,7 +855,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-forma-lavanda"
+    "detailUrl": "producto/vela-forma-lavanda/"
   },
   {
     "id": "velas-calabaza",
@@ -893,7 +903,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=velas-calabaza"
+    "detailUrl": "producto/velas-calabaza/"
   },
   {
     "id": "adorno-craneo-realista",
@@ -921,7 +931,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=adorno-craneo-realista"
+    "detailUrl": "producto/adorno-craneo-realista/"
   },
   {
     "id": "velas-fantasmas-mascotas",
@@ -969,7 +979,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=velas-fantasmas-mascotas"
+    "detailUrl": "producto/velas-fantasmas-mascotas/"
   },
   {
     "id": "fantasmas-pequenos",
@@ -1002,7 +1012,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=fantasmas-pequenos"
+    "detailUrl": "producto/fantasmas-pequenos/"
   },
   {
     "id": "fantasma-gorro-bruja",
@@ -1040,7 +1050,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=fantasma-gorro-bruja"
+    "detailUrl": "producto/fantasma-gorro-bruja/"
   },
   {
     "id": "arboles-navidad",
@@ -1098,7 +1108,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=arboles-navidad"
+    "detailUrl": "producto/arboles-navidad/"
   },
   {
     "id": "gnomos-navidad",
@@ -1151,7 +1161,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=gnomos-navidad"
+    "detailUrl": "producto/gnomos-navidad/"
   },
   {
     "id": "velon-azul-navidad",
@@ -1179,7 +1189,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=velon-azul-navidad"
+    "detailUrl": "producto/velon-azul-navidad/"
   },
   {
     "id": "buhos-rituales",
@@ -1253,7 +1263,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=buhos-rituales"
+    "detailUrl": "producto/buhos-rituales/"
   },
   {
     "id": "vela-chisme",
@@ -1291,7 +1301,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-chisme"
+    "detailUrl": "producto/vela-chisme/"
   },
   {
     "id": "vela-gente-toxica",
@@ -1329,7 +1339,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-gente-toxica"
+    "detailUrl": "producto/vela-gente-toxica/"
   },
   {
     "id": "velas-llave",
@@ -1383,7 +1393,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=velas-llave"
+    "detailUrl": "producto/velas-llave/"
   },
   {
     "id": "vela-limpieza",
@@ -1407,7 +1417,7 @@ window.CATALOGO_PRODUCTOS = [
         "Fotografía del producto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-limpieza"
+    "detailUrl": "producto/vela-limpieza/"
   },
   {
     "id": "vela-ritual-blanca",
@@ -1426,7 +1436,7 @@ window.CATALOGO_PRODUCTOS = [
         "Fotografía del producto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-ritual-blanca"
+    "detailUrl": "producto/vela-ritual-blanca/"
   },
   {
     "id": "vela-ritual-lavanda",
@@ -1445,7 +1455,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-ritual-lavanda"
+    "detailUrl": "producto/vela-ritual-lavanda/"
   },
   {
     "id": "vela-luna",
@@ -1479,7 +1489,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-luna"
+    "detailUrl": "producto/vela-luna/"
   },
   {
     "id": "vela-ruda",
@@ -1503,7 +1513,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-ruda"
+    "detailUrl": "producto/vela-ruda/"
   },
   {
     "id": "vela-salud",
@@ -1527,7 +1537,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-salud"
+    "detailUrl": "producto/vela-salud/"
   },
   {
     "id": "vela-sol",
@@ -1561,7 +1571,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-sol"
+    "detailUrl": "producto/vela-sol/"
   },
   {
     "id": "corazon-entre-manos",
@@ -1589,7 +1599,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=corazon-entre-manos"
+    "detailUrl": "producto/corazon-entre-manos/"
   },
   {
     "id": "cubo-corazones",
@@ -1622,7 +1632,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=cubo-corazones"
+    "detailUrl": "producto/cubo-corazones/"
   },
   {
     "id": "vela-pareja",
@@ -1645,7 +1655,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-pareja"
+    "detailUrl": "producto/vela-pareja/"
   },
   {
     "id": "pareja-entre-alas",
@@ -1668,7 +1678,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=pareja-entre-alas"
+    "detailUrl": "producto/pareja-entre-alas/"
   },
   {
     "id": "vela-ver-infidelidad",
@@ -1696,7 +1706,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vela-ver-infidelidad"
+    "detailUrl": "producto/vela-ver-infidelidad/"
   },
   {
     "id": "calavera-amor",
@@ -1725,7 +1735,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=calavera-amor"
+    "detailUrl": "producto/calavera-amor/"
   },
   {
     "id": "calavera-blanca",
@@ -1754,7 +1764,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=calavera-blanca"
+    "detailUrl": "producto/calavera-blanca/"
   },
   {
     "id": "calavera-dinero",
@@ -1778,7 +1788,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=calavera-dinero"
+    "detailUrl": "producto/calavera-dinero/"
   },
   {
     "id": "calavera-negra",
@@ -1802,7 +1812,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=calavera-negra"
+    "detailUrl": "producto/calavera-negra/"
   },
   {
     "id": "calavera-abrir-intuicion",
@@ -1841,7 +1851,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=calavera-abrir-intuicion"
+    "detailUrl": "producto/calavera-abrir-intuicion/"
   },
   {
     "id": "calavera-salud",
@@ -1865,7 +1875,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=calavera-salud"
+    "detailUrl": "producto/calavera-salud/"
   },
   {
     "id": "dados-insidious",
@@ -1898,7 +1908,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=dados-insidious"
+    "detailUrl": "producto/dados-insidious/"
   },
   {
     "id": "carteles-dados-insidious",
@@ -1922,7 +1932,7 @@ window.CATALOGO_PRODUCTOS = [
         "Diseño 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=carteles-dados-insidious"
+    "detailUrl": "producto/carteles-dados-insidious/"
   },
   {
     "id": "vaso-dados-insidious",
@@ -1946,7 +1956,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=vaso-dados-insidious"
+    "detailUrl": "producto/vaso-dados-insidious/"
   },
   {
     "id": "oraculo-maria-aranguren",
@@ -1964,7 +1974,7 @@ window.CATALOGO_PRODUCTOS = [
         "Tirada de Oráculo 1"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=oraculo-maria-aranguren"
+    "detailUrl": "producto/oraculo-maria-aranguren/"
   },
   {
     "id": "oraculo-santa-muerte",
@@ -1982,7 +1992,7 @@ window.CATALOGO_PRODUCTOS = [
         "Tirada de Oráculo 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=oraculo-santa-muerte"
+    "detailUrl": "producto/oraculo-santa-muerte/"
   },
   {
     "id": "oraculo-bruja-verde-caseta",
@@ -2000,7 +2010,7 @@ window.CATALOGO_PRODUCTOS = [
         "Tirada de Oráculo 3"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=oraculo-bruja-verde-caseta"
+    "detailUrl": "producto/oraculo-bruja-verde-caseta/"
   },
   {
     "id": "oraculo-bruja-verde-ano",
@@ -2018,7 +2028,7 @@ window.CATALOGO_PRODUCTOS = [
         "Tirada de Oráculo 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=oraculo-bruja-verde-ano"
+    "detailUrl": "producto/oraculo-bruja-verde-ano/"
   },
   {
     "id": "tarot-tirada-sencilla",
@@ -2037,7 +2047,7 @@ window.CATALOGO_PRODUCTOS = [
         "Tirada sencilla"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tarot-tirada-sencilla"
+    "detailUrl": "producto/tarot-tirada-sencilla/"
   },
   {
     "id": "tarot-tirada-cruz-celta",
@@ -2056,7 +2066,7 @@ window.CATALOGO_PRODUCTOS = [
         "Tirada de Cruz Celta"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tarot-tirada-cruz-celta"
+    "detailUrl": "producto/tarot-tirada-cruz-celta/"
   },
   {
     "id": "tiradas-tarot",
@@ -2115,7 +2125,7 @@ window.CATALOGO_PRODUCTOS = [
         "7 · Salud"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tiradas-tarot"
+    "detailUrl": "producto/tiradas-tarot/"
   },
   {
     "id": "balsamo-limon",
@@ -2149,7 +2159,7 @@ window.CATALOGO_PRODUCTOS = [
         "Información del producto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=balsamo-limon"
+    "detailUrl": "producto/balsamo-limon/"
   },
   {
     "id": "balsamo-menta",
@@ -2183,7 +2193,7 @@ window.CATALOGO_PRODUCTOS = [
         "Información del producto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=balsamo-menta"
+    "detailUrl": "producto/balsamo-menta/"
   },
   {
     "id": "balsamo-romero",
@@ -2217,7 +2227,7 @@ window.CATALOGO_PRODUCTOS = [
         "Información del producto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=balsamo-romero"
+    "detailUrl": "producto/balsamo-romero/"
   },
   {
     "id": "balsamo-tomillo",
@@ -2251,7 +2261,7 @@ window.CATALOGO_PRODUCTOS = [
         "Información del producto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=balsamo-tomillo"
+    "detailUrl": "producto/balsamo-tomillo/"
   },
   {
     "id": "pulseras-siete-nudos",
@@ -2445,7 +2455,7 @@ window.CATALOGO_PRODUCTOS = [
         "verde · Información de la pulsera"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=pulseras-siete-nudos"
+    "detailUrl": "producto/pulseras-siete-nudos/"
   },
   {
     "id": "tintura-adivinacion",
@@ -2468,7 +2478,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-adivinacion"
+    "detailUrl": "producto/tintura-adivinacion/"
   },
   {
     "id": "tintura-amor",
@@ -2492,7 +2502,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-amor"
+    "detailUrl": "producto/tintura-amor/"
   },
   {
     "id": "tintura-dinero",
@@ -2516,7 +2526,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-dinero"
+    "detailUrl": "producto/tintura-dinero/"
   },
   {
     "id": "tintura-espiritualidad",
@@ -2539,7 +2549,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-espiritualidad"
+    "detailUrl": "producto/tintura-espiritualidad/"
   },
   {
     "id": "tintura-eucalipto",
@@ -2568,7 +2578,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 3"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-eucalipto"
+    "detailUrl": "producto/tintura-eucalipto/"
   },
   {
     "id": "tintura-felicidad",
@@ -2591,7 +2601,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-felicidad"
+    "detailUrl": "producto/tintura-felicidad/"
   },
   {
     "id": "tintura-hierbabuena",
@@ -2614,7 +2624,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-hierbabuena"
+    "detailUrl": "producto/tintura-hierbabuena/"
   },
   {
     "id": "tintura-lavanda",
@@ -2638,7 +2648,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-lavanda"
+    "detailUrl": "producto/tintura-lavanda/"
   },
   {
     "id": "tintura-lujuria",
@@ -2661,7 +2671,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-lujuria"
+    "detailUrl": "producto/tintura-lujuria/"
   },
   {
     "id": "tintura-menta-piperita",
@@ -2685,7 +2695,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-menta-piperita"
+    "detailUrl": "producto/tintura-menta-piperita/"
   },
   {
     "id": "tintura-paz",
@@ -2708,7 +2718,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-paz"
+    "detailUrl": "producto/tintura-paz/"
   },
   {
     "id": "tintura-proteccion",
@@ -2732,7 +2742,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-proteccion"
+    "detailUrl": "producto/tintura-proteccion/"
   },
   {
     "id": "tintura-purificacion",
@@ -2755,7 +2765,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-purificacion"
+    "detailUrl": "producto/tintura-purificacion/"
   },
   {
     "id": "tintura-romero",
@@ -2784,7 +2794,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 3"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-romero"
+    "detailUrl": "producto/tintura-romero/"
   },
   {
     "id": "tintura-salud",
@@ -2808,7 +2818,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-salud"
+    "detailUrl": "producto/tintura-salud/"
   },
   {
     "id": "tintura-vainilla",
@@ -2831,7 +2841,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-vainilla"
+    "detailUrl": "producto/tintura-vainilla/"
   },
   {
     "id": "tintura-valor",
@@ -2854,7 +2864,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=tintura-valor"
+    "detailUrl": "producto/tintura-valor/"
   },
   {
     "id": "kit-jabon-balsamo-menta",
@@ -2873,7 +2883,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del conjunto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-jabon-balsamo-menta"
+    "detailUrl": "producto/kit-jabon-balsamo-menta/"
   },
   {
     "id": "kit-jabon-balsamo-romero",
@@ -2892,7 +2902,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del conjunto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-jabon-balsamo-romero"
+    "detailUrl": "producto/kit-jabon-balsamo-romero/"
   },
   {
     "id": "kit-jabon-balsamo-tomillo",
@@ -2911,7 +2921,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del conjunto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-jabon-balsamo-tomillo"
+    "detailUrl": "producto/kit-jabon-balsamo-tomillo/"
   },
   {
     "id": "kit-noche-san-juan-1",
@@ -2949,7 +2959,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación promocional"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-noche-san-juan-1"
+    "detailUrl": "producto/kit-noche-san-juan-1/"
   },
   {
     "id": "kit-noche-san-juan-2",
@@ -2987,7 +2997,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación promocional · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-noche-san-juan-2"
+    "detailUrl": "producto/kit-noche-san-juan-2/"
   },
   {
     "id": "kit-limpieza-energetica",
@@ -3040,7 +3050,7 @@ window.CATALOGO_PRODUCTOS = [
         "Información del producto"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-limpieza-energetica"
+    "detailUrl": "producto/kit-limpieza-energetica/"
   },
   {
     "id": "kit-velas-suerte",
@@ -3103,7 +3113,7 @@ window.CATALOGO_PRODUCTOS = [
         "Imagen ambientada · Representación visual 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-velas-suerte"
+    "detailUrl": "producto/kit-velas-suerte/"
   },
   {
     "id": "kit-samhain",
@@ -3146,7 +3156,7 @@ window.CATALOGO_PRODUCTOS = [
         "Detalle del velón"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=kit-samhain"
+    "detailUrl": "producto/kit-samhain/"
   },
   {
     "id": "san-valentin-set-amor",
@@ -3165,7 +3175,7 @@ window.CATALOGO_PRODUCTOS = [
         "Contenido y precio del set"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=san-valentin-set-amor"
+    "detailUrl": "producto/san-valentin-set-amor/"
   },
   {
     "id": "san-valentin-set-amor-duo",
@@ -3184,7 +3194,7 @@ window.CATALOGO_PRODUCTOS = [
         "Contenido y precio del set para dos"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=san-valentin-set-amor-duo"
+    "detailUrl": "producto/san-valentin-set-amor-duo/"
   },
   {
     "id": "san-valentin-set-lujuria",
@@ -3203,7 +3213,7 @@ window.CATALOGO_PRODUCTOS = [
         "Contenido y precio del set"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=san-valentin-set-lujuria"
+    "detailUrl": "producto/san-valentin-set-lujuria/"
   },
   {
     "id": "san-valentin-set-lujuria-duo",
@@ -3222,7 +3232,7 @@ window.CATALOGO_PRODUCTOS = [
         "Contenido y precio del set para dos"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=san-valentin-set-lujuria-duo"
+    "detailUrl": "producto/san-valentin-set-lujuria-duo/"
   },
   {
     "id": "jabon-plantas-eucalipto",
@@ -3257,7 +3267,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-eucalipto"
+    "detailUrl": "producto/jabon-plantas-eucalipto/"
   },
   {
     "id": "jabon-plantas-lavanda",
@@ -3286,7 +3296,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 3"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-lavanda"
+    "detailUrl": "producto/jabon-plantas-lavanda/"
   },
   {
     "id": "jabon-plantas-lavanda-grande",
@@ -3321,7 +3331,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-lavanda-grande"
+    "detailUrl": "producto/jabon-plantas-lavanda-grande/"
   },
   {
     "id": "jabon-plantas-menta",
@@ -3380,7 +3390,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 9"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-menta"
+    "detailUrl": "producto/jabon-plantas-menta/"
   },
   {
     "id": "jabon-plantas-romero",
@@ -3414,7 +3424,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-romero"
+    "detailUrl": "producto/jabon-plantas-romero/"
   },
   {
     "id": "jabon-plantas-romero-grande",
@@ -3444,7 +3454,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 3"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-romero-grande"
+    "detailUrl": "producto/jabon-plantas-romero-grande/"
   },
   {
     "id": "jabon-plantas-ruda",
@@ -3484,7 +3494,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 5"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-ruda"
+    "detailUrl": "producto/jabon-plantas-ruda/"
   },
   {
     "id": "jabon-plantas-ruda-chico",
@@ -3508,7 +3518,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-ruda-chico"
+    "detailUrl": "producto/jabon-plantas-ruda-chico/"
   },
   {
     "id": "jabon-plantas-tomillo",
@@ -3538,7 +3548,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 3"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-tomillo"
+    "detailUrl": "producto/jabon-plantas-tomillo/"
   },
   {
     "id": "jabon-plantas-tomillo-chico",
@@ -3562,7 +3572,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 2"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-plantas-tomillo-chico"
+    "detailUrl": "producto/jabon-plantas-tomillo-chico/"
   },
   {
     "id": "jabon-alepo",
@@ -3606,7 +3616,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 6"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-alepo"
+    "detailUrl": "producto/jabon-alepo/"
   },
   {
     "id": "jabon-alepo-grande",
@@ -3646,7 +3656,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 5"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-alepo-grande"
+    "detailUrl": "producto/jabon-alepo-grande/"
   },
   {
     "id": "jabon-calendula",
@@ -3680,7 +3690,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-calendula"
+    "detailUrl": "producto/jabon-calendula/"
   },
   {
     "id": "jabon-calendula-grande",
@@ -3725,7 +3735,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 6"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-calendula-grande"
+    "detailUrl": "producto/jabon-calendula-grande/"
   },
   {
     "id": "jabon-ritualizado-amor",
@@ -3759,7 +3769,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-amor"
+    "detailUrl": "producto/jabon-ritualizado-amor/"
   },
   {
     "id": "jabon-ritualizado-bruja",
@@ -3803,7 +3813,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 6"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-bruja"
+    "detailUrl": "producto/jabon-ritualizado-bruja/"
   },
   {
     "id": "jabon-ritualizado-suerte",
@@ -3832,7 +3842,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 3"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-suerte"
+    "detailUrl": "producto/jabon-ritualizado-suerte/"
   },
   {
     "id": "jabon-ritualizado-dinero",
@@ -3866,7 +3876,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 4"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-dinero"
+    "detailUrl": "producto/jabon-ritualizado-dinero/"
   },
   {
     "id": "jabon-ritualizado-protege",
@@ -3905,7 +3915,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 5"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-protege"
+    "detailUrl": "producto/jabon-ritualizado-protege/"
   },
   {
     "id": "jabon-ritualizado-psiquico",
@@ -3949,10 +3959,7 @@ window.CATALOGO_PRODUCTOS = [
         "Presentación del producto · Imagen 6"
       ]
     ],
-    "detailUrl": "producto-catalogo.html?id=jabon-ritualizado-psiquico"
+    "detailUrl": "producto/jabon-ritualizado-psiquico/"
   }
 ];
 
-// Alias temporales para las páginas de detalle existentes.
-window.CATALOGO_ADICIONAL = window.CATALOGO_PRODUCTOS;
-window.PIROGRABADOS_CATALOGO = window.CATALOGO_PRODUCTOS.filter((product) => product.category === 'pictografia' && product.detailUrl.startsWith('producto-pirograbado.html'));

@@ -231,8 +231,16 @@ function selectService(category) {
 }
 
 filterButtons.forEach((button) => button.addEventListener('click', () => selectCategory(button.dataset.filter)));
-categoryLinks.forEach((link) => link.addEventListener('click', () => selectCategory(link.dataset.categoryLink)));
-collectionLinks.forEach((link) => link.addEventListener('click', () => selectGlobalCollection(link.dataset.collectionLink)));
+// Los enlaces apuntan a páginas estáticas indexables; en la portada filtran sin salir de ella.
+function filterInPlace(event, select) {
+  if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  select();
+  document.querySelector('#catalogo').scrollIntoView({ behavior: 'smooth' });
+}
+
+categoryLinks.forEach((link) => link.addEventListener('click', (event) => filterInPlace(event, () => selectCategory(link.dataset.categoryLink))));
+collectionLinks.forEach((link) => link.addEventListener('click', (event) => filterInPlace(event, () => selectGlobalCollection(link.dataset.collectionLink))));
 serviceFilterButtons.forEach((button) => button.addEventListener('click', () => selectService(button.dataset.serviceFilter)));
 serviceLinks.forEach((link) => link.addEventListener('click', () => selectService(link.dataset.serviceLink)));
 

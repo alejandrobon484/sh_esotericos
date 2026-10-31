@@ -90,13 +90,21 @@ La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo
 
 El 31 de octubre de 2026 se completó la fase 1 de SEO técnico:
 
-- `robots.txt` y `sitemap.xml` en la raíz. El sitemap se regenera con `python3 scripts/generar-sitemap.py` cada vez que cambie `catalogo-productos.js`; incluye la portada y las fichas visibles, y omite productos ocultos y accesos que apuntan a la portada.
+- `robots.txt` y `sitemap.xml` en la raíz.
 - `.htaccess` para Hostinger: redirección 301 de `www` al dominio sin `www`, redirecciones 301 de las antiguas `brujeria.html` y `estructura.html`, 404 para `archivo/`, `scripts/`, `productos-originales/` y los archivos `.md` y `.py`, y página `404.html` propia con `noindex`. `.vercelignore` no tiene efecto en Hostinger, que despliega el repositorio completo.
 - Portada con título, descripción y `<h1>` orientados a búsquedas («tienda esotérica artesanal», velas, jabones, tinturas), etiqueta `canonical`, Open Graph con la imagen `assets/images/social/sh-esotericos-og.jpg` (1200 × 630) y JSON-LD `OnlineStore` y `WebSite`.
 - Fichas: `canonical` y Open Graph fijos en Lobos y Fénix; en las plantillas con `?id=` el JavaScript fija `canonical`, `og:title` y `og:description`, y marca `noindex` cuando el producto no existe. La vista previa al compartir en WhatsApp o Instagram de esas plantillas muestra todavía la imagen general de la tienda, porque esos servicios no ejecutan JavaScript.
 - Se retiró la sección de relleno «Destacados y novedades» y su enlace de navegación. Se dejó una sola imagen con `fetchpriority="high"` en la portada.
 
-Fase 2 propuesta, pendiente de acuerdo: generar desde `catalogo-productos.js` una página HTML estática por producto y por categoría o colección, con datos estructurados `Product` y `BreadcrumbList`, y redirigir las URL `?id=`. Fase 3: descripciones y textos alternativos únicos, textos de categoría, guías, Google Search Console y Google Business Profile.
+El 31 de octubre de 2026 se completó la fase 2, acordada con el cliente:
+
+- `scripts/generar-paginas.py` lee `catalogo-productos.js` y genera HTML estático indexable: `producto/<id>/` (108 fichas), `categoria/<slug>/` (8 categorías: jabones, velas, kits, tinturas, objetos, pirograbados, tiradas y trabajos) y `coleccion/<slug>/` (Halloween, Navidad, San Valentín, Noche de San Juan y Samhain), además de `sitemap.xml` (122 URL). **Debe ejecutarse y versionarse cada vez que cambie el catálogo**: `python3 scripts/generar-paginas.py`. Sustituye al anterior `generar-sitemap.py`.
+- Cada ficha incluye título, descripción, `canonical`, Open Graph con la foto del producto, galería sin JavaScript obligatorio, enlace de WhatsApp ya escrito, productos relacionados y JSON-LD `BreadcrumbList` más `Product` (solo si tiene precio) o `Service` (tiradas y trabajos). Las categorías y colecciones llevan `CollectionPage` con `ItemList`. Los textos introductorios de categorías y colecciones están en el propio script.
+- Se eliminaron `producto-catalogo.html/.js`, `producto-pirograbado.html/.js`, `producto-lobos.html` y `producto-fenix.html`; `.htaccess` redirige con 301 las URL antiguas (`?id=` y las dos colecciones) a las nuevas. Los textos propios de Lobos y Fénix se trasladaron al campo `points` del catálogo.
+- `detailUrl` del catálogo apunta ahora a `producto/<id>/`. Las tarjetas de categoría y colección de la portada enlazan a sus páginas reales; con JavaScript siguen filtrando dentro de la portada, y Ctrl+clic abre la página.
+- SEO local: Manu está en Barcelona y vende por la web, en persona y por Wallapop. La tienda declara Barcelona en JSON-LD (`address`, `areaServed`) y los textos mencionan la entrega en persona en Barcelona. Falta el enlace del perfil de Wallapop para añadirlo a `sameAs` y al contacto.
+
+Fase 3: descripciones y textos alternativos únicos, textos de categoría, guías, Google Search Console y Google Business Profile.
 
 ## Pendiente inmediato
 

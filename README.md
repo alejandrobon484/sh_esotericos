@@ -27,8 +27,9 @@ Después, abrir `http://localhost:8000/`.
 - `index.html`, `estructura.css`, `estructura.js`: portada y navegación del nuevo catálogo.
 - `catalogo-productos.js`: fuente única de los datos de producto.
 - `catalogo-render.js`: representación de las tarjetas del catálogo.
-- `producto-catalogo.html` y `producto-catalogo.js`: ficha genérica de producto.
-- `producto-pirograbado.html` y `producto-pirograbado.js`: ficha de pirograbados.
+- `producto/`, `categoria/` y `coleccion/`: páginas estáticas generadas; no se editan a mano.
+- `scripts/generar-paginas.py`: regenera esas páginas y `sitemap.xml` tras cualquier cambio en `catalogo-productos.js`.
+- `producto.js`: cambio de imagen en la galería de las fichas.
 - `contacto.js`: datos de contacto centralizados.
 - `productos/`: imágenes WebP utilizadas por la web.
 - `productos-originales/`: archivos maestros locales; están excluidos de Git.
