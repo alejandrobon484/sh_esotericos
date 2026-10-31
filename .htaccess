@@ -1,0 +1,21 @@
+# Configuración de Apache/LiteSpeed para Hostinger.
+Options -Indexes
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Dominio único sin www. Hostinger ya fuerza HTTPS a nivel de servidor.
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^(.*)$ https://sh-esotericos.com/$1 [R=301,L]
+
+  # Páginas de la web anterior que pudieron quedar enlazadas o indexadas.
+  RewriteRule ^brujeria\.html$ /#consultas [R=301,NE,L]
+  RewriteRule ^estructura\.html$ / [R=301,L]
+  RewriteRule ^archivo/web-anterior/brujeria\.html$ /#consultas [R=301,NE,L]
+  RewriteRule ^archivo/web-anterior/(index\.html)?$ / [R=301,L]
+
+  # Material de trabajo que se despliega con el repositorio pero no es público.
+  RewriteRule ^(archivo|scripts|productos-originales)(/|$) - [R=404,L]
+  RewriteRule \.(md|py)$ - [R=404,L]
+</IfModule>

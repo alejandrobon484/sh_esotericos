@@ -4,13 +4,28 @@ const detailContent = document.querySelector('#detail-content');
 const notFound = document.querySelector('#product-not-found');
 const story = document.querySelector('#product-story');
 
+function setHeadTag(selector, tagName, attributes) {
+  let tag = document.head.querySelector(selector);
+  if (!tag) {
+    tag = document.createElement(tagName);
+    document.head.appendChild(tag);
+  }
+  Object.entries(attributes).forEach(([name, value]) => tag.setAttribute(name, value));
+}
+
 if (!product) {
   detailContent.hidden = true;
   story.hidden = true;
   notFound.hidden = false;
+  setHeadTag('meta[name="robots"]', 'meta', { name: 'robots', content: 'noindex' });
 } else {
-  document.title = `${product.name} — SH Esotéricos`;
+  document.title = `${product.name} — Pirograbado artesanal | SH Esotéricos`;
   document.querySelector('meta[name="description"]').content = product.description;
+  const canonicalUrl = `https://sh-esotericos.com/producto-pirograbado.html?id=${encodeURIComponent(product.id)}`;
+  setHeadTag('link[rel="canonical"]', 'link', { rel: 'canonical', href: canonicalUrl });
+  setHeadTag('meta[property="og:url"]', 'meta', { property: 'og:url', content: canonicalUrl });
+  setHeadTag('meta[property="og:title"]', 'meta', { property: 'og:title', content: product.name });
+  setHeadTag('meta[property="og:description"]', 'meta', { property: 'og:description', content: product.description });
   document.querySelector('#breadcrumb-name').textContent = product.name;
   document.querySelector('#product-name').textContent = product.name;
   document.querySelector('#product-state').textContent = product.state;

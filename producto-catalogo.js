@@ -3,9 +3,19 @@ const catalogItem = window.CATALOGO_ADICIONAL.find((item) => item.id === catalog
 const catalogDetail = document.querySelector('#detail-content');
 const catalogNotFound = document.querySelector('#product-not-found');
 
+function setHeadTag(selector, tagName, attributes) {
+  let tag = document.head.querySelector(selector);
+  if (!tag) {
+    tag = document.createElement(tagName);
+    document.head.appendChild(tag);
+  }
+  Object.entries(attributes).forEach(([name, value]) => tag.setAttribute(name, value));
+}
+
 if (!catalogItem) {
   catalogDetail.hidden = true;
   catalogNotFound.hidden = false;
+  setHeadTag('meta[name="robots"]', 'meta', { name: 'robots', content: 'noindex' });
 } else {
   function categoryReturnUrl(product) {
     if (product.category === 'tiradas' || product.category === 'trabajos') {
@@ -26,6 +36,11 @@ if (!catalogItem) {
   const returnUrl = categoryReturnUrl(catalogItem);
   document.title = `${catalogItem.name} — SH Esotéricos`;
   document.querySelector('meta[name="description"]').content = catalogItem.summary || catalogItem.description;
+  const canonicalUrl = `https://sh-esotericos.com/producto-catalogo.html?id=${encodeURIComponent(catalogItem.id)}`;
+  setHeadTag('link[rel="canonical"]', 'link', { rel: 'canonical', href: canonicalUrl });
+  setHeadTag('meta[property="og:url"]', 'meta', { property: 'og:url', content: canonicalUrl });
+  setHeadTag('meta[property="og:title"]', 'meta', { property: 'og:title', content: catalogItem.name });
+  setHeadTag('meta[property="og:description"]', 'meta', { property: 'og:description', content: catalogItem.summary || catalogItem.description });
   const breadcrumbCategory = document.querySelector('#breadcrumb-category');
   breadcrumbCategory.textContent = catalogItem.categoryLabel;
   breadcrumbCategory.href = returnUrl;

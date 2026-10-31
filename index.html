@@ -3,9 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Catálogo artesanal de SH Esotéricos: jabones, velas, kits, tinturas, pirograbados, objetos y servicios.">
+  <meta name="description" content="Tienda esotérica artesanal: velas ritualizadas, jabones naturales y rituales, tinturas, kits y pirograbados hechos a mano por Manu. Lecturas de tarot y trabajos.">
   <meta name="theme-color" content="#000000">
-  <title>SH Esotéricos — Productos, rituales y servicios</title>
+  <title>SH Esotéricos | Tienda esotérica artesanal: velas, jabones y tinturas</title>
+  <link rel="canonical" href="https://sh-esotericos.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="SH Esotéricos">
+  <meta property="og:url" content="https://sh-esotericos.com/">
+  <meta property="og:title" content="SH Esotéricos | Tienda esotérica artesanal">
+  <meta property="og:description" content="Velas ritualizadas, jabones, tinturas, kits y pirograbados hechos a mano. Consulta directa con Manu por WhatsApp o Instagram.">
+  <meta property="og:image" content="https://sh-esotericos.com/assets/images/social/sh-esotericos-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Composición artesanal con velas, jabón botánico, tintura, hierbas y piezas esotéricas">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "OnlineStore",
+        "@id": "https://sh-esotericos.com/#tienda",
+        "name": "SH Esotéricos",
+        "url": "https://sh-esotericos.com/",
+        "logo": "https://sh-esotericos.com/assets/branding/android-chrome-512x512.png",
+        "image": "https://sh-esotericos.com/assets/images/social/sh-esotericos-og.jpg",
+        "description": "Tienda esotérica artesanal de velas ritualizadas, jabones, tinturas, kits rituales y pirograbados hechos a mano, con lecturas de tarot y trabajos personalizados.",
+        "telephone": "+34640319726",
+        "email": "info@sh-esotericos.com",
+        "founder": { "@type": "Person", "name": "Manu" },
+        "sameAs": ["https://www.instagram.com/sh_esotericos/"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://sh-esotericos.com/#web",
+        "url": "https://sh-esotericos.com/",
+        "name": "SH Esotéricos",
+        "inLanguage": "es",
+        "publisher": { "@id": "https://sh-esotericos.com/#tienda" }
+      }
+    ]
+  }
+  </script>
   <link rel="icon" href="assets/branding/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/branding/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/branding/favicon-16x16.png">
@@ -59,7 +99,6 @@
         <a href="#categorias">Catálogo</a>
         <a href="#colecciones">Colecciones</a>
         <a href="#consultas">Consultas</a>
-        <a href="#destacados">Destacados</a>
         <a href="#nosotros">Sobre SH</a>
       </div>
     </nav>
@@ -83,10 +122,10 @@
     <section class="hero" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Escaparate online</p>
-          <h1>Productos y servicios organizados para encontrar lo que necesitas</h1>
+          <p class="eyebrow">Hecho a mano por Manu</p>
+          <h1>Tienda esotérica artesanal: velas, jabones y tinturas rituales</h1>
           <p class="lead">
-            Explora el catálogo por tipo de producto, colección o servicio. Cada ficha permite consultar disponibilidad y realizar el pedido directamente con la tienda.
+            Velas ritualizadas, jabones naturales y rituales, tinturas, kits y pirograbados elaborados a mano, junto con lecturas de tarot y trabajos personalizados. Cada ficha permite consultar disponibilidad y hacer el pedido directamente con Manu.
           </p>
           <div class="actions">
             <a class="button primary" href="#categorias">Explorar productos</a>
@@ -95,7 +134,7 @@
         </div>
         <picture class="hero-visual">
           <source srcset="assets/images/home/catalogo-hero-768.webp 768w, assets/images/home/catalogo-hero-1536.webp 1536w" sizes="(max-width: 900px) calc(100vw - 40px), 40vw" type="image/webp">
-          <img src="assets/images/home/catalogo-hero-1536.webp" alt="Composición artesanal con velas, jabón botánico, tintura, hierbas y piezas esotéricas" width="1536" height="1024" fetchpriority="high">
+          <img src="assets/images/home/catalogo-hero-1536.webp" alt="Composición artesanal con velas, jabón botánico, tintura, hierbas y piezas esotéricas" width="1536" height="1024">
         </picture>
       </div>
     </section>
@@ -342,20 +381,6 @@
           <div class="product-grid" id="service-product-grid"></div>
           <p class="empty-state" id="service-empty-state" hidden>No hay consultas que coincidan con la búsqueda.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section container" id="destacados">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Selección de SH</p>
-          <h2>Destacados y novedades</h2>
-        </div>
-      </div>
-      <div class="feature-grid">
-        <article class="feature-card"><span>Producto destacado</span><h3>Espacio para un lanzamiento</h3><a href="#catalogo">Descubrir</a></article>
-        <article class="feature-card"><span>Contenido útil</span><h3>Guías para elegir y utilizar los productos</h3><a href="#contacto">Saber más</a></article>
-        <article class="feature-card"><span>Servicio</span><h3>Orientación antes de realizar un pedido</h3><a href="#contacto">Consultar</a></article>
       </div>
     </section>
 

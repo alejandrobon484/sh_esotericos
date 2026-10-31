@@ -86,6 +86,18 @@ La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo
 - Bajo la navegación principal aparece un banner horizontal y completamente clicable para campañas temporales. La campaña activa es Halloween: reutiliza una imagen ambientada de las velas Calabaza y conduce al catálogo filtrado por “Halloween”. El bloque queda preparado para sustituir texto, imagen y colección según el próximo evento.
 - Las seis tarjetas principales de categoría incorporan ilustraciones WebP con transparencia, creadas como una misma familia visual: jabón botánico, vela encendida, kit ritual, tintura, objetos esotéricos y pirograbado. Los recursos se encuentran en `assets/images/categorias/` y se muestran como elementos decorativos que no duplican la información accesible del enlace.
 
+## SEO
+
+El 31 de octubre de 2026 se completó la fase 1 de SEO técnico:
+
+- `robots.txt` y `sitemap.xml` en la raíz. El sitemap se regenera con `python3 scripts/generar-sitemap.py` cada vez que cambie `catalogo-productos.js`; incluye la portada y las fichas visibles, y omite productos ocultos y accesos que apuntan a la portada.
+- `.htaccess` para Hostinger: redirección 301 de `www` al dominio sin `www`, redirecciones 301 de las antiguas `brujeria.html` y `estructura.html`, 404 para `archivo/`, `scripts/`, `productos-originales/` y los archivos `.md` y `.py`, y página `404.html` propia con `noindex`. `.vercelignore` no tiene efecto en Hostinger, que despliega el repositorio completo.
+- Portada con título, descripción y `<h1>` orientados a búsquedas («tienda esotérica artesanal», velas, jabones, tinturas), etiqueta `canonical`, Open Graph con la imagen `assets/images/social/sh-esotericos-og.jpg` (1200 × 630) y JSON-LD `OnlineStore` y `WebSite`.
+- Fichas: `canonical` y Open Graph fijos en Lobos y Fénix; en las plantillas con `?id=` el JavaScript fija `canonical`, `og:title` y `og:description`, y marca `noindex` cuando el producto no existe. La vista previa al compartir en WhatsApp o Instagram de esas plantillas muestra todavía la imagen general de la tienda, porque esos servicios no ejecutan JavaScript.
+- Se retiró la sección de relleno «Destacados y novedades» y su enlace de navegación. Se dejó una sola imagen con `fetchpriority="high"` en la portada.
+
+Fase 2 propuesta, pendiente de acuerdo: generar desde `catalogo-productos.js` una página HTML estática por producto y por categoría o colección, con datos estructurados `Product` y `BreadcrumbList`, y redirigir las URL `?id=`. Fase 3: descripciones y textos alternativos únicos, textos de categoría, guías, Google Search Console y Google Business Profile.
+
 ## Pendiente inmediato
 
 1. Continuar el estilo visual definitivo: colores, tipografías y tratamiento fotográfico.
