@@ -62,6 +62,8 @@ La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo
 
 “Lectura de Tarot” conduce a dos fichas independientes: “Tirada sencilla de Tarot” y “Tirada de Cruz Celta”, ambas desde 5 € y con sus nuevas imágenes WebP. Se corrigió la denominación provisional errónea “cruz delta”. El acceso aplica el filtro Tarot, mientras “Lectura de Oráculo” conserva su filtro independiente con cuatro tiradas. Desde el 2 de noviembre de 2026, a petición del cliente, esas dos tiradas de Tarot solo aparecen dentro de “Lectura de Tarot” (o al buscarlas): no se muestran en “Todo” ni en el filtro “Tiradas” de la sección de consultas, ni cuentan en sus contadores. Se controla con el campo `collectionOnly: true` del catálogo, reutilizable para otros productos.
 
+Tarifa de tiradas desde el 2 de noviembre de 2026, según el número de cartas: 3 cartas desde 5 €, 4 cartas desde 8 € y más de 4 cartas desde 10 €. Tirada sencilla de Tarot, Oráculo de María Aranguren y Oráculo de la Santa Muerte, desde 5 €; Oráculo de la Bruja Verde · Caseta de Jardín y · Año del Jardín, desde 8 €; Tirada de Cruz Celta, desde 10 €.
+
 ## Funcionalidad terminada
 
 - Navegación principal y navegación adaptable a móvil.
