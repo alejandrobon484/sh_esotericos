@@ -87,6 +87,36 @@
     ultimoMovimiento = performance.now() / 1000;
   });
 
+  // móvil: inclinar el teléfono a izquierda o derecha mueve al espectro
+  const aviso = escena.querySelector('.escena-inclina');
+  const tactil = matchMedia('(pointer: coarse)').matches;
+  let base = null;
+  function alInclinar(e) {
+    if (e.gamma == null) return;
+    // en horizontal, la inclinación lateral la da beta
+    const angulo = (screen.orientation && screen.orientation.angle) || window.orientation || 0;
+    const giro = angulo === 90 ? e.beta : angulo === -90 || angulo === 270 ? -e.beta : e.gamma;
+    if (base === null) base = giro;
+    base += (giro - base) * 0.003; // la posición en que se sujeta el móvil se vuelve, poco a poco, el centro
+    objetivo = Math.max(-1, Math.min(1, (giro - base) / 22));
+    ultimoMovimiento = performance.now() / 1000;
+    if (aviso && !aviso.hidden && Math.abs(giro - base) > 6) aviso.classList.add('is-oculto');
+  }
+  if (tactil && aviso && 'DeviceOrientationEvent' in window && !reducido.matches) {
+    aviso.hidden = false;
+    if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+      // iPhone: el permiso solo se puede pedir tras un toque
+      aviso.textContent = 'Toca e inclina el móvil';
+      const pedir = () => DeviceOrientationEvent.requestPermission()
+        .then((r) => { if (r === 'granted') { addEventListener('deviceorientation', alInclinar); aviso.textContent = 'Inclina el móvil'; } else aviso.classList.add('is-oculto'); })
+        .catch(() => aviso.classList.add('is-oculto'));
+      aviso.addEventListener('click', pedir, { once: true });
+    } else {
+      addEventListener('deviceorientation', alInclinar);
+      setTimeout(() => aviso.classList.add('is-oculto'), 6000);
+    }
+  }
+
   // la animación solo corre mientras la escena está en pantalla
   new IntersectionObserver(([entrada]) => {
     visible = entrada.isIntersecting;
