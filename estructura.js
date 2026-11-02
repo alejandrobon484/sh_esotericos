@@ -96,10 +96,11 @@ function updateCategoryCounts() {
       : products.filter((product) => product.dataset.category === button.dataset.filter).length;
     button.textContent = `${button.dataset.label} · ${count}`;
   });
+  const listedServices = services.filter(isListedService);
   serviceFilterButtons.forEach((button) => {
     const count = button.dataset.serviceFilter === 'all'
-      ? services.length
-      : services.filter((service) => service.dataset.category === button.dataset.serviceFilter).length;
+      ? listedServices.length
+      : listedServices.filter((service) => service.dataset.category === button.dataset.serviceFilter).length;
     button.textContent = `${button.dataset.label} · ${count}`;
   });
 }
@@ -168,11 +169,18 @@ function applyProductFilters() {
   return matches.length;
 }
 
+// Las consultas marcadas como collectionOnly solo aparecen dentro de su colección
+// (por ejemplo, las tiradas de tarot dentro de «Lectura de Tarot») o al buscarlas.
+function isListedService(service) {
+  return !service.dataset.collectionOnly;
+}
+
 function applyServiceFilters() {
   const matches = services.filter((service) => {
     const categoryMatch = activeService === 'all' || service.dataset.category === activeService;
     const collectionMatch = activeService === 'all' || !activeCollection || service.dataset.collection === activeCollection;
-    return categoryMatch && collectionMatch && matchesSearch(service);
+    const visibleHere = isListedService(service) || searchTerm || (activeService !== 'all' && activeCollection === service.dataset.collection);
+    return categoryMatch && collectionMatch && visibleHere && matchesSearch(service);
   });
   const visible = new Set(matches);
   services.forEach((service) => { service.hidden = !visible.has(service); });

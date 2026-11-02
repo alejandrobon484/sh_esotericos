@@ -10,6 +10,7 @@ function createCatalogCard(product) {
     card.className = 'product-card';
     card.dataset.category = product.category;
     card.dataset.collection = product.collection || '';
+    if (product.collectionOnly) card.dataset.collectionOnly = 'true';
     card.dataset.name = `${product.name} ${product.collection || product.categoryLabel}`;
     card.dataset.price = (product.price || '').replace(',', '.').replace(/[^\d.]/g, '') || '0';
 

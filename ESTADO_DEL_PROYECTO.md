@@ -60,7 +60,7 @@ La ficha “Trabajo de Amor Propio” aplica el mismo tratamiento: portada cuadr
 
 La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 5 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. “Lectura de Oráculo” conduce directamente a las cuatro tiradas de Oráculo de María Aranguren, Santa Muerte, Caseta de Jardín y Año del Jardín. La antigua ficha “Tiradas de Tarot” permanece oculta y conserva sus archivos a la espera de las nuevas imágenes.
 
-“Lectura de Tarot” conduce a dos fichas independientes: “Tirada sencilla de Tarot” y “Tirada de Cruz Celta”, ambas desde 5 € y con sus nuevas imágenes WebP. Se corrigió la denominación provisional errónea “cruz delta”. El acceso aplica el filtro Tarot, mientras “Lectura de Oráculo” conserva su filtro independiente con cuatro tiradas.
+“Lectura de Tarot” conduce a dos fichas independientes: “Tirada sencilla de Tarot” y “Tirada de Cruz Celta”, ambas desde 5 € y con sus nuevas imágenes WebP. Se corrigió la denominación provisional errónea “cruz delta”. El acceso aplica el filtro Tarot, mientras “Lectura de Oráculo” conserva su filtro independiente con cuatro tiradas. Desde el 2 de noviembre de 2026, a petición del cliente, esas dos tiradas de Tarot solo aparecen dentro de “Lectura de Tarot” (o al buscarlas): no se muestran en “Todo” ni en el filtro “Tiradas” de la sección de consultas, ni cuentan en sus contadores. Se controla con el campo `collectionOnly: true` del catálogo, reutilizable para otros productos.
 
 ## Funcionalidad terminada
 
