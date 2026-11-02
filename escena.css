@@ -38,7 +38,8 @@
 
 /* Una sola columna: el recuadro necesita una altura propia */
 @media (max-width: 900px) {
-  .hero-visual.escena { min-height: 0; height: clamp(320px, 80vw, 480px); }
+  /* en una sola columna, la escena va primero: es lo primero que se ve al entrar */
+  .hero-visual.escena { order: -1; min-height: 0; height: clamp(320px, 80vw, 480px); border-top: 0; border-bottom: 1px solid var(--border); }
 }
 
 /* Quien prefiera menos movimiento ve la escena quieta, con las velas encendidas */
