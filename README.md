@@ -29,6 +29,7 @@ Después, abrir `http://localhost:8000/`.
 - `catalogo-render.js`: representación de las tarjetas del catálogo.
 - `producto/`, `categoria/` y `coleccion/`: páginas estáticas generadas; no se editan a mano.
 - `scripts/generar-paginas.py`: regenera esas páginas y `sitemap.xml` tras cualquier cambio en `catalogo-productos.js`.
+- `aviso-legal/`, `privacidad/`, `cookies/` y `condiciones/`: páginas legales generadas por el mismo script; sus textos y los datos del titular están en él.
 - `producto.js`: cambio de imagen en la galería de las fichas.
 - `contacto.js`: datos de contacto centralizados.
 - `productos/`: imágenes WebP utilizadas por la web.

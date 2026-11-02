@@ -8,6 +8,7 @@ Crea, borrando antes su contenido anterior:
     producto/<id>/index.html     una ficha por producto visible
     categoria/<slug>/index.html  una página por categoría
     coleccion/<slug>/index.html  una página por colección de temporada
+    aviso-legal/, privacidad/, cookies/, condiciones/  páginas legales (noindex)
     sitemap.xml
 
 Debe ejecutarse cada vez que cambie catalogo-productos.js. Las páginas
@@ -142,6 +143,101 @@ PUNTOS_POR_DEFECTO = [
     'Disponibilidad sujeta a confirmación.',
 ]
 
+ACTUALIZACION_LEGAL = '2 de noviembre de 2026'
+
+TITULAR = {
+    'nombre': 'Manuel Martín Domínguez',
+    'nif': '46785189S',
+    'localidad': '08820 El Prat de Llobregat (Barcelona)',
+    'email': 'info@sh-esotericos.com',
+    'telefono': '+34 640 31 97 26',
+}
+
+DATOS_TITULAR = f'''<ul>
+        <li><strong>Titular:</strong> {TITULAR['nombre']}</li>
+        <li><strong>NIF:</strong> {TITULAR['nif']}</li>
+        <li><strong>Nombre comercial:</strong> SH Esotéricos</li>
+        <li><strong>Localidad:</strong> {TITULAR['localidad']}</li>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:{TITULAR['email']}">{TITULAR['email']}</a></li>
+        <li><strong>Teléfono y WhatsApp:</strong> {TITULAR['telefono']}</li>
+      </ul>'''
+
+# Páginas legales: (slug, título del enlace, h1, contenido HTML). Se generan con noindex
+# porque contienen datos personales del titular y no aportan a las búsquedas.
+LEGALES = [
+    ('aviso-legal', 'Aviso legal', 'Aviso legal', f'''
+      <p>En cumplimiento de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), se informa de los datos del titular de este sitio web, sh-esotericos.com:</p>
+      {DATOS_TITULAR}
+      <h2>Objeto del sitio web</h2>
+      <p>Este sitio web es un catálogo informativo de productos artesanales (jabones, velas, kits rituales, tinturas, bálsamos, pirograbados y objetos) y de servicios esotéricos (tiradas, lecturas y trabajos). La web no permite comprar ni pagar en línea: los pedidos y consultas se realizan contactando directamente con el titular por WhatsApp, Instagram, correo electrónico o en persona.</p>
+      <h2>Naturaleza de los servicios esotéricos</h2>
+      <p>Las tiradas, lecturas y trabajos esotéricos se ofrecen como orientación personal y espiritual. No sustituyen en ningún caso el consejo médico, psicológico, legal ni financiero de un profesional cualificado. Están dirigidos a personas mayores de 18 años.</p>
+      <h2>Productos artesanales</h2>
+      <p>Los productos se elaboran a mano, por lo que pueden presentar pequeñas diferencias de color, forma o acabado respecto a las fotografías. Los jabones, bálsamos y tinturas son de uso externo; antes de usarlos, consulta los ingredientes si tienes alergias o piel sensible. Los usos rituales o simbólicos descritos no constituyen propiedades terapéuticas ni sustituyen a ningún tratamiento.</p>
+      <h2>Propiedad intelectual</h2>
+      <p>Los textos, fotografías, diseños, logotipos y demás contenidos de esta web pertenecen a su titular o se usan con autorización. No está permitida su reproducción, distribución o modificación sin consentimiento expreso.</p>
+      <h2>Enlaces externos</h2>
+      <p>La web enlaza con servicios de terceros, como WhatsApp o Instagram. El titular no se hace responsable del contenido ni de las políticas de esos servicios.</p>
+      <h2>Responsabilidad</h2>
+      <p>El titular procura que la información de la web sea correcta y esté actualizada, pero la disponibilidad y los precios se confirman siempre en el momento de hacer el pedido.</p>
+      <h2>Legislación aplicable</h2>
+      <p>Este aviso legal se rige por la legislación española.</p>'''),
+    ('privacidad', 'Privacidad', 'Política de privacidad', f'''
+      <h2>Responsable del tratamiento</h2>
+      {DATOS_TITULAR}
+      <h2>Qué datos se tratan</h2>
+      <p>Esta web no tiene formularios ni registro de usuarios. Solo se tratan los datos que tú facilitas al contactar por WhatsApp, Instagram, correo electrónico, teléfono o en persona: normalmente tu nombre, tu teléfono o usuario, tu correo, el contenido de tu consulta y, si pides un envío, la dirección de entrega.</p>
+      <h2>Para qué se usan</h2>
+      <ul>
+        <li>Responder a tus consultas.</li>
+        <li>Preparar, entregar o enviar tu pedido y realizar los servicios que solicites.</li>
+        <li>Cumplir las obligaciones legales, fiscales y contables.</li>
+      </ul>
+      <p>No se envían comunicaciones comerciales sin tu consentimiento ni se elaboran perfiles.</p>
+      <h2>Base legal</h2>
+      <p>El consentimiento que das al contactar, la ejecución del pedido o servicio que solicitas y el cumplimiento de obligaciones legales.</p>
+      <h2>Cuánto tiempo se conservan</h2>
+      <p>El tiempo necesario para atender tu consulta o pedido y, después, durante los plazos que exige la ley. Puedes pedir que se borren en cualquier momento, salvo los que haya obligación legal de conservar.</p>
+      <h2>Con quién se comparten</h2>
+      <p>No se ceden datos a terceros, salvo a la empresa de transporte cuando hay un envío o cuando lo exija la ley. Las conversaciones por WhatsApp e Instagram se rigen también por las políticas de privacidad de Meta. La web está alojada en Hostinger, que puede registrar datos técnicos de acceso, como la dirección IP, por motivos de seguridad.</p>
+      <h2>Tus derechos</h2>
+      <p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a <a href="mailto:{TITULAR['email']}">{TITULAR['email']}</a>. Si consideras que tus datos no se tratan correctamente, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es/" target="_blank" rel="noopener">aepd.es</a>).</p>'''),
+    ('cookies', 'Cookies', 'Política de cookies', '''
+      <h2>Esta web no usa cookies</h2>
+      <p>SH Esotéricos no utiliza cookies propias ni de terceros: no hay herramientas de analítica, publicidad ni seguimiento.</p>
+      <h2>Preferencia de tema</h2>
+      <p>Si activas el modo oscuro con el botón de la vela, tu elección se guarda en el almacenamiento local de tu navegador para recordarla en la próxima visita. Es un dato técnico que no sale de tu dispositivo, no te identifica y no se comparte con nadie. Puedes borrarlo desde la configuración de tu navegador.</p>
+      <h2>Enlaces a otros servicios</h2>
+      <p>Al pulsar los enlaces de WhatsApp o Instagram sales de esta web, y esos servicios pueden usar sus propias cookies según sus políticas.</p>'''),
+    ('condiciones', 'Condiciones', 'Condiciones de venta', f'''
+      <p>Estas condiciones se aplican a los pedidos de productos y servicios de SH Esotéricos, cuyo titular es {TITULAR['nombre']} (NIF {TITULAR['nif']}).</p>
+      <h2>Cómo se hace un pedido</h2>
+      <p>La web es un catálogo: no hay carrito ni pago en línea. Para pedir, contacta con Manu por WhatsApp, Instagram, correo electrónico o en persona. El pedido queda cerrado cuando se confirman por escrito el producto o servicio, el precio final, la forma de pago y la entrega.</p>
+      <h2>Precios</h2>
+      <p>Los precios se indican en euros. Cuando aparece «Desde», el precio final depende de las opciones elegidas y se confirma antes de cerrar el pedido. Los gastos de envío, si los hay, se indican aparte antes de la confirmación.</p>
+      <h2>Pago</h2>
+      <p>La forma de pago se acuerda al confirmar el pedido. Los encargos personalizados y los servicios pueden requerir el pago previo.</p>
+      <h2>Entrega</h2>
+      <p>Los pedidos pueden recogerse en persona en la zona de Barcelona o enviarse por mensajería. El plazo y el coste del envío se confirman en cada caso.</p>
+      <h2>Desistimiento y devoluciones</h2>
+      <p>En los pedidos realizados a distancia tienes 14 días naturales desde la entrega para desistir sin dar explicaciones, avisando por escrito. Los gastos de devolución corren de tu cuenta, y el producto debe devolverse en el estado en que se recibió. El reembolso se realiza en un plazo máximo de 14 días.</p>
+      <p>Según la ley, no se aplica el derecho de desistimiento a:</p>
+      <ul>
+        <li>Productos hechos por encargo o personalizados.</li>
+        <li>Jabones, bálsamos, tinturas y otros productos de higiene o cuidado personal que se hayan desprecintado o usado.</li>
+        <li>Tiradas, lecturas y trabajos que ya se hayan realizado con tu consentimiento.</li>
+      </ul>
+      <h2>Garantía</h2>
+      <p>Los productos cuentan con la garantía legal de conformidad. Si un producto llega dañado o no corresponde con lo pedido, escribe a <a href="mailto:{TITULAR['email']}">{TITULAR['email']}</a> o por WhatsApp y se buscará una solución: reparación, sustitución o reembolso. Las pequeñas diferencias propias de un producto artesanal no se consideran defectos.</p>
+      <h2>Servicios esotéricos</h2>
+      <p>Las tiradas, lecturas y trabajos son servicios de orientación personal y espiritual dirigidos a mayores de 18 años. No garantizan resultados concretos ni sustituyen el consejo de un profesional médico, psicológico, legal o financiero.</p>
+      <h2>Legislación aplicable</h2>
+      <p>Estas condiciones se rigen por la legislación española. Si eres consumidor, puedes acudir a los juzgados de tu domicilio.</p>'''),
+]
+
+PIE_LEGAL = '<nav class="footer-legal" aria-label="Información legal">' + ''.join(
+    f'<a href="/{slug}/">{enlace}</a>' for slug, enlace, _, _ in LEGALES) + '</nav>'
+
 e = html.escape
 _dimensiones = {}
 
@@ -231,7 +327,7 @@ def migas_ld(elementos):
     }
 
 
-def cabeza(titulo, descripcion, canonica, imagen, imagen_alt, datos_estructurados, css):
+def cabeza(titulo, descripcion, canonica, imagen, imagen_alt, datos_estructurados, css, robots=''):
     imagen_ancho, imagen_alto = (1200, 630)
     if not imagen:
         imagen = 'assets/images/social/sh-esotericos-og.jpg'
@@ -243,7 +339,7 @@ def cabeza(titulo, descripcion, canonica, imagen, imagen_alt, datos_estructurado
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{e(descripcion)}">
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#000000">{f'{chr(10)}  <meta name="robots" content="{robots}">' if robots else ''}
   <title>{e(titulo)}</title>
   <link rel="canonical" href="{DOMINIO}{canonica}">
   <meta property="og:type" content="website">
@@ -293,7 +389,7 @@ def pie(scripts):
         for datos in CATEGORIAS.values()
     )
     etiquetas = ''.join(f'  <script src="{src}"></script>\n' for src in scripts)
-    return f'''  <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><img src="/assets/branding/logo-header.webp" alt="" width="56" height="56" loading="lazy"><div><strong>SH Esotéricos</strong><p>Productos artesanales, rituales y servicios. Barcelona.</p></div></div><nav aria-label="Enlaces del pie"><a href="/#categorias">Productos</a><a href="/#consultas">Consultas</a><a href="/#como-comprar">Cómo comprar</a><a href="/#contacto">Contacto</a></nav><nav class="footer-categories" aria-label="Categorías">{categorias}</nav><div class="legal-placeholder">Aviso legal · Privacidad · Cookies · Condiciones</div></div></footer>
+    return f'''  <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><img src="/assets/branding/logo-header.webp" alt="" width="56" height="56" loading="lazy"><div><strong>SH Esotéricos</strong><p>Productos artesanales, rituales y servicios. Barcelona.</p></div></div><nav aria-label="Enlaces del pie"><a href="/#categorias">Productos</a><a href="/#consultas">Consultas</a><a href="/#como-comprar">Cómo comprar</a><a href="/#contacto">Contacto</a></nav><nav class="footer-categories" aria-label="Categorías">{categorias}</nav>{PIE_LEGAL}</div></footer>
 {etiquetas}</body>
 </html>
 '''
@@ -504,6 +600,28 @@ def pagina_listado(titulo, nombre, h1, intro, url, grupos, eyebrow, css):
     )
 
 
+def pagina_legal(slug, h1, contenido, css):
+    url = f'/{slug}/'
+    elementos = [('Inicio', '/'), (h1, url)]
+    descripcion = f'{h1} de SH Esotéricos, tienda esotérica artesanal de Barcelona.'
+    return (
+        cabeza(f'{h1} | SH Esotéricos', descripcion, url, None, 'SH Esotéricos', [migas_ld(elementos)], css, 'noindex, follow')
+        + cabecera('/', 'Volver al inicio', 'contenido')
+        + f'''  <main class="section container listing-page legal-page" id="contenido">
+    {migas(elementos)}
+    <header class="listing-intro">
+      <p class="eyebrow">Información legal</p>
+      <h1>{e(h1)}</h1>
+    </header>
+    <div class="legal-text">{contenido}
+      <p class="legal-updated">Última actualización: {ACTUALIZACION_LEGAL}.</p>
+    </div>
+  </main>
+'''
+        + pie([])
+    )
+
+
 def agrupar(lista):
     grupos = {}
     for producto in lista:
@@ -548,6 +666,9 @@ def main():
             avisos.append(f"{producto['id']}: detailUrl debería ser {url_producto(producto)[1:]}")
         escribir(f"producto/{producto['id']}/index.html", pagina_producto(producto, productos, css))
         urls.append(url_producto(producto))
+
+    for slug, _, h1, contenido in LEGALES:
+        escribir(f'{slug}/index.html', pagina_legal(slug, h1, contenido, css))
 
     lineas = ['<?xml version="1.0" encoding="UTF-8"?>',
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

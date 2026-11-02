@@ -108,6 +108,10 @@ El 31 de octubre de 2026 se completó la fase 2, acordada con el cliente:
 
 Fase 3: descripciones y textos alternativos únicos, textos de categoría, guías, Google Search Console y Google Business Profile.
 
+Fase 3, textos legales (2 de noviembre de 2026): `aviso-legal/`, `privacidad/`, `cookies/` y `condiciones/` se generan con `scripts/generar-paginas.py` (constantes `TITULAR` y `LEGALES`) y se enlazan desde el pie de todas las páginas. Titular: Manuel Martín Domínguez, NIF 46785189S, localidad 08820 El Prat de Llobregat (Barcelona). Por decisión del cliente no se publica todavía la dirección completa, aunque la LSSI pide el domicilio; añadirla en `TITULAR` cuando se decida. Llevan `noindex, follow` y no están en el sitemap porque contienen datos personales. La web no usa cookies; solo `localStorage` para el tema. Los textos son una base razonable, no asesoramiento jurídico: conviene que Manu confirme forma de pago, régimen fiscal y plazos.
+
+Descripciones de plantilla: 39 productos (bálsamos, jabones y tinturas) y 5 lecturas y trabajos con texto compartido se han pasado a una hoja de revisión para que Manu o Ale escriban textos únicos; después se vuelcan al catálogo por `id`.
+
 ## Portada con escena del espectro (rama `portada-espectro`, en revisión)
 
 Propuesta del 2 de noviembre de 2026, todavía sin publicar. Versión revisada: la escena ocupa el recuadro visual de la portada (en lugar de la foto de velas), junto al texto, sin menús laterales.
@@ -122,7 +126,7 @@ Propuesta del 2 de noviembre de 2026, todavía sin publicar. Versión revisada: 
 
 1. Continuar el estilo visual definitivo: colores, tipografías y tratamiento fotográfico.
 2. Completar los precios pendientes y el resto de datos comerciales: medidas, materiales, disponibilidad y variantes. Falta identificar la correspondencia exacta de los velones pequeño y grande, las velas ritualizadas de dos unidades, la vela Corazón, las tinturas Intuición y Tercer ojo, y los pirograbados por medida; los inciensos de la tarifa todavía no están cargados en el catálogo.
-3. Revisar textos legales, privacidad, cookies y condiciones de compra antes de publicar.
+3. Textos legales publicados; falta añadir la dirección completa del titular cuando el cliente lo autorice.
 4. Configurar el correo `info@sh-esotericos.com` y decidir el flujo del formulario de contacto.
 5. Realizar pruebas finales en móvil, escritorio y navegadores principales.
 
