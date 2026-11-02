@@ -1,0 +1,47 @@
+/* Escena de portada dentro del recuadro visual: el espectro tras el mostrador.
+   Las medidas usan unidades del propio recuadro (cqw/cqh), así la composición
+   se mantiene igual a cualquier tamaño. */
+.hero-visual.escena { --suelo: 68cqh; position: relative; min-height: 410px; container-type: size; background: #040304; isolation: isolate; }
+.escena > * { position: absolute; }
+/* anula el estilo general de .hero-visual img (pensado para una sola foto) */
+.hero-visual.escena img { min-height: 0; max-height: none; object-fit: fill; }
+
+/* Detrás: el muro termina donde empieza el suelo */
+.hero-visual.escena .escena-fondo { left: 0; top: 0; width: 100%; height: var(--suelo); object-fit: cover; object-position: 50% 35%; filter: brightness(.17) saturate(.75); }
+.escena-suelo { left: -60%; width: 220%; top: var(--suelo); height: 120cqh; transform-origin: 50% 0; transform: perspective(60cqh) rotateX(64deg);
+  background: url("assets/escena/suelo.webp") 50% 0 / 22cqw auto repeat; filter: brightness(.32) saturate(.8); }
+.escena-suelo-sombra { left: 0; right: 0; top: calc(var(--suelo) - 2px); bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,.95), rgba(0,0,0,.35) 18%, rgba(0,0,0,.2) 55%, rgba(0,0,0,.75)); }
+
+/* El espectro: fotograma fijo mientras se cargan los demás; luego el lienzo animado */
+.hero-visual.escena .escena-espectro-fijo, .escena-espectro { left: 50%; bottom: 16cqh; width: auto; height: 66cqh; aspect-ratio: var(--ar, .95); transform: translateX(-50%); }
+.escena-espectro { opacity: 0; transition: opacity .6s ease; }
+.escena.is-animada .escena-espectro { opacity: 1; }
+.escena.is-animada .escena-espectro-fijo { opacity: 0; }
+
+/* Delante: el mostrador, con velas y bola animadas por código (posiciones en % de la imagen) */
+.escena-mostrador { left: 50%; bottom: -1cqh; width: min(100cqw, 150cqh); transform: translateX(-50%); }
+.hero-visual.escena .escena-mostrador img { display: block; width: 100%; height: auto; filter: brightness(.5) saturate(.85); }
+.escena-llama { position: absolute; left: var(--x); top: var(--y); width: 1.15%; aspect-ratio: 1 / 2.7; transform-origin: 50% 100%; transform: translate(-50%, -100%);
+  border-radius: 50% 50% 45% 45% / 65% 65% 35% 35%; mix-blend-mode: screen; opacity: 0; filter: blur(.4px);
+  background: radial-gradient(ellipse 48% 62% at 50% 72%, #fffbe6 0%, #ffe08a 28%, #ff9d2e 55%, rgba(255,80,0,0) 78%); }
+.escena-llama::after { content: ""; position: absolute; left: 50%; top: 60%; width: 1400%; aspect-ratio: 1; transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(255,150,60,.32), rgba(255,120,40,.08) 35%, transparent 62%); }
+.escena-bola { position: absolute; left: 50.46%; top: 31.63%; width: 11.8%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%;
+  mix-blend-mode: screen; opacity: .5;
+  background: radial-gradient(circle at 50% 52%, rgba(235,200,255,.95) 0%, rgba(170,100,255,.55) 22%, rgba(110,40,200,.25) 48%, transparent 70%); }
+.escena-bola::after { content: ""; position: absolute; inset: -120%; border-radius: 50%; background: radial-gradient(circle, rgba(150,80,255,.28), transparent 60%); }
+
+/* Atmósfera */
+.escena-luz { inset: 0; pointer-events: none; mix-blend-mode: soft-light; background: radial-gradient(ellipse 50% 55% at 50% 62%, rgba(255,170,90,.55), transparent 70%); }
+.escena-vineta { inset: 0; pointer-events: none; background: radial-gradient(ellipse at 50% 55%, transparent 40%, rgba(0,0,0,.9) 100%); }
+
+/* Una sola columna: el recuadro necesita una altura propia */
+@media (max-width: 900px) {
+  .hero-visual.escena { min-height: 0; height: clamp(320px, 80vw, 480px); }
+}
+
+/* Quien prefiera menos movimiento ve la escena quieta, con las velas encendidas */
+@media (prefers-reduced-motion: reduce) {
+  .escena-llama { opacity: .9; }
+}

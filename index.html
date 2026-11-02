@@ -55,6 +55,8 @@
   <link rel="manifest" href="site.webmanifest">
   <script src="tema.js"></script>
   <link rel="stylesheet" href="estructura.css?v=20261031-1">
+  <link rel="stylesheet" href="escena.css?v=20261102-2">
+  <link rel="preload" as="image" href="assets/escena/espectro/031.webp">
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -107,7 +109,8 @@
   </header>
 
   <main id="contenido">
-    <section class="campaign-strip" aria-label="Campaña de Halloween">
+    <!-- Campaña de Halloween terminada: se conserva oculta para reutilizarla -->
+    <section class="campaign-strip" aria-label="Campaña de Halloween" hidden>
       <a class="campaign-banner container" href="coleccion/halloween/" data-collection-link="Halloween" aria-label="Ver los productos de la colección Halloween">
         <picture class="campaign-banner-media">
           <img src="productos/velas/halloween/Calabaza/calabazas-%2001-02-amb-02.webp" alt="" width="1122" height="1402" fetchpriority="high">
@@ -134,10 +137,23 @@
             <a class="button secondary" href="#consultas">Ver consultas</a>
           </div>
         </div>
-        <picture class="hero-visual">
-          <source srcset="assets/images/home/catalogo-hero-768.webp 768w, assets/images/home/catalogo-hero-1536.webp 1536w" sizes="(max-width: 900px) calc(100vw - 40px), 40vw" type="image/webp">
-          <img src="assets/images/home/catalogo-hero-1536.webp" alt="Composición artesanal con velas, jabón botánico, tintura, hierbas y piezas esotéricas" width="1536" height="1024">
-        </picture>
+        <!-- Escena animada: el espectro sigue al cursor; primero se ve un fotograma fijo -->
+        <div class="hero-visual escena" data-escena style="--ar: 0.9506">
+          <img class="escena-fondo" src="assets/escena/fondo.webp" alt="" width="1600" height="1136">
+          <div class="escena-suelo" aria-hidden="true"></div>
+          <div class="escena-suelo-sombra" aria-hidden="true"></div>
+          <img class="escena-espectro-fijo" src="assets/escena/espectro/031.webp" alt="Espectro encapuchado tras el mostrador de la tienda" width="961" height="1011" fetchpriority="high">
+          <canvas class="escena-espectro" aria-hidden="true"></canvas>
+          <div class="escena-mostrador">
+            <img src="assets/escena/mostrador.webp" alt="Mostrador con balanza, cartas de tarot, bola de cristal, velas y un esqueleto en la vitrina" width="1615" height="901">
+            <span class="escena-bola" aria-hidden="true"></span>
+            <span class="escena-llama" style="--x: 64.46%; --y: 23.53%" aria-hidden="true"></span>
+            <span class="escena-llama" style="--x: 68.73%; --y: 11.54%" aria-hidden="true"></span>
+            <span class="escena-llama" style="--x: 72.38%; --y: 24.64%" aria-hidden="true"></span>
+          </div>
+          <div class="escena-luz" aria-hidden="true"></div>
+          <div class="escena-vineta" aria-hidden="true"></div>
+        </div>
       </div>
     </section>
 
@@ -496,5 +512,6 @@
   <script src="catalogo-productos.js?v=20261031-1"></script>
   <script src="catalogo-render.js?v=20261021-1"></script>
   <script src="estructura.js?v=20261031-1"></script>
+  <script src="escena.js?v=20261102-2" defer></script>
 </body>
 </html>

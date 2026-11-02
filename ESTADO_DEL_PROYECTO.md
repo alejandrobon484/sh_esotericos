@@ -106,6 +106,16 @@ El 31 de octubre de 2026 se completó la fase 2, acordada con el cliente:
 
 Fase 3: descripciones y textos alternativos únicos, textos de categoría, guías, Google Search Console y Google Business Profile.
 
+## Portada con escena del espectro (rama `portada-espectro`, en revisión)
+
+Propuesta del 2 de noviembre de 2026, todavía sin publicar. Versión revisada: la escena ocupa el recuadro visual de la portada (en lugar de la foto de velas), junto al texto, sin menús laterales.
+
+- La campaña de Halloween terminó: su franja se conserva en `index.html` con el atributo `hidden` para reutilizarla.
+- En el bloque «Hecho a mano en Barcelona», la foto de velas se sustituye por una escena animada: un espectro encapuchado tras un mostrador (velas, bola de cristal, tarot y un esqueleto en vitrina) que gira y señala hacia el cursor. El texto, el H1 y los botones no cambian.
+- Archivos: `escena.css`, `escena.js` y `assets/escena/` (fondo, suelo, mostrador y 63 fotogramas WebP del espectro en `assets/escena/espectro/`, unos 3,5 MB).
+- Rendimiento: se muestra primero un fotograma fijo; los fotogramas se cargan tras el evento `load` y la animación se detiene cuando la escena sale de pantalla. Con `prefers-reduced-motion` la escena queda quieta.
+- Pendiente: sustituir el fondo provisional por la imagen definitiva.
+
 ## Pendiente inmediato
 
 1. Continuar el estilo visual definitivo: colores, tipografías y tratamiento fotográfico.
