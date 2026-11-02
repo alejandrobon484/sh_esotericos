@@ -2004,7 +2004,7 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Oráculo",
     "state": "Tirada de Oráculo 3",
     "format": "Tirada temática",
-    "price": "Desde 8 €",
+    "price": "Desde 12 €",
     "description": "Tirada Caseta de Jardín realizada con el Oráculo de la Bruja Verde.",
     "images": [
       [
@@ -2063,7 +2063,7 @@ window.CATALOGO_PRODUCTOS = [
     "collectionOnly": true,
     "state": "Consulta previa necesaria",
     "format": "Tirada de Cruz Celta",
-    "price": "Desde 10 €",
+    "price": "Desde 12 €",
     "description": "Lectura de Tarot mediante la disposición de Cruz Celta, disponible bajo consulta previa. Contacta con Manu para conocer disponibilidad y condiciones.",
     "images": [
       [
