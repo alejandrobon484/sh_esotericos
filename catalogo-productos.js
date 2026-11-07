@@ -2142,7 +2142,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Envase metálico",
     "price": "12 €",
-    "description": "Bálsamo natural de limón para manos y brazos. Consulta composición, contenido y recomendaciones de uso.",
+    "summary": "Bálsamo natural de limón que nutre, hidrata y protege la piel seca de manos y brazos.",
+    "description": "Bálsamo natural formulado para nutrir, hidratar y proteger la piel de manos y brazos. Su textura rica alivia la sensación de sequedad y cuida las zonas más castigadas, devolviéndoles suavidad y confort.\n\nEstá elaborado con ingredientes naturales, aceites esenciales y extractos de plantas, sin parabenos. Su aroma a limón, fresco y luminoso, convierte cada aplicación en un pequeño momento de bienestar.\n\nUn cuidado natural para devolver a tus manos y brazos la suavidad que merecen.",
+    "pointsTitle": "Principales beneficios",
+    "points": [
+      "Ayuda a hidratar y nutrir la piel en profundidad.",
+      "Mejora la suavidad de manos y brazos.",
+      "Protege las zonas secas o castigadas.",
+      "Textura nutritiva de rápida absorción que no deja sensación grasa.",
+      "Elaborado con ingredientes naturales y sin parabenos."
+    ],
     "images": [
       [
         "productos/objetos/balsamos/limon/balsamo-limon-01.webp",
@@ -2176,7 +2185,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Envase metálico",
     "price": "12 €",
-    "description": "Bálsamo natural de menta para manos y brazos. Consulta composición, contenido y recomendaciones de uso.",
+    "summary": "Bálsamo natural de menta fresca para pieles secas o agrietadas de manos y brazos.",
+    "description": "Pensado para las pieles secas, agrietadas o castigadas, este bálsamo de menta fresca ayuda a recuperar la suavidad de manos y brazos y a mantenerlos hidratados.\n\nCombina ingredientes naturales, aceites esenciales y extractos de plantas en una textura rica que se absorbe rápido y no deja sensación grasa. La menta aporta un toque fresco y revitalizante a cada aplicación.\n\nUn pequeño ritual de frescura y nutrición para cuidar tu piel cada día.",
+    "pointsTitle": "¿Qué beneficios aporta?",
+    "points": [
+      "Ayuda a hidratar y nutrir las zonas más secas.",
+      "Contribuye a mejorar la suavidad y la elasticidad de la piel.",
+      "Cuida las manos y los brazos agrietados.",
+      "Deja una agradable sensación de frescura.",
+      "Se absorbe rápidamente sin dejar residuos grasos."
+    ],
     "images": [
       [
         "productos/objetos/balsamos/menta/balsamo-menta-01.webp",
@@ -2210,7 +2228,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Envase metálico",
     "price": "12 €",
-    "description": "Bálsamo natural de romero para manos y brazos. Consulta composición, contenido y recomendaciones de uso.",
+    "summary": "Bálsamo natural de romero para nutrir y suavizar manos y brazos secos o agrietados.",
+    "description": "Elaborado para cuidar las pieles secas, agrietadas o muy castigadas, el bálsamo de romero aporta una hidratación nutritiva que ayuda a recuperar la suavidad de manos y brazos y a mantenerlos protegidos.\n\nSu fórmula de ingredientes naturales, enriquecida con aceite esencial de romero y extractos de plantas, tiene una textura cremosa que se absorbe enseguida, sin sensación grasa, para que puedas usarlo en cualquier momento del día.\n\nLa esencia del romero y el cuidado natural, unidos para dar a tu piel la atención que necesita cada día.",
+    "pointsTitle": "Sus principales beneficios",
+    "points": [
+      "Ayuda a nutrir e hidratar intensamente la piel.",
+      "Suaviza las manos y los brazos secos o agrietados.",
+      "Ayuda a proteger la piel frente a la sequedad.",
+      "Aporta una sensación de confort.",
+      "Se aplica con facilidad y no deja residuos grasos."
+    ],
     "images": [
       [
         "productos/objetos/balsamos/romero/balsamo-romero-01.webp",
@@ -2244,7 +2271,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Envase metálico",
     "price": "12 €",
-    "description": "Bálsamo natural de tomillo para manos y brazos. Consulta composición, contenido y recomendaciones de uso.",
+    "summary": "Bálsamo natural de tomillo que protege y nutre las pieles más castigadas.",
+    "description": "Una fórmula pensada para las pieles secas, agrietadas y castigadas de manos y brazos, que ayuda a mantenerlas hidratadas, suaves y protegidas frente a la sequedad.\n\nEnriquecido con aceite esencial de tomillo y extractos de plantas, combina nutrición y cuidado natural sin parabenos. Su textura rica se extiende con facilidad, se absorbe rápido y no deja sensación grasa.\n\nUn cuidado inspirado en la naturaleza para mantener tu piel nutrida, suave y protegida.",
+    "pointsTitle": "¿Por qué elegirlo?",
+    "points": [
+      "Ayuda a nutrir e hidratar la piel en profundidad.",
+      "Suaviza las zonas secas y agrietadas.",
+      "Protege la piel y mantiene su confort.",
+      "Ideal para el cuidado diario de manos y brazos.",
+      "Elaborado con ingredientes naturales y sin parabenos."
+    ],
     "images": [
       [
         "productos/objetos/balsamos/tomillo/balsamo-tomillo-01.webp",
@@ -2471,7 +2507,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de adivinación en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para preparar tus velas y crear ambiente antes de una lectura de tarot o una práctica de adivinación.",
+    "description": "Una esencia esotérica para acompañar tus rituales, preparar tus velas y crear un ambiente propicio antes de una consulta de tarot o de cualquier práctica de adivinación.\n\nEl pulverizador permite usarla tanto sobre las velas como en tu preparación personal, cuando quieres centrar tu energía, conectar contigo y dedicar un espacio a la introspección.\n\nUna esencia creada para ayudarte a conectar con tu intuición y tu mundo interior.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar y aromatizar las velas antes de tus rituales.",
+      "Para acompañar tus sesiones de tarot y otras lecturas.",
+      "Para crear ambiente antes de una práctica de adivinación.",
+      "En rituales personales de conexión e intuición.",
+      "En momentos de concentración e introspección."
+    ],
     "images": [
       [
         "productos/tintura/adivinacion-01.webp",
@@ -2495,7 +2540,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "15 €",
-    "description": "Esencia de amor en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales de amor, atracción, unión y armonía en la pareja.",
+    "description": "Una esencia esotérica para acompañar los trabajos espirituales de amor, atracción, unión y armonía en las relaciones.\n\nSu formato en spray facilita usarla al preparar tus velas rituales o en tus momentos de conexión personal: cuando quieres poner intención en tus sentimientos, abrirte a nuevas experiencias amorosas o reforzar el amor propio.\n\nUna esencia para acompañar tus intenciones y dar un toque especial a tus rituales de amor.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de amor.",
+      "Como complemento en trabajos de atracción y unión.",
+      "En rituales de armonía sentimental.",
+      "En momentos dedicados al amor propio y al bienestar emocional.",
+      "Para crear ambiente durante tus prácticas espirituales."
+    ],
     "images": [
       [
         "productos/tintura/amor-01.webp",
@@ -2519,7 +2573,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "15 €",
-    "description": "Esencia de dinero en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales de prosperidad, abundancia y apertura de caminos económicos.",
+    "description": "Una esencia esotérica para acompañar los trabajos espirituales de abundancia, estabilidad económica, nuevas oportunidades y prosperidad material.\n\nPulverizada sobre tus velas o en tu espacio de práctica, te ayuda a centrar tus propósitos cuando quieres mejorar tu relación con el dinero y trabajar simbólicamente la energía de la abundancia.\n\nUna esencia para acompañar tus intenciones de prosperidad y crecimiento económico.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de prosperidad.",
+      "Como complemento en trabajos de dinero y abundancia.",
+      "En rituales de apertura de caminos económicos.",
+      "En prácticas enfocadas en nuevas oportunidades y estabilidad.",
+      "Para crear ambiente durante tus rituales."
+    ],
     "images": [
       [
         "productos/tintura/dinero-01.webp",
@@ -2542,7 +2605,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de espiritualidad en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para meditación, introspección y rituales de conexión interior.",
+    "description": "Una esencia pensada para tus prácticas de meditación, introspección y conexión interior, que crea un ambiente propicio para dedicar tiempo a tu crecimiento espiritual.\n\nPuedes rociarla al preparar tus velas o en tus momentos de recogimiento. Acompaña especialmente bien la relajación, la meditación y los trabajos en los que buscas equilibrio y serenidad.\n\nUna pequeña aliada para detener el ritmo del día y dedicar un espacio a tu bienestar espiritual.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual espiritual.",
+      "En sesiones de meditación y relajación.",
+      "En prácticas de conexión interior y crecimiento personal.",
+      "Para crear ambiente en tu espacio espiritual.",
+      "En rituales de armonía y equilibrio personal."
+    ],
     "images": [
       [
         "productos/tintura/espiritualidad-01.webp",
@@ -2566,7 +2638,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "7 €",
-    "description": "Esencia de eucalipto en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia natural de eucalipto, de aroma fresco y herbal, para rituales de salud y vitalidad.",
+    "description": "Esencia de aroma fresco y herbal para acompañar los rituales de salud, bienestar, vitalidad y cuidado personal.\n\nEl eucalipto se asocia tradicionalmente con la limpieza y la frescura. Su aroma característico aporta un toque natural y revitalizante a tus rituales y a tus momentos de autocuidado.\n\nUna esencia inspirada en la naturaleza para cuidar de ti y conectar con la energía de la vitalidad.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para acompañar rituales de salud y bienestar.",
+      "Para preparar velas dedicadas a la vitalidad.",
+      "En prácticas espirituales de autocuidado.",
+      "En rituales de recuperación de la energía y la fortaleza.",
+      "Para crear un ambiente fresco y natural."
+    ],
     "images": [
       [
         "productos/tintura/eucalipto-01.webp",
@@ -2594,7 +2675,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de felicidad en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales de alegría, optimismo y energía positiva.",
+    "description": "Una esencia esotérica para los rituales que buscan atraer la felicidad, despertar el optimismo y favorecer una actitud más positiva ante la vida.\n\nÚsala cuando quieras dejar atrás las preocupaciones y renovar tus ilusiones: rociada sobre tus velas o al empezar tu práctica personal, acompaña tus intenciones de alegría y bienestar.\n\nInvita a la felicidad a tu vida y deja que cada día sea una oportunidad para sonreír.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de felicidad.",
+      "En rituales para atraer energía positiva.",
+      "En prácticas de optimismo e ilusión.",
+      "En rituales de armonía emocional y bienestar.",
+      "Para dedicar un momento a la alegría y los buenos pensamientos."
+    ],
     "images": [
       [
         "productos/tintura/felicidad-01.webp",
@@ -2617,7 +2707,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de hierbabuena en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia natural de hierbabuena para rituales de renovación, claridad mental y buena fortuna.",
+    "description": "Esencia de aroma herbal y fresco, asociada tradicionalmente con la renovación, la claridad mental, la tranquilidad y la buena fortuna.\n\nEs una buena compañera para tus prácticas espirituales cuando quieres despejar la mente, renovar tus intenciones y abrirte a nuevas oportunidades.\n\nDeja que la frescura de la hierbabuena convierta cada ritual en un momento de renovación y equilibrio.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de renovación.",
+      "En trabajos relacionados con la buena fortuna.",
+      "En rituales de claridad mental y concentración.",
+      "En prácticas de tranquilidad y armonía personal.",
+      "Para simbolizar nuevos comienzos."
+    ],
     "images": [
       [
         "productos/tintura/hierbabuena-01.webp",
@@ -2641,7 +2740,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "7 €",
-    "description": "Esencia de lavanda en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia natural de lavanda en spray para rituales de paz, calma y equilibrio emocional.",
+    "description": "Inspirada en una de las plantas más apreciadas por su aroma relajante, esta esencia acompaña los rituales de tranquilidad, serenidad y equilibrio emocional.\n\nSu fragancia floral y delicada ayuda a dejar atrás las tensiones del día y a crear un espacio de paz, tanto en tus rituales con velas como en tus momentos de relajación y meditación.\n\nLa lavanda aporta un toque de serenidad a tus rituales y te ayuda a encontrar la paz interior.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de paz.",
+      "En rituales de armonía y equilibrio emocional.",
+      "En momentos de meditación y relajación.",
+      "En prácticas relacionadas con el descanso.",
+      "Para crear un ambiente acogedor y tranquilo."
+    ],
     "images": [
       [
         "productos/tintura/lavanda-01.webp",
@@ -2664,7 +2772,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de lujuria en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales de pasión, deseo, sensualidad y atracción.",
+    "description": "Una esencia esotérica para los rituales de deseo, sensualidad, atracción y magnetismo personal.\n\nPensada para quienes quieren trabajar simbólicamente la energía de la pasión, se pulveriza al preparar las velas o durante las prácticas dedicadas al deseo y a la conexión en pareja.\n\nUna esencia para despertar la pasión y celebrar la fuerza de la atracción.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de pasión.",
+      "En trabajos de atracción y deseo.",
+      "En rituales de sensualidad y magnetismo personal.",
+      "En prácticas para avivar la pasión.",
+      "Para acompañar tus rituales de amor."
+    ],
     "images": [
       [
         "productos/tintura/lujuria-01.webp",
@@ -2688,7 +2805,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "7 €",
-    "description": "Esencia de menta piperita en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia natural de menta piperita para rituales de claridad, energía y apertura de caminos.",
+    "description": "Inspirada en la frescura y la fuerza de esta planta aromática, acompaña los rituales de claridad mental, concentración, vitalidad y apertura de caminos.\n\nSu carácter fresco y estimulante la hace ideal para los momentos en los que quieres dejar atrás los bloqueos, recuperar la motivación y centrarte en lo que quieres conseguir.\n\nLa fuerza de la menta piperita para renovar tus propósitos y avanzar con energía hacia tus objetivos.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de apertura de caminos.",
+      "En trabajos de claridad y concentración.",
+      "En rituales de vitalidad y renovación personal.",
+      "En prácticas ligadas a la motivación y a los nuevos proyectos.",
+      "Para simbolizar la superación de obstáculos."
+    ],
     "images": [
       [
         "productos/tintura/menta-piperita-01.webp",
@@ -2711,7 +2837,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de paz en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales de serenidad, reconciliación y armonía familiar.",
+    "description": "Una esencia esotérica para acompañar los trabajos de tranquilidad, armonía familiar, reconciliación y paz interior.\n\nÚsala cuando quieras dejar atrás las tensiones y favorecer el entendimiento y la buena convivencia, rociándola sobre tus velas o en tu espacio de práctica.\n\nInvita a la tranquilidad a tu vida y cultiva la armonía en tu entorno.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de paz y armonía.",
+      "En trabajos de reconciliación.",
+      "En rituales de armonía familiar y entendimiento.",
+      "En prácticas de serenidad y paz interior.",
+      "En momentos de meditación y conexión personal."
+    ],
     "images": [
       [
         "productos/tintura/paz-01.webp",
@@ -2735,7 +2870,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "15 €",
-    "description": "Esencia de protección en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales de protección espiritual de la persona y del hogar.",
+    "description": "Una esencia esotérica para quienes quieren trabajar la protección espiritual, fortalecer su energía personal y sentirse más seguros frente a las influencias negativas.\n\nAcompaña tus rituales de protección en los momentos en los que buscas reforzar tu confianza, marcar límites energéticos y crear un espacio de seguridad y tranquilidad.\n\nUna esencia para fortalecer tu espíritu y acompañarte en tus rituales de protección.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de protección.",
+      "En trabajos de defensa espiritual.",
+      "En rituales para alejar las malas energías.",
+      "En prácticas para reforzar la seguridad y la confianza personal.",
+      "En rituales de protección del hogar y la familia."
+    ],
     "images": [
       [
         "productos/tintura/proteccion-01.webp",
@@ -2758,7 +2902,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de purificación en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para limpieza energética, cierre de ciclos y renovación de espacios.",
+    "description": "Una esencia esotérica para acompañar las prácticas de limpieza energética, liberación de cargas negativas y renovación de los espacios.\n\nEs ideal cuando sientes la necesidad de cerrar etapas, dejar atrás lo que ya no quieres en tu vida y recuperar la ligereza. Puedes pulverizarla en la estancia o al preparar tus velas.\n\nDeja atrás lo que ya no necesitas y abre espacio a nuevas energías.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de purificación.",
+      "En trabajos de limpieza energética.",
+      "En rituales para liberar energías negativas.",
+      "En prácticas de renovación y cierre de ciclos.",
+      "Para la purificación simbólica del hogar."
+    ],
     "images": [
       [
         "productos/tintura/purificacion-01.webp",
@@ -2782,7 +2935,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "7 €",
-    "description": "Esencia de romero en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia natural de romero para rituales de protección, fortaleza y buena fortuna.",
+    "description": "Una preparación inspirada en el romero, planta relacionada tradicionalmente con la protección, la fortaleza, la claridad mental y la buena fortuna.\n\nEs una de las plantas más presentes en las prácticas espirituales, símbolo de renovación y vitalidad, y un buen complemento para reforzar tus intenciones y tus trabajos esotéricos.\n\nLa fuerza del romero para renovar tu energía y afrontar cada nuevo camino con confianza.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de protección.",
+      "En trabajos de renovación energética.",
+      "En rituales de fortaleza y seguridad personal.",
+      "En prácticas de claridad mental y concentración.",
+      "Para simbolizar la apertura de caminos y la buena fortuna."
+    ],
     "images": [
       [
         "productos/tintura/romero-01.webp",
@@ -2811,7 +2973,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
     "price": "15 €",
-    "description": "Esencia de salud en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales e intenciones de salud, vitalidad y bienestar.",
+    "description": "Una esencia esotérica para acompañar los rituales e intenciones de salud, vitalidad, fortaleza y equilibrio personal.\n\nPensada para quienes quieren centrar sus prácticas espirituales en su bienestar o en el de sus seres queridos, y renovar fuerzas cuando necesitan sentirse más fuertes. Se usa al preparar las velas o durante el ritual. Es un complemento espiritual y no sustituye ningún tratamiento médico.\n\nUna esencia para acompañar tus buenos deseos y dedicar un espacio especial al bienestar.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de salud.",
+      "En trabajos de bienestar y vitalidad.",
+      "En rituales de fortaleza física y emocional.",
+      "En prácticas de recuperación de energías.",
+      "Para expresar tus deseos de salud para ti y los tuyos."
+    ],
     "images": [
       [
         "productos/tintura/salud-01.webp",
@@ -2834,7 +3005,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas naturales",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de vainilla en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia natural de vainilla para rituales de dulzura, atracción y armonía sentimental.",
+    "description": "Aporta dulzura y calidez a los trabajos espirituales de atracción, armonía sentimental, cariño y buenas relaciones.\n\nLa vainilla se asocia tradicionalmente con la sensualidad y la calidez, y acompaña bien a quienes quieren atraer momentos agradables y favorecer el entendimiento. Pulverízala sobre tus velas o en tu espacio de práctica.\n\nDeja que la dulzura de la vainilla llene tus rituales de calidez y armonía.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de dulzura y atracción.",
+      "En trabajos de armonía sentimental.",
+      "En rituales de cariño y buenas relaciones.",
+      "En prácticas de amor propio y autoestima.",
+      "Para simbolizar la llegada de momentos agradables."
+    ],
     "images": [
       [
         "productos/tintura/vainilla-01.webp",
@@ -2857,7 +3037,16 @@ window.CATALOGO_PRODUCTOS = [
     "collection": "Tinturas ritualizadas",
     "state": "Consultar disponibilidad",
     "format": "Spray de 30 ml",
-    "description": "Esencia de valor en formato spray de 30 ml. Consulta composición, indicaciones y modo de uso antes de realizar el pedido.",
+    "summary": "Esencia en spray para rituales de valentía, confianza y superación de obstáculos.",
+    "description": "Una esencia esotérica para acompañar los rituales de valentía, confianza personal, superación de obstáculos y fortaleza espiritual.\n\nIdeal cuando necesitas recuperar la seguridad en ti, tomar una decisión importante o encontrar el impulso para avanzar sin miedo.\n\nEncuentra la fuerza que llevas dentro y avanza con valentía hacia lo que quieres conseguir.",
+    "pointsTitle": "¿Para qué puedes utilizarla?",
+    "points": [
+      "Para preparar tus velas antes de un ritual de valentía.",
+      "En trabajos para reforzar la confianza personal.",
+      "En rituales para superar miedos e inseguridades.",
+      "En prácticas para afrontar nuevos retos.",
+      "Para simbolizar la determinación ante las dificultades."
+    ],
     "images": [
       [
         "productos/tintura/valor-01.webp",
@@ -2881,7 +3070,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Jabón artesanal y bálsamo",
     "price": "18 €",
-    "description": "Conjunto de jabón artesanal y bálsamo de menta. Consulta composición, contenido y recomendaciones de uso.",
+    "summary": "Kit de jabón natural y bálsamo de menta para limpiar, hidratar y refrescar la piel.",
+    "description": "Una rutina de cuidado completa en un solo kit: un jabón natural para la limpieza diaria y un bálsamo de menta que hidrata y nutre manos y brazos.\n\nEl bálsamo tiene una textura rica que se absorbe rápido sin dejar sensación grasa, y la menta aporta un toque fresco a tu rutina.\n\nDos productos que se complementan para mantener tu piel limpia, nutrida y suave cada día.",
+    "pointsTitle": "Qué incluye y qué aporta",
+    "points": [
+      "Jabón natural: para la limpieza y el cuidado diario de la piel.",
+      "Bálsamo de menta: ayuda a hidratar, nutrir y suavizar manos y brazos.",
+      "Cuidado complementario: limpieza e hidratación en una misma rutina.",
+      "Sensación de frescura gracias a la menta.",
+      "Ingredientes naturales, para quienes prefieren productos de origen natural."
+    ],
     "images": [
       [
         "productos/kits/jabon-y-balsamo/jab-balsam-menta-01.webp",
@@ -2900,7 +3098,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Jabón artesanal y bálsamo",
     "price": "18 €",
-    "description": "Conjunto de jabón artesanal y bálsamo de romero. Consulta composición, contenido y recomendaciones de uso.",
+    "summary": "Kit de jabón natural y bálsamo de romero para la higiene e hidratación diaria.",
+    "description": "Dos productos que se complementan en tu rutina de higiene e hidratación: un jabón natural para limpiar la piel y un bálsamo de romero que nutre y suaviza manos y brazos, sobre todo cuando están secos o castigados.\n\nEl romero, apreciado por su aroma herbal, da carácter a este conjunto. El bálsamo tiene una textura rica y nutritiva, de rápida absorción y sin sensación grasa.\n\nLimpieza y nutrición que convierten el cuidado diario en un pequeño ritual de bienestar.",
+    "pointsTitle": "Qué incluye y qué aporta",
+    "points": [
+      "Jabón natural: limpia la piel en tu rutina de higiene diaria.",
+      "Bálsamo de romero: ayuda a hidratar, nutrir y suavizar manos y brazos.",
+      "Cuidado diario más completo con dos productos que se complementan.",
+      "Nutrición y suavidad para las zonas más secas.",
+      "Elaborados con ingredientes naturales y sin parabenos."
+    ],
     "images": [
       [
         "productos/kits/jabon-y-balsamo/jab-balsam-romero-01.webp",
@@ -2919,7 +3126,16 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Jabón artesanal y bálsamo",
     "price": "18 €",
-    "description": "Conjunto de jabón artesanal y bálsamo de tomillo. Consulta composición, contenido y recomendaciones de uso.",
+    "summary": "Kit de jabón natural y bálsamo de tomillo para pieles secas, agrietadas o castigadas.",
+    "description": "Un pack con dos productos para el cuidado diario: un jabón natural que limpia la piel y un bálsamo de tomillo formulado para nutrir e hidratar las manos y los brazos más secos, agrietados o castigados.\n\nEl tomillo, planta aromática mediterránea, da personalidad al conjunto. El bálsamo se absorbe rápido y no deja sensación grasa.\n\nLimpieza, nutrición y bienestar en un solo pack.",
+    "pointsTitle": "Qué incluye y qué aporta",
+    "points": [
+      "Jabón natural: limpia la piel y la deja fresca.",
+      "Bálsamo de tomillo: ayuda a hidratar, nutrir y suavizar las zonas más secas.",
+      "Cuidado reparador para manos y brazos.",
+      "Confort y suavidad para la piel castigada.",
+      "Elaborados con ingredientes naturales y sin parabenos."
+    ],
     "images": [
       [
         "productos/kits/jabon-y-balsamo/jab-balsam-tomillo-01.webp",
@@ -3250,7 +3466,15 @@ window.CATALOGO_PRODUCTOS = [
     "format": "Pastilla grande",
     "price": "8 €",
     "badge": "Grande",
-    "description": "Jabón artesanal elaborado con eucalipto en formato grande. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de eucalipto en pastilla grande que purifica, refresca y revitaliza.",
+    "description": "Jabón artesanal elaborado con eucalipto, una planta conocida por su aroma fresco, herbal y revitalizante.\n\nPara la higiene diaria, deja una agradable sensación de limpieza y frescura. Se presenta en pastilla grande, que rinde más.\n\nDale a tu piel la frescura de la naturaleza.",
+    "pointsTitle": "Características",
+    "points": [
+      "Aroma fresco, herbal y revitalizante.",
+      "Ayuda a mantener la piel limpia y cuidada.",
+      "Sensación purificante propia del eucalipto.",
+      "Convierte tu rutina diaria en un momento de cuidado personal."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-eucalipto-01.webp",
@@ -3284,7 +3508,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
     "price": "6 €",
-    "description": "Jabón artesanal elaborado con lavanda. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de lavanda que calma, suaviza y relaja.",
+    "description": "Jabón artesanal elaborado con lavanda, conocida por su delicado aroma floral y su asociación con la calma y el bienestar.\n\nUn jabón para la higiene diaria que convierte cada baño en un momento de tranquilidad. También está disponible en pastilla grande.\n\nRegálate un momento de calma.",
+    "pointsTitle": "Características",
+    "points": [
+      "Aroma floral y relajante que invita a la calma.",
+      "Limpia la piel con suavidad.",
+      "Ayuda a mantener la piel suave y agradable al tacto.",
+      "Ideal para una rutina de cuidado y relajación."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-lavanda-01.webp",
@@ -3314,7 +3546,15 @@ window.CATALOGO_PRODUCTOS = [
     "format": "Pastilla grande",
     "price": "8 €",
     "badge": "Grande",
-    "description": "Jabón artesanal elaborado con lavanda en formato grande. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de lavanda en pastilla grande que calma, suaviza y relaja.",
+    "description": "La versión en pastilla grande de nuestro jabón artesanal de lavanda, la planta de aroma floral asociada con la calma y el bienestar.\n\nRinde más en tu higiene diaria y convierte cada ducha en un momento de tranquilidad.\n\nLa naturaleza cuida de ti.",
+    "pointsTitle": "Características",
+    "points": [
+      "Aroma floral y relajante que invita a la calma.",
+      "Limpia la piel con suavidad.",
+      "Ayuda a mantener la piel suave y agradable al tacto.",
+      "Formato grande, pensado para durar."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-lavanda-02.webp",
@@ -3407,7 +3647,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla artesanal",
     "price": "6 €",
-    "description": "Jabón artesanal elaborado con romero en formato estándar. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de romero que purifica, tonifica y revitaliza.",
+    "description": "Jabón artesanal elaborado con romero, una planta aromática apreciada por su frescura y sus cualidades revitalizantes.\n\nPara la higiene diaria, deja una agradable sensación de limpieza y frescura, perfecta para empezar el día. También está disponible en pastilla grande.\n\nUn toque de naturaleza y vitalidad para tu piel.",
+    "pointsTitle": "Características",
+    "points": [
+      "Aroma herbal, fresco y estimulante.",
+      "Ayuda a mantener la piel limpia y suave.",
+      "Sensación tonificante propia del romero.",
+      "Perfecto para empezar el día con una sensación renovada."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-romero-01.webp",
@@ -3442,7 +3690,15 @@ window.CATALOGO_PRODUCTOS = [
     "format": "Pastilla grande",
     "price": "8 €",
     "badge": "Grande",
-    "description": "Jabón artesanal elaborado con romero en formato grande. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de romero en pastilla grande que purifica, tonifica y revitaliza.",
+    "description": "La versión en pastilla grande de nuestro jabón artesanal de romero, planta aromática apreciada por su frescura y sus cualidades revitalizantes.\n\nRinde más y deja una agradable sensación de limpieza y frescura en tu higiene diaria.\n\nUn toque de naturaleza y vitalidad para tu piel.",
+    "pointsTitle": "Características",
+    "points": [
+      "Aroma herbal, fresco y estimulante.",
+      "Ayuda a mantener la piel limpia y suave.",
+      "Sensación tonificante propia del romero.",
+      "Formato grande, pensado para durar."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-romero-grande-01-jpg.webp",
@@ -3472,7 +3728,15 @@ window.CATALOGO_PRODUCTOS = [
     "format": "Pastilla grande",
     "price": "8 €",
     "badge": "Grande",
-    "description": "Jabón artesanal elaborado con ruda en formato grande. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de ruda en pastilla grande, planta tradicional de limpieza y renovación.",
+    "description": "Jabón artesanal elaborado con ruda, planta muy apreciada en la tradición popular por su simbolismo de limpieza y renovación.\n\nUne el cuidado personal y la tradición de las plantas para que tu higiene diaria sea un momento especial. En pastilla grande, rinde más.\n\nConecta con la naturaleza en tu ritual de cuidado personal.",
+    "pointsTitle": "Características",
+    "points": [
+      "Inspirado en una planta de larga tradición popular.",
+      "Para la higiene diaria de la piel.",
+      "Sensación de frescura y limpieza.",
+      "Para quienes disfrutan del cuidado natural."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-01.webp",
@@ -3511,7 +3775,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla pequeña",
     "price": "6 €",
-    "description": "Jabón artesanal elaborado con ruda en formato pequeño. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de ruda en pastilla pequeña, planta tradicional de limpieza y renovación.",
+    "description": "Pequeña pastilla de jabón artesanal con ruda, una planta que la tradición popular asocia con la limpieza y la renovación.\n\nPráctica para probarla, llevarla de viaje o regalar. También está disponible en pastilla grande.\n\nConecta con la naturaleza en tu ritual de cuidado personal.",
+    "pointsTitle": "Características",
+    "points": [
+      "Inspirado en una planta de larga tradición popular.",
+      "Para la higiene diaria de la piel.",
+      "Sensación de frescura y limpieza.",
+      "Formato pequeño y fácil de llevar."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-ruda-chico-01.webp",
@@ -3536,7 +3808,15 @@ window.CATALOGO_PRODUCTOS = [
     "format": "Pastilla grande",
     "price": "8 €",
     "badge": "Grande",
-    "description": "Jabón artesanal elaborado con tomillo en formato grande. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de tomillo en pastilla grande que purifica, equilibra y protege.",
+    "description": "Jabón artesanal elaborado con tomillo, una planta aromática apreciada por su frescura y sus cualidades purificantes.\n\nPara la higiene diaria, combina el cuidado de la piel con el aroma herbal de las plantas mediterráneas. En pastilla grande, rinde más.\n\nDescubre el poder de las plantas mediterráneas.",
+    "pointsTitle": "Características",
+    "points": [
+      "Aroma herbal, fresco y revitalizante.",
+      "Ayuda a mantener la piel limpia y suave.",
+      "Planta tradicionalmente apreciada por sus cualidades purificantes.",
+      "Un momento de cuidado natural para cada día."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-tomillo-01.webp",
@@ -3565,7 +3845,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla pequeña",
     "price": "6 €",
-    "description": "Jabón artesanal elaborado con tomillo en formato pequeño. Consulta composición, peso y recomendaciones de uso.",
+    "summary": "Jabón natural de tomillo en pastilla pequeña que purifica, equilibra y protege.",
+    "description": "Pequeña pastilla de jabón artesanal con tomillo, planta mediterránea de aroma herbal y cualidades purificantes.\n\nPráctica para probarla, llevarla de viaje o regalar. También está disponible en pastilla grande.\n\nDescubre el poder de las plantas mediterráneas.",
+    "pointsTitle": "Características",
+    "points": [
+      "Aroma herbal, fresco y revitalizante.",
+      "Ayuda a mantener la piel limpia y suave.",
+      "Planta tradicionalmente apreciada por sus cualidades purificantes.",
+      "Formato pequeño y fácil de llevar."
+    ],
     "images": [
       [
         "productos/jabones/jabones-con-plantas/jab-plts-tomillo-chico-01.webp",
@@ -3752,7 +4040,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
     "price": "12 €",
-    "description": "Jabón artesanal ritualizado para la intención de Amor. Consulta composición, preparación y modo de uso.",
+    "summary": "Jabón ritualizado para rituales de amor, amor propio, armonía y atracción.",
+    "description": "Jabón ritualizado inspirado en la tradición esotérica del amor, la armonía y la conexión afectiva, para acompañar tus rituales, tus intenciones y tus momentos de autocuidado.\n\nRitualiza tus deseos, conecta con el amor y abre espacio a nuevas emociones.",
+    "pointsTitle": "Intenciones",
+    "points": [
+      "Amor propio y atracción: para rituales de amor y apertura emocional.",
+      "Energía del amor: simboliza el cariño, la pasión y los sentimientos.",
+      "Armonía y conexión: acompaña las intenciones de unión y equilibrio afectivo.",
+      "Ritual personal: un momento para conectar con tus deseos."
+    ],
     "images": [
       [
         "productos/jabones/jabones-ritualizados/jabones-ritualizados-de-amor-01.webp",
@@ -3786,7 +4082,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
     "price": "12 €",
-    "description": "Jabón artesanal ritualizado de Bruja. Consulta composición, preparación, intención y modo de uso.",
+    "summary": "Jabón ritualizado para recargar energía, recuperar vitalidad y renovarte por dentro.",
+    "description": "Basado en antiguas tradiciones de brujería, este jabón acompaña los momentos de renovación personal, conexión espiritual y recarga de energía.\n\nRecupera tu esencia, despierta tu fuerza interior y renueva tu energía.",
+    "pointsTitle": "Intenciones",
+    "points": [
+      "Recarga energética: simboliza la recuperación de tu fuerza interior.",
+      "Vitalidad: para conectar con tu fuerza personal y recuperar el ánimo.",
+      "Conexión espiritual: acompaña la meditación y la introspección.",
+      "Renovación interior: para rituales de nuevos comienzos y transformación."
+    ],
     "images": [
       [
         "productos/jabones/jabones-ritualizados/jabones-ritualizados-de-bruja-01.webp",
@@ -3830,7 +4134,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
     "price": "12 €",
-    "description": "Jabón artesanal ritualizado para la intención de Suerte. Consulta composición, preparación y modo de uso.",
+    "summary": "Jabón ritualizado para atraer la buena suerte y la prosperidad y abrir caminos.",
+    "description": "Un jabón ritualizado para los momentos en los que buscas atraer la buena suerte, renovar tu energía y abrirte a la prosperidad.\n\nAbre tus caminos y deja que la fortuna llegue a tu vida.",
+    "pointsTitle": "Intenciones",
+    "points": [
+      "Atracción de la suerte: simboliza la llegada de buenas oportunidades.",
+      "Abundancia: enfocado en la prosperidad y el crecimiento personal.",
+      "Apertura de caminos: para dejar atrás los bloqueos.",
+      "Renovación energética: para rituales de nuevos comienzos y cambios positivos."
+    ],
     "images": [
       [
         "productos/jabones/jabones-ritualizados/jabones-ritualizados-de-la-suerte-01.webp",
@@ -3859,7 +4171,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
     "price": "12 €",
-    "description": "Jabón artesanal ritualizado para la intención de Dinero. Consulta composición, preparación y modo de uso.",
+    "summary": "Jabón ritualizado para rituales de dinero, abundancia y éxito en negocios y proyectos.",
+    "description": "Pensado para los rituales de prosperidad, atracción del dinero y desbloqueo de oportunidades económicas, siguiendo la tradición esotérica.\n\nAtrae la abundancia y conecta con la energía de la prosperidad.",
+    "pointsTitle": "Intenciones",
+    "points": [
+      "Atracción del dinero: simboliza la llegada de ingresos y nuevas oportunidades.",
+      "Abundancia: favorece una mentalidad de prosperidad.",
+      "Apertura de caminos: para superar los bloqueos económicos.",
+      "Éxito: para rituales de trabajo, negocios y proyectos."
+    ],
     "images": [
       [
         "productos/jabones/jabones-ritualizados/jabones-ritualizados-del-dinero-01.webp",
@@ -3893,7 +4213,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
     "price": "12 €",
-    "description": "Jabón artesanal ritualizado para una intención de protección. Consulta composición, preparación y modo de uso.",
+    "summary": "Jabón ritualizado de protección para limpieza energética y fortaleza espiritual.",
+    "description": "Un jabón ritualizado para la limpieza energética, la protección espiritual y la renovación interior. Te acompaña cuando quieres alejar las malas vibraciones, liberar cargas negativas y reforzar tu energía personal.\n\nLimpia tu energía, fortalece tu espíritu y rodéate de protección.",
+    "pointsTitle": "Intenciones",
+    "points": [
+      "Protección: simboliza un escudo espiritual frente a las energías negativas.",
+      "Limpieza energética: para liberar cargas y energías no deseadas.",
+      "Fortaleza espiritual: refuerza tu confianza y tu seguridad.",
+      "Equilibrio: para recuperar la calma interior tras la limpieza."
+    ],
     "images": [
       [
         "productos/jabones/jabones-ritualizados/jabones-ritualizados-protege-01.webp",
@@ -3932,7 +4260,15 @@ window.CATALOGO_PRODUCTOS = [
     "state": "Consultar disponibilidad",
     "format": "Pastilla ritualizada",
     "price": "12 €",
-    "description": "Jabón artesanal ritualizado Psíquico. Consulta composición, preparación, intención y modo de uso.",
+    "summary": "Jabón ritualizado para despertar la intuición, la claridad y el desarrollo espiritual.",
+    "description": "Un jabón ritualizado para acompañar la conexión espiritual, el desarrollo de la intuición y la exploración del mundo interior.\n\nDespierta tu intuición y conecta con tu sabiduría interior.",
+    "pointsTitle": "Intenciones",
+    "points": [
+      "Intuición: simboliza la conexión con tu sexto sentido y tu voz interior.",
+      "Claridad: favorece la concentración y la introspección.",
+      "Desarrollo psíquico: acompaña la meditación y la visualización.",
+      "Conexión interior: para rituales de autoconocimiento y crecimiento espiritual."
+    ],
     "images": [
       [
         "productos/jabones/jabones-ritualizados/jabones-ritualizados-psiquico-01.webp",

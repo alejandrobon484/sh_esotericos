@@ -236,6 +236,9 @@ p { color: var(--muted); }
 .detail-note { font-size: .85rem; }
 .detail-points { display: grid; gap: 10px; margin: 25px 0; padding: 0; list-style: none; }
 .detail-points li { padding: 11px 0; border-bottom: 1px solid var(--border); }
+.detail-text { max-width: 680px; }
+.detail-points-title { margin: 28px 0 0; font-size: 1.15rem; }
+.detail-points-title + .detail-points { margin-top: 8px; }
 .detail-actions { display: grid; gap: 9px; margin-top: 26px; }
 .detail-actions .button { width: 100%; }
 .product-data { margin-top: 34px; border-top: 1px solid var(--border); }

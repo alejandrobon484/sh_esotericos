@@ -429,7 +429,7 @@ def datos_producto(producto, url, elementos_migas):
         servicio = {
             '@type': 'Service',
             'name': producto['name'],
-            'description': producto['description'],
+            'description': producto['description'].replace('\n\n', ' '),
             'url': DOMINIO + url,
             'image': imagenes[0],
             'provider': {'@id': TIENDA_ID},
@@ -443,7 +443,7 @@ def datos_producto(producto, url, elementos_migas):
         grafo.append({
             '@type': 'Product',
             'name': producto['name'],
-            'description': producto['description'],
+            'description': producto['description'].replace('\n\n', ' '),
             'url': DOMINIO + url,
             'image': imagenes,
             'category': producto['categoryLabel'],
@@ -485,6 +485,10 @@ def pagina_producto(producto, productos, css):
     elementos = [('Inicio', '/'), (nombre_padre, url_padre), (producto['name'], url)]
     precio = precio_visible(producto)
     puntos = ''.join(f'<li>{e(punto)}</li>' for punto in (producto.get('points') or PUNTOS_POR_DEFECTO))
+    entradilla, *parrafos = producto['description'].split('\n\n')
+    cuerpo = ''.join(f'\n        <p class="detail-text">{e(parrafo)}</p>' for parrafo in parrafos)
+    if producto.get('pointsTitle'):
+        cuerpo += f'\n        <h2 class="detail-points-title">{e(producto["pointsTitle"])}</h2>'
     mensaje = f"Hola Manu, quiero consultar: {producto['name']}"
     whatsapp = f'https://wa.me/{WHATSAPP}?text={quote(mensaje)}'
     datos_extra = ''
@@ -526,9 +530,9 @@ def pagina_producto(producto, productos, css):
         <p class="eyebrow">{e(coleccion or 'Catálogo artesanal')}</p>
         <h1>{e(producto['name'])}</h1>
         <span class="product-state">{e(producto['state'])}</span>
-        <p class="lead">{e(producto['description'])}</p>
+        <p class="lead">{e(entradilla)}</p>
         <p class="detail-price">{e(precio)}</p>
-        <p class="detail-note">Consulta disponibilidad, medidas, preparación y condiciones del pedido. Entrega en persona en Barcelona o envío bajo consulta.</p>
+        <p class="detail-note">Consulta disponibilidad, medidas, preparación y condiciones del pedido. Entrega en persona en Barcelona o envío bajo consulta.</p>{cuerpo}
         <ul class="detail-points">{puntos}</ul>
         <div class="detail-actions">
           <a class="button primary" href="{e(whatsapp)}" data-contact="whatsapp" data-message="{e(mensaje)}" target="_blank" rel="noopener">Consultar por WhatsApp</a>
