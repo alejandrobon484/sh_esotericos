@@ -3,6 +3,52 @@
 // Fuente única de datos del catálogo de SH Esotéricos.
 window.CATALOGO_PRODUCTOS = [
   {
+    "id": "piro-yule",
+    "name": "Pirograbado de Yule · El renacer de la luz",
+    "state": "Consultar disponibilidad",
+    "price": "16 €",
+    "summary": "Luna creciente, estrellas y colinas pirograbadas en madera para celebrar Yule, el solsticio de invierno.",
+    "description": "Pirograbado artesanal sobre una rodaja de madera natural: una luna creciente y un cielo estrellado sobre un paisaje de colinas. Está inspirado en Yule, la fiesta pagana del solsticio de invierno, que celebra el renacer de la luz: a partir de esa noche, la más larga del año, los días vuelven a alargarse.\n\nUna pieza para decorar el altar o la casa en las fiestas de invierno, o para regalar.",
+    "format": "Rodaja de madera",
+    "points": [
+      "Motivo de luna creciente, estrellas y colinas.",
+      "Pirograbado a mano sobre madera natural.",
+      "Inspirado en Yule, el solsticio de invierno.",
+      "Fotografía real y ejemplos ambientados."
+    ],
+    "images": [
+      [
+        "productos/pirograbados/piro-yule-01.webp",
+        "Pirograbado de Yule con luna creciente, estrellas y colinas sobre una rodaja de madera",
+        "Fotografía del producto real"
+      ],
+      [
+        "productos/pirograbados/piro-yule-02.webp",
+        "Pirograbado de Yule junto a una ventana nevada, un farol y una vela",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/pirograbados/piro-yule-03.webp",
+        "Pirograbado de Yule sobre terciopelo rojo con piñas y bayas navideñas",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/pirograbados/piro-yule-04.webp",
+        "Pirograbado de Yule entre ramas de abeto, piñas y velas encendidas",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/pirograbados/piro-yule-05.webp",
+        "Presentación del Pirograbado de Yule, El renacer de la luz, con su precio",
+        "Presentación"
+      ]
+    ],
+    "category": "pictografia",
+    "categoryLabel": "Pirograbados",
+    "collection": "Yule",
+    "detailUrl": "producto/piro-yule/"
+  },
+  {
     "id": "coleccion-lobos",
     "name": "Colección Lobos",
     "category": "pictografia",

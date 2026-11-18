@@ -79,7 +79,7 @@ CATEGORIAS = {
         'titulo': 'Pirograbados artesanales en madera | SH Esotéricos',
         'h1': 'Pirograbados artesanales en madera',
         'tipo': 'Pirograbado artesanal',
-        'intro': 'Pirograbados sobre madera realizados a mano por Manu: lobos, fénix, cuervos, colibríes, árboles de la vida y simbología nórdica y celta como el Valknut, la trisqueta, la cruz celta o el nudo celta. Piezas para decorar, coleccionar o regalar.',
+        'intro': 'Pirograbados sobre madera realizados a mano por Manu: lobos, fénix, cuervos, colibríes, árboles de la vida, simbología nórdica y celta como el Valknut, la trisqueta, la cruz celta o el nudo celta, y piezas de temporada como el pirograbado de Yule. Para decorar, coleccionar o regalar.',
     },
     'tiradas': {
         'nombre': 'Tiradas',
@@ -134,6 +134,13 @@ COLECCIONES = {
         'titulo': 'Kit ritual de Samhain | SH Esotéricos',
         'h1': 'Colección de Samhain',
         'intro': 'Kit ritual de Samhain con velón, bolsa y pieza pirograbada para celebrar el inicio del año nuevo celta, la noche del 31 de octubre.',
+    },
+    'Yule': {
+        'nombre': 'Yule',
+        'slug': 'yule',
+        'titulo': 'Yule, solsticio de invierno: pirograbado artesanal | SH Esotéricos',
+        'h1': 'Colección de Yule',
+        'intro': 'Piezas para celebrar Yule, la fiesta pagana del solsticio de invierno, en torno al 21 de diciembre: la noche más larga del año y el renacer de la luz. Incluye el pirograbado artesanal El renacer de la luz.',
     },
 }
 
