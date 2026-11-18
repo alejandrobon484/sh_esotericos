@@ -110,9 +110,9 @@ COLECCIONES = {
     'Navidad': {
         'nombre': 'Navidad',
         'slug': 'navidad',
-        'titulo': 'Velas de Navidad artesanales | SH Esotéricos',
+        'titulo': 'Velas y centros de mesa de Navidad artesanales | SH Esotéricos',
         'h1': 'Colección de Navidad',
-        'intro': 'Velas artesanales de Navidad: árboles, gnomos y un velón azul navideño, hechos a mano para decorar o regalar.',
+        'intro': 'Velas y centros de mesa artesanales de Navidad: centros de mesa con vela aromática de naranja y canela o de pino, árboles, gnomos y un velón azul navideño, hechos a mano para decorar la mesa o regalar.',
     },
     'San Valentín': {
         'nombre': 'San Valentín',

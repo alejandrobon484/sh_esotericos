@@ -1238,6 +1238,93 @@ window.CATALOGO_PRODUCTOS = [
     "detailUrl": "producto/velon-azul-navidad/"
   },
   {
+    "id": "centro-mesa-navidad-naranja-canela",
+    "name": "Centro de mesa navideño · Naranja y canela",
+    "category": "velas",
+    "categoryLabel": "Velas",
+    "collection": "Navidad",
+    "state": "Consultar disponibilidad",
+    "format": "Centro de mesa con vela aromática",
+    "price": "49,95 €",
+    "summary": "Centro de mesa navideño con vela aromática de naranja y canela, árbol, casita y adornos naturales.",
+    "description": "Centro de mesa navideño artesanal sobre una rodaja de madera natural, decorado con ramas de abeto, piñas y bayas rojas. Lo completan un árbol de Navidad, una casita y una vela aromática de naranja y canela dentro de una bola navideña con tapa.\n\nEl aroma cálido de la naranja y la canela llena la casa de ambiente de fiesta. Una pieza para vestir la mesa en Nochebuena y Navidad, o para regalar.",
+    "points": [
+      "Vela aromática de naranja y canela.",
+      "Base de rodaja de madera con abeto, piñas y bayas.",
+      "Hecho a mano, pieza decorativa para la mesa navideña.",
+      "Imagen del producto e imágenes ambientadas."
+    ],
+    "images": [
+      [
+        "productos/velas/navidad/centro-mesa-naranja-canela-05.webp",
+        "Centro de mesa navideño de naranja y canela visto desde arriba, con la vela destapada",
+        "Imagen del producto"
+      ],
+      [
+        "productos/velas/navidad/centro-mesa-naranja-canela-02.webp",
+        "Centro de mesa de naranja y canela sobre una mesa de Navidad con copas y servilletas rojas",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/velas/navidad/centro-mesa-naranja-canela-03.webp",
+        "Centro de mesa de naranja y canela con casita, árbol y vela en forma de bola",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/velas/navidad/centro-mesa-naranja-canela-04.webp",
+        "Detalle del árbol, la casita y la vela del centro de mesa de naranja y canela",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/velas/navidad/centro-mesa-naranja-canela-01.webp",
+        "Presentación del centro de mesa navideño de naranja y canela con su precio",
+        "Presentación"
+      ]
+    ],
+    "detailUrl": "producto/centro-mesa-navidad-naranja-canela/"
+  },
+  {
+    "id": "centro-mesa-navidad-pino",
+    "name": "Centro de mesa navideño · Pino",
+    "category": "velas",
+    "categoryLabel": "Velas",
+    "collection": "Navidad",
+    "state": "Consultar disponibilidad",
+    "format": "Centro de mesa con vela aromática",
+    "price": "49,95 €",
+    "summary": "Centro de mesa navideño con vela aromática de pino en una bola azul con copos de nieve.",
+    "description": "Centro de mesa navideño artesanal sobre una rodaja de madera natural, decorado con ramas de abeto, piñas y bayas rojas. En el centro, un árbol de Navidad y una vela aromática de pino dentro de una bola azul decorada con copos de nieve.\n\nEl aroma fresco del pino trae a casa el olor del bosque en invierno. Una pieza para vestir la mesa en las fiestas o para regalar.",
+    "points": [
+      "Vela aromática de pino.",
+      "Base de rodaja de madera con abeto, piñas y bayas.",
+      "Hecho a mano, pieza decorativa para la mesa navideña.",
+      "Imágenes ambientadas."
+    ],
+    "images": [
+      [
+        "productos/velas/navidad/centro-mesa-pino-02.webp",
+        "Centro de mesa navideño de pino con bola azul y árbol sobre una mesa de Navidad",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/velas/navidad/centro-mesa-pino-03.webp",
+        "Centro de mesa de pino con la vela en forma de bola azul y bayas rojas",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/velas/navidad/centro-mesa-pino-04.webp",
+        "Detalle del centro de mesa de pino con árbol, piñas y vela azul",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/velas/navidad/centro-mesa-pino-01.webp",
+        "Presentación del centro de mesa navideño de pino con su precio",
+        "Presentación"
+      ]
+    ],
+    "detailUrl": "producto/centro-mesa-navidad-pino/"
+  },
+  {
     "id": "buhos-rituales",
     "name": "Colección Búhos",
     "category": "velas",

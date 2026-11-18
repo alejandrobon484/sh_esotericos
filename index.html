@@ -54,7 +54,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/branding/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <script src="tema.js"></script>
-  <link rel="stylesheet" href="estructura.css?v=20261107-1">
+  <link rel="stylesheet" href="estructura.css?v=20261119-2">
   <link rel="stylesheet" href="escena.css?v=20261102-4">
   <link rel="preload" as="image" href="assets/escena/espectro/031.webp">
 </head>
@@ -109,6 +109,23 @@
   </header>
 
   <main id="contenido">
+    <section class="campaign-hero" aria-labelledby="campana-navidad-titulo">
+      <div class="container campaign-hero-grid">
+        <a class="campaign-hero-media" href="coleccion/navidad/" data-collection-link="Navidad" tabindex="-1" aria-hidden="true">
+          <img src="productos/velas/navidad/centro-mesa-pino-02.webp" alt="" width="1254" height="1254" fetchpriority="high">
+        </a>
+        <div class="campaign-hero-copy">
+          <p class="eyebrow">Campaña de Navidad</p>
+          <h2 id="campana-navidad-titulo">Centros de mesa y velas artesanales para unas fiestas llenas de luz</h2>
+          <p class="lead">Centros de mesa con vela aromática de naranja y canela o de pino, árboles, gnomos y velones navideños hechos a mano para vestir la mesa o regalar estas fiestas.</p>
+          <div class="actions">
+            <a class="button primary" href="coleccion/navidad/" data-collection-link="Navidad">Ver la colección de Navidad</a>
+            <a class="button secondary" href="producto/centro-mesa-navidad-pino/">Ver el centro de pino</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Campaña de Halloween terminada: se conserva oculta para reutilizarla -->
     <section class="campaign-strip" aria-label="Campaña de Halloween" hidden>
       <a class="campaign-banner container" href="coleccion/halloween/" data-collection-link="Halloween" aria-label="Ver los productos de la colección Halloween">
@@ -521,7 +538,7 @@
   </footer>
 
   <script src="contacto.js"></script>
-  <script src="catalogo-productos.js?v=20261119-1"></script>
+  <script src="catalogo-productos.js?v=20261119-2"></script>
   <script src="catalogo-render.js?v=20261102-1"></script>
   <script src="estructura.js?v=20261102-1"></script>
   <script src="escena.js?v=20261102-4" defer></script>

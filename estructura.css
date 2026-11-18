@@ -87,6 +87,18 @@ html[data-theme="dark"] .candle-flame { opacity: 1; transform: translateX(-50%) 
 .campaign-banner:hover .campaign-banner-media img { transform: scale(1.025); }
 .campaign-banner:focus-visible { outline: 3px solid #d3a64a; outline-offset: 3px; }
 .campaign-strip + .hero { padding-top: 18px; }
+.campaign-hero { padding-top: 34px; }
+.campaign-hero-grid { display: grid; grid-template-columns: .8fr 1.2fr; min-height: 410px; overflow: hidden; border: 1px solid var(--border); border-radius: 18px; background: #12261a; color: #f6f1e6; }
+.campaign-hero-media { display: block; min-width: 0; overflow: hidden; border-right: 1px solid rgba(255, 255, 255, .12); }
+.campaign-hero-media img { display: block; width: 100%; height: 100%; min-height: 410px; object-fit: cover; object-position: center 45%; transition: transform .45s ease; }
+.campaign-hero-media:hover img { transform: scale(1.02); }
+.campaign-hero-copy { align-self: center; padding: clamp(30px, 6vw, 70px); }
+.campaign-hero-copy .eyebrow { color: #f1d38a; }
+.campaign-hero-copy h2 { margin-bottom: 18px; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; }
+.campaign-hero-copy .lead { color: #e2dccd; }
+.campaign-hero-copy .button.primary { background: #f1d38a; border-color: #f1d38a; color: #12261a; }
+.campaign-hero-copy .button.secondary { background: transparent; border-color: rgba(246, 241, 230, .5); color: #f6f1e6; }
+.campaign-hero + .hero { padding-top: 18px; }
 
 .hero { padding: 34px 0 10px; }
 .hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; min-height: 410px; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; }
@@ -273,6 +285,10 @@ p { color: var(--muted); }
   .hero-grid, .about-section { grid-template-columns: 1fr; }
   .hero-visual { border-left: 0; border-top: 1px solid var(--border); }
   .hero-visual img { min-height: 300px; max-height: 440px; }
+  .campaign-hero { padding-top: 18px; }
+  .campaign-hero-grid { grid-template-columns: 1fr; }
+  .campaign-hero-media { border-right: 0; border-bottom: 1px solid rgba(255, 255, 255, .12); }
+  .campaign-hero-media img { min-height: 0; height: clamp(260px, 72vw, 420px); }
   .collection-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .category-grid, .product-grid { grid-template-columns: repeat(2, 1fr); }
   .steps { grid-template-columns: repeat(2, 1fr); }
@@ -284,6 +300,7 @@ p { color: var(--muted); }
   body { transition: none; }
   html[data-theme="dark"] .candle-flame { animation: none; }
   .campaign-banner-media img { transition: none; }
+  .campaign-hero-media img { transition: none; }
   .category-art { transition: none; }
   .candle-icon { transition: none; }
 }
