@@ -87,7 +87,7 @@ CATEGORIAS = {
         'titulo': 'Tiradas de tarot y oráculo en Barcelona | SH Esotéricos',
         'h1': 'Tiradas de tarot y oráculo',
         'tipo': 'Tirada',
-        'intro': 'Tiradas realizadas por Manu: tirada sencilla de tarot, tirada de Cruz Celta y lecturas con los oráculos de María Aranguren, de la Santa Muerte y de la Bruja Verde. Desde 5 €; consulta disponibilidad y la forma de realizar la lectura.',
+        'intro': 'Tiradas realizadas por Manu: tirada sencilla de tarot, tirada de Cruz Celta, Tirada de Ocultismo y lecturas de Oráculo, con barajas de María Aranguren, de la Santa Muerte y de la Bruja Verde. Desde 5 €; consulta disponibilidad y la forma de realizar la lectura.',
     },
     'trabajos': {
         'nombre': 'Trabajos y lecturas',
@@ -112,7 +112,7 @@ COLECCIONES = {
         'slug': 'navidad',
         'titulo': 'Velas y centros de mesa de Navidad artesanales | SH Esotéricos',
         'h1': 'Colección de Navidad',
-        'intro': 'Velas y centros de mesa artesanales de Navidad: centros de mesa con vela aromática de naranja y canela o de pino, árboles, gnomos y un velón azul navideño, hechos a mano para decorar la mesa o regalar.',
+        'intro': 'Velas y centros de mesa artesanales de Navidad: un pack de velas redondas con aromas de naranja y canela y de pino, centros de mesa aromáticos, árboles, gnomos y un velón azul navideño, hechos a mano para decorar la mesa o regalar.',
     },
     'San Valentín': {
         'nombre': 'San Valentín',

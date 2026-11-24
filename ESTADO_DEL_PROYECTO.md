@@ -1,6 +1,6 @@
 # Estado del proyecto SH Esotéricos
 
-Última actualización: 28 de octubre de 2026.
+Última actualización: 23 de noviembre de 2026.
 
 ## Objetivo
 
@@ -28,17 +28,17 @@ Construir un pseudo-marketplace estático para presentar el catálogo de SH Esot
 | Jabones | 20 |
 | Kits | 8 |
 | Objetos | 7 |
-| Pirograbados | 15 |
+| Pirograbados | 16 |
 | San Valentín | 4 |
 | Tinturas | 17 |
-| Tiradas | 6 |
+| Tiradas | 8 |
 | Trabajo de brujería | 7 |
-| Velas | 26 |
-| **Total visible** | **110** |
+| Velas | 29 |
+| **Total visible** | **116** |
 
-La revisión técnica confirma 450 referencias de imagen en la versión nueva y ninguna referencia ausente.
+La revisión técnica confirma que no hay referencias de imagen ausentes.
 
-El catálogo conserva 119 productos registrados. “Conjunto de runas nórdicas”, la antigua ficha agrupada “Tiradas de Tarot”, Carteles Dados de Insidious, Vaso Dados de Insidious y las cinco velas rituales Limpieza, Blanca, Lavanda, Ruda y Salud están marcados como ocultos y no se muestran ni se contabilizan entre los 110 productos visibles; sus fichas e imágenes se mantienen para una futura recuperación. La antigua tarjeta y el filtro principal de Réplicas permanecen ocultos en la portada.
+El catálogo conserva 125 productos registrados. “Conjunto de runas nórdicas”, la antigua ficha agrupada “Tiradas de Tarot”, Carteles Dados de Insidious, Vaso Dados de Insidious y las cinco velas rituales Limpieza, Blanca, Lavanda, Ruda y Salud están marcados como ocultos y no se muestran ni se contabilizan entre los 116 productos visibles; sus fichas e imágenes se mantienen para una futura recuperación. La antigua tarjeta y el filtro principal de Réplicas permanecen ocultos en la portada.
 
 “Dados de Insidious” se recuperó como producto visible dentro de Objetos, en la nueva subcategoría “Réplicas”. Sus imágenes continúan en `productos/replicas/dados-de-insidious/` para evitar mover o duplicar archivos publicables.
 
@@ -58,11 +58,13 @@ La ficha “Endulzamiento” utiliza una nueva portada cuadrada sin texto ni pre
 
 La ficha “Trabajo de Amor Propio” aplica el mismo tratamiento: portada cuadrada sin texto ni precio incrustado basada en el corazón de cristal violeta de la campaña, precio “Desde 40 €” en HTML y descripción textual específica sobre autoestima, sanación emocional, energía e intención. La antigua lámina informativa permanece en archivos, pero ya no forma parte de la galería pública.
 
-La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 5 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. “Lectura de Oráculo” conduce directamente a las cuatro tiradas de Oráculo de María Aranguren, Santa Muerte, Caseta de Jardín y Año del Jardín. La antigua ficha “Tiradas de Tarot” permanece oculta y conserva sus archivos a la espera de las nuevas imágenes.
+La campaña de trabajos de brujería se completa con cinco fichas nuevas: Volteo y Abre Caminos desde 50 €, y Lectura de Tarot, Lectura de Oráculo y Lectura de Runas desde 5 €. Cada ficha utiliza una portada cuadrada limpia derivada de su tarjeta del cartel, sin rótulos ni precios incrustados, y mantiene una descripción genérica hasta recibir información específica del cliente. “Lectura de Oráculo” conduce directamente a seis tiradas: la nueva Tirada de Oráculo, la Tirada de Ocultismo y las de María Aranguren, Santa Muerte, Caseta de Jardín y Año del Jardín. La antigua ficha “Tiradas de Tarot” permanece oculta y conserva sus archivos a la espera de las nuevas imágenes.
 
-“Lectura de Tarot” conduce a dos fichas independientes: “Tirada sencilla de Tarot” y “Tirada de Cruz Celta”, ambas desde 5 € y con sus nuevas imágenes WebP. Se corrigió la denominación provisional errónea “cruz delta”. El acceso aplica el filtro Tarot, mientras “Lectura de Oráculo” conserva su filtro independiente con cuatro tiradas. Desde el 7 de noviembre de 2026, las seis tiradas se consideran subproductos de sus trabajos mediante `collectionOnly: true`: no aparecen ni cuentan en el panel principal “Lecturas y trabajos”, que muestra únicamente los siete trabajos, y el filtro visible de Tiradas se retiró. Las tiradas siguen accesibles al entrar en “Lectura de Tarot” o “Lectura de Oráculo”, y mediante búsqueda.
+“Lectura de Tarot” conduce a dos fichas independientes: “Tirada sencilla de Tarot”, desde 5 €, y “Tirada de Cruz Celta”, desde 12 €, ambas con sus nuevas imágenes WebP. Se corrigió la denominación provisional errónea “cruz delta”. El acceso aplica el filtro Tarot, mientras “Lectura de Oráculo” conserva su filtro independiente, ahora con seis tiradas. Desde el 7 de noviembre de 2026, las tiradas se consideran subproductos de sus trabajos mediante `collectionOnly: true`: no aparecen ni cuentan en el panel principal “Lecturas y trabajos”, que muestra únicamente los siete trabajos, y el filtro visible de Tiradas se retiró. Las ocho tiradas siguen accesibles desde la categoría correspondiente, al entrar en “Lectura de Tarot” o “Lectura de Oráculo” cuando pertenecen a esas colecciones, y mediante búsqueda.
 
 Tarifa de tiradas desde el 2 de noviembre de 2026, según el número de cartas: 3 cartas desde 5 €, 4 cartas desde 8 € y más de 4 cartas desde 12 €. Tirada sencilla de Tarot, Oráculo de María Aranguren y Oráculo de la Santa Muerte, desde 5 €; Oráculo de la Bruja Verde · Año del Jardín, desde 8 €; Tirada de Cruz Celta y Oráculo de la Bruja Verde · Caseta de Jardín, desde 12 €.
+
+El 23 de noviembre de 2026 se incorporaron tres referencias: el Pack de velas · Edición navideña, con dos velas redondas de naranja y canela y de pino por 24,95 €, dentro de Velas y de la colección Navidad; la Tirada de Ocultismo; y una nueva Tirada de Oráculo. La Tirada de Oráculo muestra siete cartas y aplica la tarifa de más de cuatro cartas, desde 12 €. La Tirada de Ocultismo, de ocho cartas, tiene un precio especial de 10 € fijado por el cliente. Las dos se integran en la colección Oráculo, de modo que “Lectura de Oráculo” reúne seis tiradas.
 
 ## Funcionalidad terminada
 

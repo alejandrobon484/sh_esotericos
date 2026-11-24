@@ -1325,6 +1325,47 @@ window.CATALOGO_PRODUCTOS = [
     "detailUrl": "producto/centro-mesa-navidad-pino/"
   },
   {
+    "id": "pack-velas-navidad",
+    "name": "Pack de velas · Edición navideña",
+    "category": "velas",
+    "categoryLabel": "Velas",
+    "collection": "Navidad",
+    "state": "Pack de dos velas",
+    "format": "Dos velas decorativas redondas",
+    "price": "24,95 €",
+    "summary": "Pack navideño de dos velas redondas con aromas de naranja y canela y de pino.",
+    "description": "Pack de dos velas artesanales de edición navideña, presentadas en recipientes redondos con tapa y asa decorativa. Incluye una vela en tonos crema, verde y dorado con aroma de naranja y canela, y otra azul y plateada con aroma de pino.\n\nUna pareja de aromas cálidos y frescos para decorar la casa durante las fiestas o regalar en Navidad.",
+    "points": [
+      "Pack de dos velas navideñas.",
+      "Aromas de naranja y canela y de pino.",
+      "Recipientes redondos decorados con acebo y copos de nieve.",
+      "Fotografías del producto y composiciones ambientadas."
+    ],
+    "images": [
+      [
+        "productos/velas/navidad/vela-navidad-01.webp",
+        "Presentación del pack de dos velas navideñas con aromas de naranja y canela y de pino",
+        "Presentación"
+      ],
+      [
+        "productos/velas/navidad/vela-navidad-02.webp",
+        "Dos velas navideñas redondas de acebo y copos de nieve en una escena invernal",
+        "Imagen ambientada"
+      ],
+      [
+        "productos/velas/navidad/vela-navidad-03.webp",
+        "Pack de velas navideñas redondas sobre fondo blanco",
+        "Fotografía del producto"
+      ],
+      [
+        "productos/velas/navidad/vela-navidad-04.webp",
+        "Velas navideñas de naranja y canela y de pino sobre una mesa decorada",
+        "Imagen ambientada"
+      ]
+    ],
+    "detailUrl": "producto/pack-velas-navidad/"
+  },
+  {
     "id": "buhos-rituales",
     "name": "Colección Búhos",
     "category": "velas",
@@ -2090,6 +2131,46 @@ window.CATALOGO_PRODUCTOS = [
       ]
     ],
     "detailUrl": "producto/vaso-dados-insidious/"
+  },
+  {
+    "id": "tirada-ocultismo",
+    "name": "Tirada de Ocultismo",
+    "category": "tiradas",
+    "categoryLabel": "Tiradas",
+    "collection": "Oráculo",
+    "collectionOnly": true,
+    "state": "Consulta previa necesaria",
+    "format": "Tirada de ocho cartas",
+    "price": "Desde 10 €",
+    "description": "Lectura de ocho cartas con la baraja de Ocultismo, disponible bajo consulta previa. Contacta con Manu para plantear tu consulta y conocer disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/tirada-ocultismo.webp",
+        "Presentación de la Tirada de Ocultismo con ocho cartas",
+        "Tirada de Ocultismo"
+      ]
+    ],
+    "detailUrl": "producto/tirada-ocultismo/"
+  },
+  {
+    "id": "tirada-oraculo",
+    "name": "Tirada de Oráculo",
+    "category": "tiradas",
+    "categoryLabel": "Tiradas",
+    "collection": "Oráculo",
+    "collectionOnly": true,
+    "state": "Consulta previa necesaria",
+    "format": "Tirada de siete cartas",
+    "price": "Desde 12 €",
+    "description": "Lectura de siete cartas de Oráculo, disponible bajo consulta previa. Contacta con Manu para plantear tu consulta y conocer disponibilidad y condiciones.",
+    "images": [
+      [
+        "productos/tirada-oraculo.webp",
+        "Disposición de siete cartas para una Tirada de Oráculo",
+        "Tirada de Oráculo"
+      ]
+    ],
+    "detailUrl": "producto/tirada-oraculo/"
   },
   {
     "id": "oraculo-maria-aranguren",
