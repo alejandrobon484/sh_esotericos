@@ -1242,6 +1242,9 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Centro de mesa navideño · Naranja y canela",
     "category": "velas",
     "categoryLabel": "Velas",
+    "extraCategories": [
+      "objetos"
+    ],
     "collection": "Navidad",
     "state": "Consultar disponibilidad",
     "format": "Centro de mesa con vela aromática",
@@ -1288,6 +1291,9 @@ window.CATALOGO_PRODUCTOS = [
     "name": "Centro de mesa navideño · Pino",
     "category": "velas",
     "categoryLabel": "Velas",
+    "extraCategories": [
+      "objetos"
+    ],
     "collection": "Navidad",
     "state": "Consultar disponibilidad",
     "format": "Centro de mesa con vela aromática",

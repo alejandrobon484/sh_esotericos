@@ -93,7 +93,7 @@ function updateCategoryCounts() {
   filterButtons.forEach((button) => {
     const count = button.dataset.filter === 'all'
       ? products.length
-      : products.filter((product) => product.dataset.category === button.dataset.filter).length;
+      : products.filter((product) => inCategory(product, button.dataset.filter)).length;
     button.textContent = `${button.dataset.label} · ${count}`;
   });
   const listedServices = services.filter(isListedService);
@@ -105,6 +105,10 @@ function updateCategoryCounts() {
   });
 }
 
+function inCategory(product, category) {
+  return product.dataset.categories.split(' ').includes(category);
+}
+
 function renderSubfilters() {
   subfilterRow.replaceChildren();
   if (activeCategory === 'all') {
@@ -112,7 +116,7 @@ function renderSubfilters() {
     return;
   }
 
-  const categoryProducts = products.filter((product) => product.dataset.category === activeCategory);
+  const categoryProducts = products.filter((product) => inCategory(product, activeCategory));
   const counts = new Map();
   (categorySubcategories[activeCategory] || []).forEach((subcategory) => counts.set(subcategory, 0));
   categoryProducts.forEach((product) => counts.set(product.dataset.collection, (counts.get(product.dataset.collection) || 0) + 1));
@@ -149,7 +153,7 @@ function renderSubfilters() {
 
 function applyProductFilters() {
   const matches = products.filter((product) => {
-    const categoryMatch = activeCategory === 'all' || product.dataset.category === activeCategory;
+    const categoryMatch = activeCategory === 'all' || inCategory(product, activeCategory);
     const collectionMatch = !activeCollection || product.dataset.collection === activeCollection;
     return categoryMatch && collectionMatch && matchesSearch(product);
   });

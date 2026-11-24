@@ -71,7 +71,7 @@ CATEGORIAS = {
         'titulo': 'Objetos esotéricos y bálsamos naturales | SH Esotéricos',
         'h1': 'Objetos esotéricos, bálsamos y complementos',
         'tipo': 'Objeto esotérico',
-        'intro': 'Bálsamos naturales de limón, menta, romero y tomillo, pulseras de 7 nudos, un adorno de cráneo realista para Halloween y réplicas como los dados de Insidious.',
+        'intro': 'Bálsamos naturales de limón, menta, romero y tomillo, pulseras de 7 nudos, centros de mesa navideños con vela aromática, un adorno de cráneo realista para Halloween y réplicas como los dados de Insidious.',
     },
     'pictografia': {
         'nombre': 'Pirograbados',
@@ -656,7 +656,7 @@ def main():
     visibles = [p for p in productos if not p.get('hidden')]
 
     for clave, datos in CATEGORIAS.items():
-        lista = [p for p in visibles if p['category'] == clave]
+        lista = [p for p in visibles if p['category'] == clave or clave in p.get('extraCategories', [])]
         url = f"/categoria/{datos['slug']}/"
         escribir(f"categoria/{datos['slug']}/index.html",
                  pagina_listado(datos['titulo'], datos['nombre'], datos['h1'], datos['intro'], url, agrupar(lista), 'Categoría', css))

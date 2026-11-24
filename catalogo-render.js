@@ -9,6 +9,8 @@ function createCatalogCard(product) {
     const card = document.createElement('article');
     card.className = 'product-card';
     card.dataset.category = product.category;
+    // extraCategories: categorías adicionales en las que también se muestra el producto.
+    card.dataset.categories = [product.category, ...(product.extraCategories || [])].join(' ');
     card.dataset.collection = product.collection || '';
     if (product.collectionOnly) card.dataset.collectionOnly = 'true';
     card.dataset.name = `${product.name} ${product.collection || product.categoryLabel}`;
