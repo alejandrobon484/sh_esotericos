@@ -175,7 +175,21 @@ function isListedService(service) {
   return !service.dataset.collectionOnly;
 }
 
+// El filtro Tiradas está oculto: solo tiene sentido dentro de una lectura con tiradas
+// (Tarot, Oráculo). Sin ella, la sección vuelve a «Todo» en lugar de quedarse vacía.
+function normalizeServiceState() {
+  const button = serviceFilterButtons.find((item) => item.dataset.serviceFilter === activeService);
+  const hasCollection = services.some((service) => service.dataset.category === activeService && service.dataset.collection === activeCollection);
+  if (!button || (button.hidden && !hasCollection)) activeService = 'all';
+  serviceFilterButtons.forEach((item) => {
+    const isActive = item.dataset.serviceFilter === activeService;
+    item.classList.toggle('active', isActive);
+    item.setAttribute('aria-pressed', String(isActive));
+  });
+}
+
 function applyServiceFilters() {
+  normalizeServiceState();
   const matches = services.filter((service) => {
     const categoryMatch = activeService === 'all' || service.dataset.category === activeService;
     const collectionMatch = activeService === 'all' || !activeCollection || service.dataset.collection === activeCollection;
